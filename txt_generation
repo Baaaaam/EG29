@@ -1,0 +1,4 @@
+cyan -db cyclus.sqlite power -proto=lwr_A > Energy_lwr_A.txt
+cyan -db cyclus.sqlite power -proto=lwr_B > Energy_lwr_B.txt
+cyan -db cyclus.sqlite power -proto=SFR_A > Energy_SFR_A.txt
+cyan -db cyclus.sqlite power -proto=SFR_B > Energy_SFR_B.txt
