@@ -184,7 +184,7 @@
         <fuel_incommods>  <val>UOX</val></fuel_incommods>
         <fuel_outcommods> <val>UOX_spent_Aß</val></fuel_outcommods>
 
-        <cycle_time>10</cycle_time>
+        <cycle_time>18</cycle_time>
         <refuel_time>0</refuel_time>
         <assem_size>29565</assem_size>
         <n_assem_core>3</n_assem_core>
@@ -204,7 +204,7 @@
         <fuel_incommods>  <val>UOX</val></fuel_incommods>
         <fuel_outcommods> <val>UOX_spent_B</val></fuel_outcommods>
 
-        <cycle_time>10</cycle_time>
+        <cycle_time>18</cycle_time>
         <refuel_time>0</refuel_time>
         <assem_size>29565</assem_size>
         <n_assem_core>3</n_assem_core>
@@ -226,7 +226,7 @@
 
         <cycle_time>13</cycle_time>
         <refuel_time>0</refuel_time>
-        <assem_size>7524</assem_size>
+        <assem_size>7490</assem_size>
         <n_assem_core>5</n_assem_core>
         <n_assem_batch>1</n_assem_batch>
         <power_cap>360</power_cap>
@@ -246,7 +246,7 @@
 
         <cycle_time>8</cycle_time>
         <refuel_time>0</refuel_time>
-        <assem_size>6880</assem_size>
+        <assem_size>7490</assem_size>
         <n_assem_core>5</n_assem_core>
         <n_assem_batch>1</n_assem_batch>
         <power_cap>360</power_cap>
@@ -284,8 +284,8 @@
           <val>LWR_separations</val>
           <val>LWR_separations</val>
           <val>SFR_A_separations</val>
-          <val>SFR_B_separations</val>
           <val>SFR_fab</val>
+          <val>SFR_B_separations</val>
           <val>repo</val>
           <val>enrichment</val>
           <val>depleted_src</val>
@@ -315,7 +315,7 @@
           <val>1</val>
           <val>1</val>
           <val>1</val>
-          <val>2</val>
+          <val>1</val>
           <val>1</val>
           <val>1</val>
           <val>1</val>
@@ -465,70 +465,70 @@
           <val>1</val>
         </n_build>
         <build_times>
-          <val>73</val>
-          <val>85</val>
-          <val>97</val>
-          <val>109</val>
-          <val>121</val>
-          <val>133</val>
-          <val>145</val>
-          <val>157</val>
-          <val>169</val>
-          <val>181</val>
-          <val>193</val>
-          <val>205</val>
-          <val>217</val>
-          <val>229</val>
-          <val>241</val>
-          <val>253</val>
-          <val>265</val>
-          <val>277</val>
-          <val>289</val>
-          <val>301</val>
-          <val>313</val>
-          <val>325</val>
-          <val>337</val>
-          <val>349</val>
-          <val>361</val>
-          <val>373</val>
-          <val>385</val>
-          <val>397</val>
-          <val>409</val>
-          <val>421</val>
-          <val>433</val>
-          <val>445</val>
-          <val>457</val>
-          <val>469</val>
-          <val>481</val>
-          <val>493</val>
-          <val>505</val>
-          <val>517</val>
-          <val>529</val>
-          <val>541</val>
-          <val>553</val>
-          <val>565</val>
-          <val>577</val>
-          <val>589</val>
-          <val>601</val>
-          <val>613</val>
-          <val>625</val>
-          <val>637</val>
-          <val>649</val>
-          <val>661</val>
-          <val>673</val>
-          <val>685</val>
-          <val>697</val>
-          <val>709</val>
-          <val>721</val>
-          <val>733</val>
-          <val>745</val>
-          <val>757</val>
-          <val>769</val>
-          <val>781</val>
-          <val>793</val>
-          <val>805</val>
-          <val>817</val>
-          <val>829</val>
+          <val>12</val>
+          <val>24</val>
+          <val>36</val>
+          <val>48</val>
+          <val>60</val>
+          <val>72</val>
+          <val>84</val>
+          <val>96</val>
+          <val>108</val>
+          <val>120</val>
+          <val>132</val>
+          <val>144</val>
+          <val>156</val>
+          <val>168</val>
+          <val>180</val>
+          <val>192</val>
+          <val>204</val>
+          <val>216</val>
+          <val>228</val>
+          <val>240</val>
+          <val>252</val>
+          <val>264</val>
+          <val>276</val>
+          <val>288</val>
+          <val>300</val>
+          <val>312</val>
+          <val>324</val>
+          <val>336</val>
+          <val>348</val>
+          <val>360</val>
+          <val>372</val>
+          <val>384</val>
+          <val>396</val>
+          <val>408</val>
+          <val>420</val>
+          <val>432</val>
+          <val>444</val>
+          <val>456</val>
+          <val>468</val>
+          <val>480</val>
+          <val>492</val>
+          <val>504</val>
+          <val>516</val>
+          <val>528</val>
+          <val>540</val>
+          <val>552</val>
+          <val>564</val>
+          <val>576</val>
+          <val>588</val>
+          <val>600</val>
+          <val>612</val>
+          <val>624</val>
+          <val>636</val>
+          <val>648</val>
+          <val>660</val>
+          <val>672</val>
+          <val>684</val>
+          <val>696</val>
+          <val>708</val>
+          <val>720</val>
+          <val>732</val>
+          <val>744</val>
+          <val>756</val>
+          <val>768</val>
         </build_times>
       </DeployInst>
     </config>
@@ -658,256 +658,247 @@
           <val>SFR_A</val>
           <val>SFR_A</val>
           <val>SFR_A</val>
-          <val>SFR_A</val>
-          <val>SFR_A</val>
-          <val>SFR_A</val>
         </prototypes>
         <n_build>
-<val>2</val>
-<val>2</val>
-<val>2</val>
-<val>2</val>
-<val>2</val>
-<val>2</val>
-<val>2</val>
-<val>2</val>
-<val>2</val>
-<val>2</val>
-<val>2</val>
-<val>2</val>
-<val>1</val>
-<val>2</val>
-<val>2</val>
-<val>2</val>
-<val>2</val>
-<val>2</val>
-<val>3</val>
-<val>4</val>
-<val>5</val>
-<val>5</val>
-<val>5</val>
-<val>5</val>
-<val>5</val>
-<val>5</val>
-<val>5</val>
-<val>5</val>
-<val>5</val>
-<val>6</val>
-<val>5</val>
-<val>5</val>
-<val>6</val>
-<val>5</val>
-<val>5</val>
-<val>8</val>
-<val>8</val>
-<val>9</val>
-<val>8</val>
-<val>9</val>
-<val>7</val>
-<val>9</val>
-<val>9</val>
-<val>8</val>
-<val>8</val>
-<val>12</val>
-<val>8</val>
-<val>10</val>
-<val>8</val>
-<val>16</val>
-<val>14</val>
-<val>16</val>
-<val>17</val>
-<val>17</val>
-<val>14</val>
-<val>16</val>
-<val>15</val>
-<val>19</val>
-<val>15</val>
-<val>17</val>
-<val>17</val>
-<val>17</val>
-<val>15</val>
-<val>17</val>
-<val>17</val>
-<val>18</val>
-<val>15</val>
-<val>20</val>
-<val>15</val>
-<val>20</val>
-<val>15</val>
-<val>21</val>
-<val>15</val>
-<val>21</val>
-<val>16</val>
-<val>20</val>
-<val>16</val>
-<val>20</val>
-<val>19</val>
-<val>18</val>
-<val>18</val>
-<val>21</val>
-<val>16</val>
-<val>21</val>
-<val>19</val>
-<val>19</val>
-<val>19</val>
-<val>22</val>
-<val>18</val>
-<val>15</val>
-<val>14</val>
-<val>15</val>
-<val>13</val>
-<val>14</val>
-<val>15</val>
-<val>14</val>
-<val>15</val>
-<val>15</val>
-<val>16</val>
-<val>14</val>
-<val>16</val>
-<val>15</val>
-<val>16</val>
-<val>16</val>
-<val>16</val>
-<val>16</val>
-<val>16</val>
-<val>17</val>
-<val>16</val>
-<val>18</val>
-<val>17</val>
-<val>16</val>
-<val>18</val>
-<val>17</val>
-<val>17</val>
-<val>21</val>
-<val>20</val>
-<val>22</val>
-<val>19</val>
-<val>2</val>
-<val>1</val>
+          <val>2</val>
+          <val>2</val>
+          <val>2</val>
+          <val>2</val>
+          <val>2</val>
+          <val>2</val>
+          <val>2</val>
+          <val>2</val>
+          <val>2</val>
+          <val>2</val>
+          <val>2</val>
+          <val>2</val>
+          <val>1</val>
+          <val>2</val>
+          <val>2</val>
+          <val>2</val>
+          <val>2</val>
+          <val>2</val>
+          <val>3</val>
+          <val>4</val>
+          <val>5</val>
+          <val>5</val>
+          <val>5</val>
+          <val>5</val>
+          <val>5</val>
+          <val>5</val>
+          <val>5</val>
+          <val>5</val>
+          <val>5</val>
+          <val>5</val>
+          <val>6</val>
+          <val>5</val>
+          <val>5</val>
+          <val>6</val>
+          <val>5</val>
+          <val>8</val>
+          <val>8</val>
+          <val>8</val>
+          <val>9</val>
+          <val>8</val>
+          <val>8</val>
+          <val>9</val>
+          <val>8</val>
+          <val>9</val>
+          <val>8</val>
+          <val>11</val>
+          <val>9</val>
+          <val>9</val>
+          <val>9</val>
+          <val>15</val>
+          <val>14</val>
+          <val>16</val>
+          <val>17</val>
+          <val>17</val>
+          <val>14</val>
+          <val>16</val>
+          <val>15</val>
+          <val>19</val>
+          <val>15</val>
+          <val>17</val>
+          <val>17</val>
+          <val>17</val>
+          <val>15</val>
+          <val>17</val>
+          <val>17</val>
+          <val>18</val>
+          <val>15</val>
+          <val>20</val>
+          <val>15</val>
+          <val>20</val>
+          <val>22</val>
+          <val>37</val>
+          <val>22</val>
+          <val>32</val>
+          <val>17</val>
+          <val>28</val>
+          <val>19</val>
+          <val>19</val>
+          <val>19</val>
+          <val>20</val>
+          <val>22</val>
+          <val>28</val>
+          <val>15</val>
+          <val>27</val>
+          <val>24</val>
+          <val>23</val>
+          <val>29</val>
+          <val>31</val>
+          <val>26</val>
+          <val>13</val>
+          <val>15</val>
+          <val>17</val>
+          <val>12</val>
+          <val>12</val>
+          <val>14</val>
+          <val>14</val>
+          <val>15</val>
+          <val>15</val>
+          <val>13</val>
+          <val>13</val>
+          <val>14</val>
+          <val>13</val>
+          <val>15</val>
+          <val>13</val>
+          <val>14</val>
+          <val>12</val>
+          <val>14</val>
+          <val>12</val>
+          <val>13</val>
+          <val>15</val>
+          <val>13</val>
+          <val>13</val>
+          <val>15</val>
+          <val>13</val>
+          <val>14</val>
+          <val>18</val>
+          <val>18</val>
+          <val>17</val>
         </n_build>
 
         <build_times>
-<val>481</val>
-<val>541</val>
-<val>577</val>
-<val>601</val>
-<val>625</val>
-<val>649</val>
-<val>673</val>
-<val>697</val>
-<val>709</val>
-<val>721</val>
-<val>733</val>
-<val>745</val>
-<val>757</val>
-<val>769</val>
-<val>781</val>
-<val>793</val>
-<val>805</val>
-<val>817</val>
-<val>829</val>
-<val>841</val>
-<val>853</val>
-<val>865</val>
-<val>877</val>
-<val>889</val>
-<val>901</val>
-<val>913</val>
-<val>925</val>
-<val>937</val>
-<val>949</val>
-<val>961</val>
-<val>973</val>
-<val>985</val>
-<val>997</val>
-<val>1009</val>
-<val>1021</val>
-<val>1033</val>
-<val>1045</val>
-<val>1057</val>
-<val>1069</val>
-<val>1081</val>
-<val>1093</val>
-<val>1105</val>
-<val>1117</val>
-<val>1129</val>
-<val>1141</val>
-<val>1153</val>
-<val>1165</val>
-<val>1177</val>
-<val>1189</val>
-<val>1201</val>
-<val>1213</val>
-<val>1225</val>
-<val>1237</val>
-<val>1249</val>
-<val>1261</val>
-<val>1273</val>
-<val>1285</val>
-<val>1297</val>
-<val>1309</val>
-<val>1321</val>
-<val>1333</val>
-<val>1345</val>
-<val>1357</val>
-<val>1369</val>
-<val>1381</val>
-<val>1393</val>
-<val>1405</val>
-<val>1417</val>
-<val>1429</val>
-<val>1441</val>
-<val>1453</val>
-<val>1465</val>
-<val>1477</val>
-<val>1489</val>
-<val>1501</val>
-<val>1513</val>
-<val>1525</val>
-<val>1537</val>
-<val>1549</val>
-<val>1561</val>
-<val>1573</val>
-<val>1585</val>
-<val>1597</val>
-<val>1609</val>
-<val>1621</val>
-<val>1633</val>
-<val>1645</val>
-<val>1657</val>
-<val>1669</val>
-<val>1681</val>
-<val>1693</val>
-<val>1705</val>
-<val>1717</val>
-<val>1729</val>
-<val>1741</val>
-<val>1753</val>
-<val>1765</val>
-<val>1777</val>
-<val>1789</val>
-<val>1801</val>
-<val>1813</val>
-<val>1825</val>
-<val>1837</val>
-<val>1849</val>
-<val>1861</val>
-<val>1873</val>
-<val>1885</val>
-<val>1897</val>
-<val>1909</val>
-<val>1921</val>
-<val>1933</val>
-<val>1945</val>
-<val>1957</val>
-<val>1969</val>
-<val>1981</val>
-<val>1993</val>
-<val>2005</val>
-<val>2017</val>
-<val>2029</val>
-<val>2077</val>
-<val>2101</val>
+          <val>420</val>
+          <val>480</val>
+          <val>516</val>
+          <val>540</val>
+          <val>564</val>
+          <val>588</val>
+          <val>612</val>
+          <val>636</val>
+          <val>648</val>
+          <val>660</val>
+          <val>672</val>
+          <val>684</val>
+          <val>696</val>
+          <val>708</val>
+          <val>720</val>
+          <val>732</val>
+          <val>744</val>
+          <val>756</val>
+          <val>768</val>
+          <val>780</val>
+          <val>792</val>
+          <val>804</val>
+          <val>816</val>
+          <val>828</val>
+          <val>840</val>
+          <val>852</val>
+          <val>864</val>
+          <val>876</val>
+          <val>888</val>
+          <val>900</val>
+          <val>912</val>
+          <val>924</val>
+          <val>936</val>
+          <val>948</val>
+          <val>960</val>
+          <val>972</val>
+          <val>984</val>
+          <val>996</val>
+          <val>1008</val>
+          <val>1020</val>
+          <val>1032</val>
+          <val>1044</val>
+          <val>1056</val>
+          <val>1068</val>
+          <val>1080</val>
+          <val>1092</val>
+          <val>1104</val>
+          <val>1116</val>
+          <val>1128</val>
+          <val>1140</val>
+          <val>1152</val>
+          <val>1164</val>
+          <val>1176</val>
+          <val>1188</val>
+          <val>1200</val>
+          <val>1212</val>
+          <val>1224</val>
+          <val>1236</val>
+          <val>1248</val>
+          <val>1260</val>
+          <val>1272</val>
+          <val>1284</val>
+          <val>1296</val>
+          <val>1308</val>
+          <val>1320</val>
+          <val>1332</val>
+          <val>1344</val>
+          <val>1356</val>
+          <val>1368</val>
+          <val>1380</val>
+          <val>1392</val>
+          <val>1404</val>
+          <val>1416</val>
+          <val>1428</val>
+          <val>1440</val>
+          <val>1452</val>
+          <val>1464</val>
+          <val>1476</val>
+          <val>1488</val>
+          <val>1500</val>
+          <val>1512</val>
+          <val>1524</val>
+          <val>1536</val>
+          <val>1548</val>
+          <val>1560</val>
+          <val>1572</val>
+          <val>1584</val>
+          <val>1596</val>
+          <val>1608</val>
+          <val>1620</val>
+          <val>1632</val>
+          <val>1644</val>
+          <val>1656</val>
+          <val>1668</val>
+          <val>1680</val>
+          <val>1692</val>
+          <val>1704</val>
+          <val>1716</val>
+          <val>1728</val>
+          <val>1740</val>
+          <val>1752</val>
+          <val>1764</val>
+          <val>1776</val>
+          <val>1788</val>
+          <val>1800</val>
+          <val>1812</val>
+          <val>1824</val>
+          <val>1836</val>
+          <val>1848</val>
+          <val>1860</val>
+          <val>1872</val>
+          <val>1884</val>
+          <val>1896</val>
+          <val>1908</val>
+          <val>1920</val>
+          <val>1932</val>
+          <val>1944</val>
+          <val>1956</val>
         </build_times>
       </DeployInst>
     </config>
@@ -951,79 +942,91 @@
           <val>SFR_B</val>
           <val>SFR_B</val>
           <val>SFR_B</val>
+          <val>SFR_B</val>
+          <val>SFR_B</val>
+          <val>SFR_B</val>
+          <val>SFR_B</val>
         </prototypes>
         <n_build>
-          <val>2</val>
+          <val>17</val>
+          <val>17</val>
           <val>21</val>
-          <val>21</val>
-          <val>22</val>
-          <val>21</val>
-          <val>23</val>
-          <val>21</val>
+          <val>24</val>
           <val>25</val>
-          <val>22</val>
-          <val>23</val>
-          <val>23</val>
+          <val>25</val>
+          <val>26</val>
+          <val>31</val>
           <val>29</val>
-          <val>28</val>
-          <val>31</val>
-          <val>31</val>
-          <val>32</val>
-          <val>29</val>
-          <val>31</val>
+          <val>26</val>
           <val>30</val>
-          <val>34</val>
+          <val>39</val>
+          <val>40</val>
+          <val>39</val>
+          <val>38</val>
+          <val>53</val>
           <val>31</val>
-          <val>32</val>
-          <val>34</val>
-          <val>32</val>
-          <val>31</val>
-          <val>33</val>
-          <val>35</val>
-          <val>33</val>
-          <val>33</val>
+          <val>50</val>
+          <val>11</val>
+          <val>40</val>
           <val>36</val>
-          <val>33</val>
           <val>37</val>
+          <val>36</val>
+          <val>56</val>
+          <val>44</val>
+          <val>55</val>
+          <val>49</val>
+          <val>42</val>
+          <val>29</val>
+          <val>32</val>
+          <val>13</val>
+          <val>46</val>
+          <val>32</val>
+          <val>39</val>
+          <val>33</val>
+          <val>39</val>
         </n_build>
+
         <build_times>
-          <val>2029</val>
-          <val>2041</val>
-          <val>2053</val>
-          <val>2065</val>
-          <val>2077</val>
-          <val>2089</val>
-          <val>2101</val>
-          <val>2113</val>
-          <val>2125</val>
-          <val>2137</val>
-          <val>2149</val>
-          <val>2161</val>
-          <val>2173</val>
-          <val>2185</val>
-          <val>2197</val>
-          <val>2209</val>
-          <val>2221</val>
-          <val>2233</val>
-          <val>2245</val>
-          <val>2257</val>
-          <val>2269</val>
-          <val>2281</val>
-          <val>2293</val>
-          <val>2305</val>
-          <val>2317</val>
-          <val>2329</val>
-          <val>2341</val>
-          <val>2353</val>
-          <val>2365</val>
-          <val>2377</val>
-          <val>2389</val>
-          <val>2401</val>
+          <val>1968</val>
+          <val>1980</val>
+          <val>1992</val>
+          <val>2004</val>
+          <val>2016</val>
+          <val>2028</val>
+          <val>2040</val>
+          <val>2052</val>
+          <val>2064</val>
+          <val>2076</val>
+          <val>2088</val>
+          <val>2100</val>
+          <val>2112</val>
+          <val>2124</val>
+          <val>2136</val>
+          <val>2148</val>
+          <val>2160</val>
+          <val>2172</val>
+          <val>2184</val>
+          <val>2196</val>
+          <val>2208</val>
+          <val>2220</val>
+          <val>2232</val>
+          <val>2244</val>
+          <val>2256</val>
+          <val>2268</val>
+          <val>2280</val>
+          <val>2292</val>
+          <val>2304</val>
+          <val>2316</val>
+          <val>2328</val>
+          <val>2340</val>
+          <val>2352</val>
+          <val>2364</val>
+          <val>2376</val>
+          <val>2388</val>
         </build_times>
       </DeployInst>
     </config>
   </prototype>
-
 
 
 
@@ -1158,46 +1161,46 @@
           <val>1</val>
         </build_times>
         <lifetimes>
-          <val>241</val>
-          <val>253</val>
-          <val>265</val>
-          <val>277</val>
-          <val>289</val>
-          <val>301</val>
-          <val>313</val>
-          <val>325</val>
-          <val>337</val>
-          <val>349</val>
-          <val>361</val>
-          <val>373</val>
-          <val>385</val>
-          <val>397</val>
-          <val>409</val>
-          <val>421</val>
-          <val>433</val>
-          <val>445</val>
-          <val>457</val>
-          <val>469</val>
-          <val>481</val>
-          <val>493</val>
-          <val>505</val>
-          <val>517</val>
-          <val>529</val>
-          <val>541</val>
-          <val>553</val>
-          <val>565</val>
-          <val>577</val>
-          <val>589</val>
-          <val>601</val>
-          <val>613</val>
-          <val>625</val>
-          <val>637</val>
-          <val>649</val>
-          <val>661</val>
-          <val>673</val>
-          <val>685</val>
-          <val>697</val>
-          <val>709</val>
+          <val>180</val>
+          <val>192</val>
+          <val>204</val>
+          <val>216</val>
+          <val>228</val>
+          <val>240</val>
+          <val>252</val>
+          <val>264</val>
+          <val>276</val>
+          <val>288</val>
+          <val>300</val>
+          <val>312</val>
+          <val>324</val>
+          <val>336</val>
+          <val>348</val>
+          <val>360</val>
+          <val>372</val>
+          <val>384</val>
+          <val>396</val>
+          <val>408</val>
+          <val>420</val>
+          <val>432</val>
+          <val>444</val>
+          <val>456</val>
+          <val>468</val>
+          <val>480</val>
+          <val>492</val>
+          <val>504</val>
+          <val>516</val>
+          <val>528</val>
+          <val>540</val>
+          <val>552</val>
+          <val>564</val>
+          <val>576</val>
+          <val>588</val>
+          <val>600</val>
+          <val>612</val>
+          <val>624</val>
+          <val>636</val>
+          <val>648</val>
         </lifetimes>
       </DeployInst>
     </config>
@@ -1207,30 +1210,30 @@
   <agent> <name>deployer2_1</name> <prototype>deployer_LWR_B</prototype> </agent>
   <agent> <name>deployer2_2</name> <prototype>reactor_deployer_SFR_A</prototype> </agent>
   <agent> <name>deployer2_3</name> <prototype>reactor_deployer_SFR_B</prototype> </agent>
-  
+
   <agent> <name>deployer3</name> <prototype>init_reactor_deployer</prototype> </agent>
-  
+
   <recipe>
     <name>depleted_u</name>
     <basis>mass</basis>
     <nuclide> <id>U235</id><comp>0.0025</comp></nuclide>
     <nuclide><id>U238</id><comp>0.9975</comp></nuclide>
   </recipe>
-  
+
   <recipe>
     <name>natl_u</name>
     <basis>mass</basis>
     <nuclide> <id>U235</id> <comp>0.711</comp> </nuclide>
     <nuclide> <id>U238</id> <comp>99.289</comp> </nuclide>
   </recipe>
-  
+
   <recipe>
     <name>UOX</name>
     <basis>mass</basis>
     <nuclide> <id>U235</id><comp>0.042</comp></nuclide>
     <nuclide><id>U238</id><comp>0.958</comp></nuclide>
   </recipe>
-  
+
   <recipe>
     <name>UOX_spent</name>
     <basis>mass</basis>
@@ -1238,7 +1241,7 @@
     <nuclide><id>U238</id> <comp>0.9268</comp></nuclide>
     <nuclide><id>Pu239</id> <comp>0.012</comp></nuclide>
     <nuclide><id>Am241</id> <comp>0.0011</comp></nuclide>
-    
+
     <nuclide> <id>La139</id> <comp>0.005866</comp> </nuclide>
     <nuclide> <id>Ce140</id> <comp>0.005911</comp> </nuclide>
     <nuclide> <id>Ce142</id> <comp>0.005727</comp> </nuclide>
@@ -1247,43 +1250,43 @@
     <nuclide> <id>Nd144</id> <comp>0.005708</comp> </nuclide>
     <nuclide> <id>Nd146</id> <comp>0.005102</comp> </nuclide>
   </recipe>
-  
-  
+
+
   <recipe>
     <name>SFR_A_fuel</name>
     <basis>mass</basis>
     <nuclide><id>U238</id> <comp>0.9236</comp></nuclide>
     <nuclide><id>Pu239</id> <comp>0.0764</comp></nuclide>
   </recipe>
-  
+
   <recipe>
     <name>SFR_A_spent</name>
     <basis>mass</basis>
     <nuclide><id>U238</id> <comp>0.8599</comp></nuclide>
     <nuclide><id>Pu239</id> <comp>0.0902</comp></nuclide>
     <nuclide><id>Am241</id> <comp>0.0013</comp></nuclide>
-    
+
     <nuclide> <id>Cs137</id> <comp>0.0486</comp> </nuclide>
   </recipe>
-  
+
   <recipe>
     <name>SFR_B_fuel</name>
     <basis>mass</basis>
     <nuclide><id>U238</id> <comp>0.91466</comp></nuclide>
     <nuclide><id>Pu239</id> <comp>0.08534</comp></nuclide>
   </recipe>
-  
+
   <recipe>
     <name>SFR_B_spent</name>
     <basis>mass</basis>
     <nuclide><id>U238</id> <comp>0.86025</comp></nuclide>
     <nuclide><id>Pu239</id> <comp>0.09596</comp></nuclide>
     <nuclide><id>Am241</id> <comp>0.00107</comp></nuclide>
-    
+
     <nuclide> <id>Cs137</id> <comp>0.04272</comp> </nuclide>
   </recipe>
-  
-  
+
+
   <recipe>
     <name>UOX_spent</name>
     <basis>mass</basis>
@@ -1291,7 +1294,7 @@
     <nuclide><id>U238</id> <comp>0.9268</comp></nuclide>
     <nuclide><id>Pu239</id> <comp>0.012</comp></nuclide>
     <nuclide><id>Am241</id> <comp>0.0011</comp></nuclide>
-    
+
     <nuclide> <id>La139</id> <comp>0.005866</comp> </nuclide>
     <nuclide> <id>Ce140</id> <comp>0.005911</comp> </nuclide>
     <nuclide> <id>Ce142</id> <comp>0.005727</comp> </nuclide>
