@@ -182,7 +182,7 @@
         <fuel_inrecipes>  <val>UOX</val></fuel_inrecipes>
         <fuel_outrecipes> <val>UOX_spent</val></fuel_outrecipes>
         <fuel_incommods>  <val>UOX</val></fuel_incommods>
-        <fuel_outcommods> <val>UOX_spent_Aß</val></fuel_outcommods>
+        <fuel_outcommods> <val>UOX_spent_A</val></fuel_outcommods>
 
         <cycle_time>9</cycle_time>
         <refuel_time>0</refuel_time>
@@ -1232,7 +1232,7 @@
   </recipe>
   
   <recipe>
-    <name>UOX_spent</name>
+    <name>UOX_spent_bak</name>
     <basis>mass</basis>
     <nuclide><id>U235</id> <comp>.008</comp> </nuclide>
      <nuclide><id>U238</id> <comp>  0.9245</comp></nuclide>
@@ -1280,7 +1280,7 @@
   
   
   <recipe>
-    <name>UOX_spent_bak</name>
+    <name>UOX_spent</name>
     <basis>mass</basis>
      <nuclide><id>U235</id> <comp>.008</comp> </nuclide>
     <nuclide><id>U238</id> <comp>0.9268</comp></nuclide>
