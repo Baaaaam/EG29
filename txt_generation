@@ -11,3 +11,8 @@ cyan -db cyclus.sqlite inv LWR_storage_A > LWR_storage_A.txt
 cyan -db cyclus.sqlite inv LWR_storage_B > LWR_storage_B.txt
 cyan -db cyclus.sqlite inv SFR_A_storage > SFR_A_storage.txt
 cyan -db cyclus.sqlite inv SFR_B_storage > SFR_B_storage.txt
+
+cyan -db cyclus.sqlite flow -to SFR_A > SFR_A.txt
+cyan -db cyclus.sqlite flow -to SFR_B > SFR_B.txt
+cyan -db cyclus.sqlite flow -to lwr_A > LWR_A.txt
+cyan -db cyclus.sqlite flow -to lwr_B > LWR_B.txt
