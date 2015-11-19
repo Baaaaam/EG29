@@ -227,7 +227,7 @@
         <fuel_inrecipes>  <val>UOX</val></fuel_inrecipes>
         <fuel_outrecipes> <val>UOX_spent</val></fuel_outrecipes>
         <fuel_incommods>  <val>UOX</val></fuel_incommods>
-        <fuel_outcommods> <val>UOX_spent_A</val></fuel_outcommods>
+        <fuel_outcommods> <val>UOX_A_spent</val></fuel_outcommods>
 
         <cycle_time>9</cycle_time>
         <refuel_time>0</refuel_time>
@@ -247,7 +247,7 @@
         <fuel_inrecipes>  <val>UOX</val></fuel_inrecipes>
         <fuel_outrecipes> <val>UOX_spent</val></fuel_outrecipes>
         <fuel_incommods>  <val>UOX</val></fuel_incommods>
-        <fuel_outcommods> <val>UOX_spent_B</val></fuel_outcommods>
+        <fuel_outcommods> <val>UOX_B_spent</val></fuel_outcommods>
 
         <cycle_time>9</cycle_time>
         <refuel_time>0</refuel_time>
