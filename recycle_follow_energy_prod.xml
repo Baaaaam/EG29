@@ -19,7 +19,7 @@
   </archetypes>
 
   <prototype>
-    <name>LWR_storage_A</name>
+    <name>LWR_A_storage</name>
     <config>
       <Storage>
         <in_commods> <val>UOX_A_spent_cooled</val></in_commods>
@@ -30,7 +30,7 @@
   </prototype>
 
   <prototype>
-    <name>LWR_storage_B</name>
+    <name>LWR_B_storage</name>
     <config>
       <Storage>
         <in_commods> <val>UOX_B_spent_cooled</val></in_commods>
@@ -41,7 +41,7 @@
   </prototype>
 
 <prototype>
-  <name>LWR_cooling_A</name>
+  <name>LWR_A_cooling</name>
   <config>
     <Storage>
       <in_commods> <val>UOX_A_spent</val></in_commods>
@@ -52,7 +52,7 @@
 </prototype>
 
 <prototype>
-  <name>LWR_cooling_B</name>
+  <name>LWR_B_cooling</name>
   <config>
     <Storage>
       <in_commods> <val>UOX_B_spent</val></in_commods>
