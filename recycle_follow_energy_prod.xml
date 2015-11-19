@@ -24,7 +24,7 @@
       <Storage>
         <in_commods> <val>UOX_A_spent_cooled</val></in_commods>
         <out_commods> <val>UOX_spent_stored</val></out_commods>
-        <residence_time>84</residence_time>
+        <residence_time>0</residence_time>
       </Storage>
     </config>
   </prototype>
@@ -35,7 +35,7 @@
       <Storage>
         <in_commods> <val>UOX_B_spent_cooled</val></in_commods>
         <out_commods> <val>UOX_spent_stored</val></out_commods>
-        <residence_time>84</residence_time>
+        <residence_time>0</residence_time>
       </Storage>
     </config>
   </prototype>
@@ -132,7 +132,7 @@
         <feed_commods> <val>UOX_spent_stored</val> </feed_commods>
 
         <streams>
-          <item>
+          <item>s
             <commod>UOX_pu</commod>
             <info>
               <buf_size>1e100</buf_size>
