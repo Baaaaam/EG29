@@ -132,7 +132,7 @@
         <feed_commods> <val>UOX_spent_stored</val> </feed_commods>
 
         <streams>
-          <item>s
+          <item>
             <commod>UOX_pu</commod>
             <info>
               <buf_size>1e100</buf_size>
