@@ -22,7 +22,7 @@
     <name>LWR_storage_A</name>
     <config>
       <Storage>
-        <in_commods> <val>UOX_spent_A</val></in_commods>
+        <in_commods> <val>UOX_A_spent_cooled</val></in_commods>
         <out_commods> <val>UOX_spent_stored</val></out_commods>
         <residence_time>84</residence_time>
       </Storage>
@@ -33,20 +33,43 @@
     <name>LWR_storage_B</name>
     <config>
       <Storage>
-        <in_commods> <val>UOX_spent_B</val></in_commods>
+        <in_commods> <val>UOX_B_spent_cooled</val></in_commods>
         <out_commods> <val>UOX_spent_stored</val></out_commods>
         <residence_time>84</residence_time>
       </Storage>
     </config>
   </prototype>
 
+<prototype>
+  <name>LWR_cooling_A</name>
+  <config>
+    <Storage>
+      <in_commods> <val>UOX_A_spent</val></in_commods>
+      <out_commods> <val>UOX_A_spent_cooled</val></out_commods>
+      <residence_time>84</residence_time>
+    </Storage>
+  </config>
+</prototype>
+
+<prototype>
+  <name>LWR_cooling_B</name>
+  <config>
+    <Storage>
+      <in_commods> <val>UOX_B_spent</val></in_commods>
+      <out_commods> <val>UOX_B_spent_cooled</val></out_commods>
+      <residence_time>84</residence_time>
+    </Storage>
+  </config>
+</prototype>
+
+
   <prototype>
     <name>SFR_A_storage</name>
     <config>
       <Storage>
-        <in_commods><val>SFR_A_spent</val></in_commods>
+        <in_commods><val>SFR_A_spent_cooled</val></in_commods>
         <out_commods><val>SFR_A_spent_stored</val></out_commods>
-        <residence_time>84</residence_time>
+        <residence_time>0</residence_time>
       </Storage>
     </config>
   </prototype>
@@ -55,12 +78,34 @@
     <name>SFR_B_storage</name>
     <config>
       <Storage>
-        <in_commods><val>SFR_B_spent</val></in_commods>
+        <in_commods><val>SFR_B_spent_cooled</val></in_commods>
         <out_commods><val>SFR_B_spent_stored</val></out_commods>
-        <residence_time>84</residence_time>
+        <residence_time>0</residence_time>
       </Storage>
     </config>
   </prototype>
+
+<prototype>
+  <name>SFR_A_cooling</name>
+  <config>
+    <Storage>
+      <in_commods><val>SFR_A_spent</val></in_commods>
+      <out_commods><val>SFR_A_spent_cooled</val></out_commods>
+      <residence_time>84</residence_time>
+    </Storage>
+  </config>
+</prototype>
+
+<prototype>
+  <name>SFR_B_cooling</name>
+  <config>
+    <Storage>
+      <in_commods><val>SFR_B_spent</val></in_commods>
+      <out_commods><val>SFR_B_spent_cooled</val></out_commods>
+      <residence_time>84</residence_time>
+    </Storage>
+  </config>
+</prototype>
 
   <prototype>
     <name>enrichment</name>
@@ -289,15 +334,23 @@
           <val>repo</val>
           <val>enrichment</val>
           <val>depleted_src</val>
-          <val>LWR_storage_A</val>
-          <val>LWR_storage_B</val>
+          <val>LWR_A_storage</val>
+          <val>LWR_B_storage</val>
           <val>SFR_A_storage</val>
           <val>SFR_B_storage</val>
+          <val>LWR_A_cooling</val>
+          <val>LWR_B_cooling</val>
+          <val>SFR_A_cooling</val>
+          <val>SFR_B_cooling</val>
         </prototypes>
 
         <build_times>
           <val>180</val>
           <val>300</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
           <val>1</val>
           <val>1</val>
           <val>1</val>
@@ -316,6 +369,10 @@
           <val>1</val>
           <val>1</val>
           <val>2</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
           <val>1</val>
           <val>1</val>
           <val>1</val>
