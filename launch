@@ -1,0 +1,1 @@
+rm cyclus.sqlite ; cyclus recycle.xml ; ./txt_generation

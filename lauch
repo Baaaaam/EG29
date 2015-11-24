@@ -1,1 +1,0 @@
-rm cyclus.sqlite ; cyclus recycle_follow_energy_prod.xml ; ./txt_generation
