@@ -60,36 +60,9 @@
   </prototype>
 
 
-  <prototype>
-    <name>SFR_fab</name>
-    <config>
-      <FuelFab>
-        <fill_commods><val>depleted_u</val></fill_commods>
-        <fill_recipe>depleted_u</fill_recipe>
-        <fill_size>1e100</fill_size>
-
-        <fiss_commods>
-          <val>UOX_pu</val>
-          <val>fast_pu</val>
-        </fiss_commods>
-        <fiss_commod_prefs>
-          <val>1.0</val>
-          <val>2.0</val>
-        </fiss_commod_prefs>
-        <fiss_size>1e100</fiss_size>
-
-        <throughput>1e100</throughput>
-        <spectrum>fission_spectrum_ave</spectrum>
-        <outcommod>SFR_fuel</outcommod>
-      </FuelFab>
-    </config>
-  </prototype>
-
-
-
 
   <prototype>
-    <name>repo</name>
+    <name>waste</name>
     <config>
       <Sink>
         <in_commods><val>waste</val></in_commods>
@@ -116,15 +89,13 @@
         <prototypes>
           <val>LWR_separations</val>
           <val>LWR_separations</val>
-          <val>SFR_fab</val>
-          <val>repo</val>
+          <val>waste</val>
           <val>enrichment</val>
           <val>depleted_src</val>
         </prototypes>
 
         <build_times>
-          <val>180</val>
-          <val>300</val>
+          <val>1</val>
           <val>1</val>
           <val>1</val>
           <val>1</val>
@@ -132,7 +103,6 @@
         </build_times>
 
         <n_build>
-          <val>1</val>
           <val>1</val>
           <val>1</val>
           <val>1</val>
@@ -152,17 +122,19 @@
 
 
   <agent> <name>deployer1</name> <prototype>deployer</prototype> </agent>
-  <agent> <name>deployer_supply_LWR_A</name> <prototype>deployer_supply_LWR_A</prototype> </agent>
-  <agent> <name>deployer_supply_LWR_B</name> <prototype>deployer_supply_LWR_A</prototype> </agent>
-  <agent> <name>deployer_supply_SFR_A</name> <prototype>deployer_supply_SFR_A</prototype> </agent>
-  <agent> <name>deployer_supply_SFR_B</name> <prototype>deployer_supply_SFR_A</prototype> </agent>
+  <agent> <name>deployer2</name> <prototype>deployer_supply_LWR_A</prototype> </agent>
+  <agent> <name>deployer3</name> <prototype>deployer_supply_LWR_B</prototype> </agent>
+  <agent> <name>deployer4</name> <prototype>deployer_supply_SFR_A</prototype> </agent>
+  <agent> <name>deployer5</name> <prototype>deployer_supply_SFR_B</prototype> </agent>
 
 
-  <agent> <name>init_reactor_deployer_LWR_A</name> <prototype>init_reactor_deployer_LWR_A</prototype> </agent>
-  <agent> <name>reactor_deployer_LWR_B</name> <prototype>reactor_deployer_LWR_B</prototype> </agent>
-  <agent> <name>reactor_deployer_SFR_A</name> <prototype>reactor_deployer_SFR_A</prototype> </agent>
-  <agent> <name>reactor_deployer_SFR_B</name> <prototype>reactor_deployer_SFR_B</prototype> </agent>
+  <agent> <name>init_reactor</name> <prototype>init_reactor_deployer_LWR_A</prototype> </agent>
+  <agent> <name>r_deployer_LWR_B</name> <prototype>reactor_deployer_LWR_B</prototype> </agent>
+  <agent> <name>r_deployer_SFR_A</name> <prototype>reactor_deployer_SFR_A</prototype> </agent>
+  <agent> <name>r_deployer_SFR_B</name> <prototype>reactor_deployer_SFR_B</prototype> </agent>
 
+<agent> <name>f_deployer_SFR_A</name> <prototype>fabrication_deployer_SFR_A</prototype> </agent>
+<agent> <name>f_deployer_SFR_B</name> <prototype>fabrication_deployer_SFR_B</prototype> </agent>
 
   <recipe>
     <name>depleted_u</name>
@@ -195,10 +167,6 @@
 
     <nuclide> <id>Cs137</id> <comp>0.0521</comp> </nuclide>
   </recipe>
-
-
-
-
 
   <recipe>
     <name>UOX_spent</name>
