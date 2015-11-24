@@ -60,24 +60,24 @@
         <fuel_incommods>  <val>SFR_fuel</val></fuel_incommods>
         <fuel_outcommods> <val>SFR_B_spent</val></fuel_outcommods>
 
-        <cycle_time>6</cycle_time>
+        <cycle_time>18</cycle_time>
         <refuel_time>0</refuel_time>
-        <assem_size>3822</assem_size>
-        <n_assem_core>9</n_assem_core>
+        <assem_size>11467</assem_size>
+        <n_assem_core>3</n_assem_core>
         <n_assem_batch>1</n_assem_batch>
         <power_cap>360</power_cap>
       </Reactor>
     </config>
   </prototype>
-
-
+  
+  
   <prototype>
     <name>SFR_FAB_B</name>
     <config>
       <FuelFab>
         <fill_commods><val>depleted_u</val></fill_commods>
         <fill_recipe>depleted_u</fill_recipe>
-        <fill_size>1e100</fill_size>
+        <fill_size>115000</fill_size>
 
         <fiss_commods>
           <val>UOX_pu</val>
@@ -87,9 +87,9 @@
           <val>1.0</val>
           <val>2.0</val>
         </fiss_commod_prefs>
-        <fiss_size>1e100</fiss_size>
+        <fiss_size>13000</fiss_size>
 
-        <throughput>1e100</throughput>
+        <throughput>115000</throughput>
         <spectrum>fission_spectrum_ave</spectrum>
         <outcommod>SFR_fuel</outcommod>
       </FuelFab>

@@ -65,30 +65,30 @@
     </config>
   </prototype>
 
-<prototype>
-  <name>SFR_FAB_A</name>
-  <config>
-    <FuelFab>
-      <fill_commods><val>depleted_u</val></fill_commods>
-      <fill_recipe>depleted_u</fill_recipe>
-      <fill_size>1e100</fill_size>
+  <prototype>
+    <name>SFR_FAB_A</name>
+    <config>
+      <FuelFab>
+        <fill_commods><val>depleted_u</val></fill_commods>
+        <fill_recipe>depleted_u</fill_recipe>
+        <fill_size>76000</fill_size>
 
-      <fiss_commods>
-        <val>UOX_pu</val>
-        <val>fast_pu</val>
-      </fiss_commods>
-      <fiss_commod_prefs>
-        <val>1.0</val>
-        <val>2.0</val>
-      </fiss_commod_prefs>
-      <fiss_size>1e100</fiss_size>
+        <fiss_commods>
+          <val>UOX_pu</val>
+          <val>fast_pu</val>
+        </fiss_commods>
+        <fiss_commod_prefs>
+          <val>1.0</val>
+          <val>2.0</val>
+        </fiss_commod_prefs>
+        <fiss_size>10000</fiss_size>
 
-      <throughput>1e100</throughput>
-      <spectrum>fission_spectrum_ave</spectrum>
-      <outcommod>SFR_fuel</outcommod>
-    </FuelFab>
-  </config>
-</prototype>
+        <throughput>76000</throughput>
+        <spectrum>fission_spectrum_ave</spectrum>
+        <outcommod>SFR_fuel</outcommod>
+      </FuelFab>
+    </config>
+  </prototype>
 
 
 
@@ -713,7 +713,7 @@
           <val>2</val>
           <val>2</val>
         </n_build>
-        
+
         <build_times>
           <val>420</val>
           <val>564</val>
