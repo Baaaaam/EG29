@@ -61,7 +61,7 @@
 
       <cycle_time>9</cycle_time>
       <refuel_time>0</refuel_time>
-      <assem_size>14783</assem_size>
+      <assem_size>14784</assem_size>
       <n_assem_core>6</n_assem_core>
       <n_assem_batch>1</n_assem_batch>
       <power_cap>900</power_cap>
