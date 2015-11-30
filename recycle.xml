@@ -47,32 +47,6 @@
   </config>
 </prototype>
 
-
-
-  <prototype>
-    <name>LWR_separations</name>
-    <config>
-      <Separations>
-        <leftover_commod>waste</leftover_commod>
-        <throughput>3e6</throughput>
-        <feedbuf_size>3e6</feedbuf_size>
-        <feed_commods> <val>UOX_spent_stored</val> </feed_commods>
-
-        <streams>
-          <item>
-            <commod>UOX_pu</commod>
-            <info>
-              <buf_size>2e6</buf_size>
-              <efficiencies>
-                <item> <comp>Pu</comp> <eff>.99</eff> </item>
-              </efficiencies>
-            </info>
-          </item>
-        </streams>
-      </Separations>
-    </config>
-  </prototype>
-
 <prototype>
   <name>UOX_Pu_storage</name>
   <config>
@@ -112,7 +86,6 @@
     <config>
       <DeployInst>
         <prototypes>
-          <val>LWR_separations</val>
           <val>fast_Pu_storage</val>
           <val>UOX_Pu_storage</val>
           <val>waste</val>
@@ -126,11 +99,9 @@
           <val>1</val>
           <val>1</val>
           <val>1</val>
-          <val>1</val>
         </build_times>
 
         <n_build>
-          <val>1</val>
           <val>1</val>
           <val>1</val>
           <val>1</val>

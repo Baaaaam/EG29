@@ -22,6 +22,31 @@
 </prototype>
 
 <prototype>
+  <name>LWR_B_separation</name>
+  <config>
+    <Separations>
+      <leftover_commod>waste</leftover_commod>
+      <throughput>3e6</throughput>
+      <feedbuf_size>3e6</feedbuf_size>
+      <feed_commods> <val>UOX_B_spent_stored</val> </feed_commods>
+
+      <streams>
+        <item>
+          <commod>UOX_pu</commod>
+          <info>
+            <buf_size>2e6</buf_size>
+            <efficiencies>
+              <item> <comp>Pu</comp> <eff>.99</eff> </item>
+            </efficiencies>
+          </info>
+        </item>
+      </streams>
+    </Separations>
+  </config>
+</prototype>
+
+
+<prototype>
   <name>LWR_B</name>
   <lifetime>960</lifetime>
   <config>
@@ -253,6 +278,7 @@
   <config>
     <DeployInst>
       <prototypes>
+        <val>LWR_B_separation</val>
         <val>LWR_B_storage</val>
         <val>LWR_B_cooling</val>
       </prototypes>
@@ -260,9 +286,11 @@
       <build_times>
         <val>1</val>
         <val>1</val>
+        <val>1</val>
       </build_times>
 
       <n_build>
+        <val>1</val>
         <val>1</val>
         <val>1</val>
       </n_build>
