@@ -35,20 +35,34 @@
     </config>
   </prototype>
 
+<prototype>
+  <name>fast_Pu_storage</name>
+  <config>
+    <Storage>
+      <in_commods><val>fast_pu</val></in_commods>
+      <out_commods><val>fast_pu_stored</val></out_commods>
+      <residence_time>0</residence_time>
+      <max_inv_size>6e6</max_inv_size>
+    </Storage>
+  </config>
+</prototype>
+
+
+
   <prototype>
     <name>LWR_separations</name>
     <config>
       <Separations>
         <leftover_commod>waste</leftover_commod>
-        <throughput>1e100</throughput>
-        <feedbuf_size>1e100</feedbuf_size>
+        <throughput>3e6</throughput>
+        <feedbuf_size>3e6</feedbuf_size>
         <feed_commods> <val>UOX_spent_stored</val> </feed_commods>
 
         <streams>
           <item>
             <commod>UOX_pu</commod>
             <info>
-              <buf_size>1e100</buf_size>
+              <buf_size>2e6</buf_size>
               <efficiencies>
                 <item> <comp>Pu</comp> <eff>.99</eff> </item>
               </efficiencies>
@@ -59,6 +73,17 @@
     </config>
   </prototype>
 
+<prototype>
+  <name>UOX_Pu_storage</name>
+  <config>
+    <Storage>
+      <in_commods><val>UOX_pu</val></in_commods>
+      <out_commods><val>UOX_pu_stored</val></out_commods>
+      <residence_time>0</residence_time>
+      <max_inv_size>6e6</max_inv_size>
+   </Storage>
+  </config>
+</prototype>
 
 
   <prototype>
@@ -88,7 +113,8 @@
       <DeployInst>
         <prototypes>
           <val>LWR_separations</val>
-          <val>LWR_separations</val>
+          <val>fast_Pu_storage</val>
+          <val>UOX_Pu_storage</val>
           <val>waste</val>
           <val>enrichment</val>
           <val>depleted_src</val>
@@ -100,9 +126,11 @@
           <val>1</val>
           <val>1</val>
           <val>1</val>
+          <val>1</val>
         </build_times>
 
         <n_build>
+          <val>1</val>
           <val>1</val>
           <val>1</val>
           <val>1</val>

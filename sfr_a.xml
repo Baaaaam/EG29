@@ -26,15 +26,15 @@
     <config>
       <Separations>
         <leftover_commod>waste</leftover_commod>
-        <throughput>1e100</throughput>
-        <feedbuf_size>1e100</feedbuf_size>
+        <throughput>5e6</throughput>
+        <feedbuf_size>5e6</feedbuf_size>
         <feed_commods> <val>SFR_A_spent_stored</val> </feed_commods>
 
         <streams>
           <item>
             <commod>fast_pu</commod>
             <info>
-              <buf_size>1e100</buf_size>
+              <buf_size>3e6</buf_size>
               <efficiencies>
                 <item> <comp>Pu</comp> <eff>.99</eff> </item>
               </efficiencies>
@@ -44,6 +44,7 @@
       </Separations>
     </config>
   </prototype>
+
 
   <prototype>
     <name>SFR_A</name>
@@ -76,8 +77,13 @@
         <fiss_commods>
           <val>UOX_pu</val>
           <val>fast_pu</val>
+          <val>UOX_pu_stored</val>
+          <val>fast_pu_stored</val>
         </fiss_commods>
+        
         <fiss_commod_prefs>
+          <val>3.0</val>
+          <val>4.0</val>
           <val>1.0</val>
           <val>2.0</val>
         </fiss_commod_prefs>
