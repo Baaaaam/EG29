@@ -178,6 +178,11 @@
           <val>SFR_B</val>
           <val>SFR_B</val>
           <val>SFR_B</val>
+          <val>SFR_B</val>
+          <val>SFR_B</val>
+          <val>SFR_B</val>
+          <val>SFR_B</val>
+          <val>SFR_B</val>
         </prototypes>
         <n_build>
           <val>18</val>
@@ -207,6 +212,11 @@
           <val>31</val>
           <val>34</val>
           <val>34</val>
+          <val>34</val>
+          <val>33</val>
+          <val>37</val>
+          <val>32</val>
+          <val>38</val>
         </n_build>
         <build_times>
           <val>1969</val>
@@ -236,6 +246,11 @@
           <val>2257</val>
           <val>2269</val>
           <val>2281</val>
+          <val>2293</val>
+          <val>2305</val>
+          <val>2317</val>
+          <val>2329</val>
+          <val>2341</val>
         </build_times>
       </DeployInst>
     </config>
@@ -275,6 +290,11 @@
           <val>SFR_FAB_B</val>
           <val>SFR_FAB_B</val>
           <val>SFR_FAB_B</val>
+          <val>SFR_FAB_B</val>
+          <val>SFR_FAB_B</val>
+          <val>SFR_FAB_B</val>
+          <val>SFR_FAB_B</val>
+          <val>SFR_FAB_B</val>
         </prototypes>
         <n_build>
           <val>1</val>
@@ -305,6 +325,11 @@
           <val>3</val>
           <val>3</val>
           <val>3</val>
+          <val>4</val>
+          <val>3</val>
+          <val>4</val>
+          <val>3</val>
+          <val>4</val>
         </n_build>
 
         <build_times>
@@ -336,6 +361,11 @@
           <val>2257</val>
           <val>2269</val>
           <val>2281</val>
+          <val>2293</val>
+          <val>2305</val>
+          <val>2317</val>
+          <val>2329</val>
+          <val>2341</val>
         </build_times>
       </DeployInst>
     </config>
