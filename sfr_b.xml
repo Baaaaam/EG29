@@ -37,7 +37,7 @@
           <item>
             <commod>fast_pu</commod>
             <info>
-              <buf_size>5e5</buf_size>
+              <buf_size>5e6</buf_size>
               <efficiencies>
                 <item> <comp>Pu</comp> <eff>.99</eff> </item>
               </efficiencies>
@@ -71,27 +71,28 @@
 
   <prototype>
     <name>SFR_FAB_B</name>
+    <lifetime>960</lifetime>
     <config>
       <FuelFab>
         <fill_commods><val>depleted_u</val></fill_commods>
         <fill_recipe>depleted_u</fill_recipe>
-        <fill_size>115000</fill_size>
+        <fill_size>69912</fill_size>
 
         <fiss_commods>
           <val>UOX_pu</val>
           <val>fast_pu</val>
-          <val>UOX_pu_stored</val>
-          <val>fast_pu_stored</val>
+          <!--     <val>UOX_pu_stored</val>
+           <val>fast_pu_stored</val>-->
         </fiss_commods>
         <fiss_commod_prefs>
-          <val>3.0</val>
-          <val>4.0</val>
+          <!--          <val>3.0</val>
+           <val>4.0</val> -->
           <val>1.0</val>
           <val>2.0</val>
         </fiss_commod_prefs>
-        <fiss_size>13000</fiss_size>
+        <fiss_size>5856</fiss_size>
 
-        <throughput>115000</throughput>
+        <throughput>76440</throughput>
         <spectrum>fission_spectrum_ave</spectrum>
         <outcommod>SFR_fuel</outcommod>
       </FuelFab>
@@ -177,45 +178,35 @@
           <val>SFR_B</val>
           <val>SFR_B</val>
           <val>SFR_B</val>
-          <val>SFR_B</val>
-          <val>SFR_B</val>
-          <val>SFR_B</val>
-          <val>SFR_B</val>
-          <val>SFR_B</val>
         </prototypes>
         <n_build>
-          <val>2</val>
-          <val>21</val>
-          <val>21</val>
+          <val>18</val>
           <val>22</val>
           <val>21</val>
-          <val>23</val>
-          <val>21</val>
-          <val>25</val>
           <val>22</val>
+          <val>22</val>
+          <val>22</val>
+          <val>22</val>
+          <val>24</val>
           <val>23</val>
           <val>23</val>
-          <val>29</val>
-          <val>28</val>
-          <val>31</val>
-          <val>31</val>
-          <val>32</val>
-          <val>29</val>
-          <val>31</val>
+          <val>23</val>
           <val>30</val>
-          <val>34</val>
+          <val>29</val>
           <val>31</val>
           <val>32</val>
-          <val>34</val>
-          <val>32</val>
           <val>31</val>
-          <val>33</val>
+          <val>29</val>
+          <val>32</val>
+          <val>30</val>
           <val>35</val>
+          <val>30</val>
           <val>33</val>
           <val>33</val>
-          <val>36</val>
           <val>33</val>
-          <val>37</val>
+          <val>31</val>
+          <val>34</val>
+          <val>34</val>
         </n_build>
         <build_times>
           <val>1969</val>
@@ -245,11 +236,6 @@
           <val>2257</val>
           <val>2269</val>
           <val>2281</val>
-          <val>2293</val>
-          <val>2305</val>
-          <val>2317</val>
-          <val>2329</val>
-          <val>2341</val>
         </build_times>
       </DeployInst>
     </config>
@@ -289,22 +275,18 @@
           <val>SFR_FAB_B</val>
           <val>SFR_FAB_B</val>
           <val>SFR_FAB_B</val>
-          <val>SFR_FAB_B</val>
-          <val>SFR_FAB_B</val>
-          <val>SFR_FAB_B</val>
-          <val>SFR_FAB_B</val>
         </prototypes>
         <n_build>
           <val>1</val>
+          <val>1</val>
+          <val>3</val>
+          <val>2</val>
           <val>2</val>
           <val>2</val>
           <val>2</val>
           <val>2</val>
           <val>3</val>
           <val>2</val>
-          <val>2</val>
-          <val>2</val>
-          <val>3</val>
           <val>2</val>
           <val>3</val>
           <val>3</val>
@@ -319,17 +301,14 @@
           <val>3</val>
           <val>3</val>
           <val>3</val>
-          <val>3</val>
-          <val>4</val>
-          <val>3</val>
           <val>4</val>
           <val>3</val>
           <val>3</val>
-          <val>4</val>
           <val>3</val>
         </n_build>
 
         <build_times>
+          <val>1957</val>
           <val>1969</val>
           <val>1981</val>
           <val>1993</val>
@@ -357,11 +336,6 @@
           <val>2257</val>
           <val>2269</val>
           <val>2281</val>
-          <val>2293</val>
-          <val>2305</val>
-          <val>2317</val>
-          <val>2329</val>
-          <val>2341</val>
         </build_times>
       </DeployInst>
     </config>
