@@ -4,7 +4,7 @@
   <config>
     <Storage>
       <in_commods> <val>UOX_A_spent_cooled</val></in_commods>
-      <out_commods> <val>UOX_A_spent_stored</val></out_commods>
+      <out_commods> <val>UOX_spent_stored</val></out_commods>
       <residence_time>0</residence_time>
     </Storage>
   </config>
@@ -19,32 +19,6 @@
       <out_commods> <val>UOX_A_spent_cooled</val></out_commods>
       <residence_time>84</residence_time>
     </Storage>
-  </config>
-</prototype>
-
-
-
-<prototype>
-  <name>LWR_A_separation</name>
-  <config>
-    <Separations>
-      <leftover_commod>waste</leftover_commod>
-      <throughput>3e6</throughput>
-      <feedbuf_size>3e6</feedbuf_size>
-      <feed_commods> <val>UOX_A_spent_stored</val> </feed_commods>
-
-      <streams>
-        <item>
-          <commod>UOX_pu</commod>
-          <info>
-            <buf_size>3e6</buf_size>
-            <efficiencies>
-              <item> <comp>Pu</comp> <eff>.99</eff> </item>
-            </efficiencies>
-          </info>
-        </item>
-      </streams>
-    </Separations>
   </config>
 </prototype>
 
@@ -254,18 +228,15 @@
     <DeployInst>
       <prototypes>
         <val>LWR_A_storage</val>
-        <val>LWR_A_separation</val>
         <val>LWR_A_cooling</val>
       </prototypes>
 
       <build_times>
         <val>1</val>
         <val>1</val>
-        <val>1</val>
       </build_times>
 
       <n_build>
-        <val>1</val>
         <val>1</val>
         <val>1</val>
       </n_build>
