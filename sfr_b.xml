@@ -43,6 +43,15 @@
               </efficiencies>
             </info>
           </item>
+          <item>
+            <commod>RU</commod>
+            <info>
+              <buf_size>1e100</buf_size>
+              <efficiencies>
+                <item> <comp>U</comp> <eff>.99</eff> </item>
+              </efficiencies>
+            </info>
+          </item>
         </streams>
       </Separations>
     </config>
@@ -366,6 +375,13 @@
       </DeployInst>
     </config>
   </prototype>
-  
-  
+
+
+<agent> <name>s_deployer_SFR_B</name> <prototype>deployer_supply_SFR_B</prototype> </agent>
+
+
+<agent> <name>r_deployer_SFR_B</name> <prototype>reactor_deployer_SFR_B</prototype> </agent>
+
+<agent> <name>f_deployer_SFR_B</name> <prototype>fabrication_deployer_SFR_B</prototype> </agent>
+
 </My_include>

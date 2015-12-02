@@ -244,5 +244,7 @@
   </config>
 </prototype>
 
+<agent> <name>s_deployer_LWR_A</name> <prototype>deployer_supply_LWR_A</prototype> </agent>
+<agent> <name>init_reactor</name> <prototype>init_reactor_deployer_LWR_A</prototype> </agent>
 
 </My_include>

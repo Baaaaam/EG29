@@ -270,4 +270,8 @@
   </config>
 </prototype>
 
+
+<agent> <name>s_deployer_LWR_B</name> <prototype>deployer_supply_LWR_B</prototype> </agent>
+<agent> <name>r_deployer_LWR_B</name> <prototype>reactor_deployer_LWR_B</prototype> </agent>
+
 </My_include>
