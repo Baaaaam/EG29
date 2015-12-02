@@ -78,12 +78,8 @@
         <fiss_commods>
           <val>UOX_pu</val>
           <val>fast_pu</val>
-          <!-- <val>UOX_pu_stored</val>
-           <val>fast_pu_stored</val>-->
         </fiss_commods>
         <fiss_commod_prefs>
-          <!--<val>3.0</val>
-           <val>4.0</val> -->
           <val>1.0</val>
           <val>2.0</val>
         </fiss_commod_prefs>

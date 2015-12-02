@@ -34,33 +34,6 @@
       </Enrichment>
     </config>
   </prototype>
-<!---
-<prototype>
-  <name>fast_Pu_storage</name>
-  <config>
-    <Storage>
-      <in_commods><val>fast_pu_</val></in_commods>
-      <out_commods><val>fast_pu_stored</val></out_commods>
-      <residence_time>0</residence_time>
-      <max_inv_size>1.5e4</max_inv_size>
-    </Storage>
-  </config>
-</prototype>
-
-<prototype>
-  <name>UOX_Pu_storage</name>
-  <config>
-    <Storage>
-      <in_commods><val>UOX_pu_</val></in_commods>
-      <out_commods><val>UOX_pu_stored</val></out_commods>
-      <residence_time>0</residence_time>
-      <max_inv_size>1.5e4</max_inv_size>
-   </Storage>
-  </config>
-</prototype>
-
--->
-
 
 
 
