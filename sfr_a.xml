@@ -102,24 +102,6 @@
   </prototype>
 
 
-
-  <recipe>
-    <name>SFR_A_fuel</name>
-    <basis>mass</basis>
-    <nuclide><id>U238</id> <comp>0.9236</comp></nuclide>
-    <nuclide><id>Pu239</id> <comp>0.0764</comp></nuclide>
-  </recipe>
-
-  <recipe>
-    <name>SFR_A_spent</name>
-    <basis>mass</basis>
-    <nuclide><id>U238</id> <comp>0.8599</comp></nuclide>
-    <nuclide><id>Pu239</id> <comp>0.0902</comp></nuclide>
-    <nuclide><id>Am241</id> <comp>0.0013</comp></nuclide>
-    <nuclide> <id>Cs137</id> <comp>0.0486</comp> </nuclide>
-  </recipe>
-
-
   <prototype>
     <name>deployer_supply_SFR_A</name>
     <config>
