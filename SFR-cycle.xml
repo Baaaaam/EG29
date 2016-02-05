@@ -1,0 +1,12 @@
+<My_include>
+
+  <!-- depleted Uranium recipe
+  <recipe>
+    <name>depleted_u</name>
+    <basis>mass</basis>
+    <nuclide> <id>U235</id><comp>0.0025</comp></nuclide>
+    <nuclide><id>U238</id><comp>0.9975</comp></nuclide>
+  </recipe>
+  *********************** -->
+
+ </My_include>
