@@ -114,7 +114,7 @@
 
 <!--      PWR Separation     -->
 <prototype>
-  <name>LWR_separation</name>
+  <name>PWR_separation</name>
   <config>
     <Separations>
       <feedbuf_size>107537</feedbuf_size>
@@ -131,7 +131,7 @@
 
       <streams>
         <item>
-          <commod>UOX_pu</commod>
+          <commod>PWR_pu</commod>
           <info>
             <buf_size>1e100</buf_size>
             <efficiencies>
@@ -171,7 +171,6 @@
         </item>
 
       </streams>
-
 
       <leftover_commod>waste</leftover_commod>
 
