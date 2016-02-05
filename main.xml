@@ -1,0 +1,8 @@
+<simulation xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <xi:include href="recipe.xml" xpointer="xpointer(//My_include/*)"/>
+  <xi:include href="FBR-cycle.xml" xpointer="xpointer(//My_include/*)"/>
+  <xi:include href="LWR-cycle.xml" xpointer="xpointer(//My_include/*)"/>
+
+
+</simulation>
