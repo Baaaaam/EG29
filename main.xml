@@ -29,7 +29,7 @@
     <name>blanket_pu_limited_source</name>
     <config>
       <Source>
-        <outcommod>FBR_blanket_pu_stored</outcommod>
+        <outcommod>pu_stored</outcommod>
         <outrecipe>FBR_blanket_pu_stored</outrecipe>
 
         <inventory_size>1000000</inventory_size>
@@ -42,7 +42,7 @@
     <name>blanket_u_limited_source</name>
     <config>
       <Source>
-        <outcommod>FBR_blanket_ru_stored</outcommod>
+        <outcommod>ru_stored</outcommod>
         <outrecipe>FBR_blanket_ru_stored</outrecipe>
 
         <inventory_size>1000000</inventory_size>
@@ -55,7 +55,7 @@
   <name>PWR_pu_limited_source</name>
   <config>
     <Source>
-      <outcommod>PWR_pu_stored</outcommod>
+      <outcommod>pu_stored</outcommod>
       <outrecipe>PWR_pu_stored</outrecipe>
 
       <inventory_size>1000000</inventory_size>
@@ -68,7 +68,7 @@
   <name>PWR_u_limited_source</name>
   <config>
     <Source>
-      <outcommod>PWR_ru_stored</outcommod>
+      <outcommod>ru_stored</outcommod>
       <outrecipe>PWR_ru_stored</outrecipe>
 
       <inventory_size>1000000</inventory_size>
@@ -93,10 +93,10 @@
           <val>PWR_cooling</val>
           <val>PWR_storage</val>
           <val>PWR_separation</val>
+
           <val>PWR_storage_pu</val>
           <val>PWR_storage_fp</val>
           <val>PWR_storage_ma</val>
-          <val>PWR_storage_fp</val>
           <val>PWR_storage_ru</val>
           <val>PWR</val>
           <val>PWR</val>
@@ -116,12 +116,10 @@
           <val>1</val>
           <val>1</val>
           <val>1</val>
-          <val>1</val>
           <val>961</val>
         </build_times>
 
         <n_build>
-          <val>1</val>
           <val>1</val>
           <val>1</val>
           <val>1</val>
