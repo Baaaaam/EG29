@@ -18,9 +18,8 @@
   </recipe>
   <!-- *********************** -->
 
-EXT2_ru_stored
 
-<!-- storage Uranium recipe -->
+<!-- EXT2 Uranium recipe -->
 <recipe>
   <name>EXT2_ru_stored</name>
   <basis>mass</basis>
@@ -29,7 +28,7 @@ EXT2_ru_stored
 <!-- *********************** -->
 
 
-<!-- storage plutonium recipe -->
+<!-- EXT2 plutonium recipe -->
 <recipe>
   <name>EXT2_pu_stored</name>
   <basis>mass</basis>
@@ -38,7 +37,42 @@ EXT2_ru_stored
 <!-- *********************** -->
 
 
+<!-- Blanket Uranium recipe -->
+<recipe>
+  <name>FBR_blanket_ru_stored</name>
+  <basis>mass</basis>
+  <nuclide> <id>U238</id> <comp>1</comp> </nuclide>
+</recipe>
+<!-- *********************** -->
 
+
+<!-- Blanket plutonium recipe -->
+<recipe>
+  <name>FBR_blanket_pu_stored</name>
+  <basis>mass</basis>
+  <nuclide> <id>PU239</id> <comp>1</comp> </nuclide>
+</recipe>
+<!-- *********************** -->
+
+
+
+
+<!-- recycled PWR Uranium recipe -->
+<recipe>
+  <name>PWR_ru_stored</name>
+  <basis>mass</basis>
+  <nuclide> <id>U238</id> <comp>1</comp> </nuclide>
+</recipe>
+<!-- *********************** -->
+
+
+<!-- recycled PWR plutonium recipe -->
+<recipe>
+  <name>PWR_pu_stored</name>
+  <basis>mass</basis>
+  <nuclide> <id>PU239</id> <comp>1</comp> </nuclide>
+</recipe>
+<!-- *********************** -->
 
 
 

@@ -26,30 +26,57 @@
 
 
   <prototype>
-    <name>pu_limited_source</name>
+    <name>blanket_pu_limited_source</name>
     <config>
       <Source>
-        <outcommod>EXT2_pu_stored</outcommod>
-        <outrecipe>EXT2_pu_stored</outrecipe>
+        <outcommod>FBR_blanket_pu_stored</outcommod>
+        <outrecipe>FBR_blanket_pu_stored</outrecipe>
 
-        <inventory_size>2000000</inventory_size>
+        <inventory_size>1000000</inventory_size>
         <throughput>1e100</throughput>
       </Source>
     </config>
   </prototype>
 
   <prototype>
-    <name>u_limited_source</name>
+    <name>blanket_u_limited_source</name>
     <config>
       <Source>
-        <outcommod>EXT2_ru_stored</outcommod>
-        <outrecipe>EXT2_ru_stored</outrecipe>
+        <outcommod>FBR_blanket_ru_stored</outcommod>
+        <outrecipe>FBR_blanket_ru_stored</outrecipe>
 
-        <inventory_size>2000000</inventory_size>
+        <inventory_size>1000000</inventory_size>
         <throughput>1e100</throughput>
       </Source>
     </config>
   </prototype>
+
+<prototype>
+  <name>PWR_pu_limited_source</name>
+  <config>
+    <Source>
+      <outcommod>PWR_pu_stored</outcommod>
+      <outrecipe>PWR_pu_stored</outrecipe>
+
+      <inventory_size>1000000</inventory_size>
+      <throughput>1e100</throughput>
+    </Source>
+  </config>
+</prototype>
+
+<prototype>
+  <name>PWR_u_limited_source</name>
+  <config>
+    <Source>
+      <outcommod>PWR_ru_stored</outcommod>
+      <outrecipe>PWR_ru_stored</outrecipe>
+
+      <inventory_size>1000000</inventory_size>
+      <throughput>1e100</throughput>
+    </Source>
+  </config>
+</prototype>
+
 
 
 
@@ -58,8 +85,10 @@
     <config>
       <DeployInst>
         <prototypes>
-          <val>pu_limited_source</val>
-          <val>u_limited_source</val>
+          <val>blanket_pu_limited_source</val>
+          <val>blanket_u_limited_source</val>
+          <val>PWR_pu_limited_source</val>
+          <val>PWR_u_limited_source</val>
           <val>PWR_fabrication</val>
           <val>PWR_cooling</val>
           <val>PWR_storage</val>
@@ -86,10 +115,14 @@
           <val>1</val>
           <val>1</val>
           <val>1</val>
+          <val>1</val>
+          <val>1</val>
           <val>961</val>
         </build_times>
 
         <n_build>
+          <val>1</val>
+          <val>1</val>
           <val>1</val>
           <val>1</val>
           <val>1</val>
