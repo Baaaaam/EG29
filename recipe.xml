@@ -42,8 +42,8 @@
 <recipe>
   <name>FBR_blanket_Upu</name>
   <basis>mass</basis>
-  <nuclide> <id>U238</id> <comp>0.882</comp> </nuclide>
-  <nuclide> <id>PU239</id> <comp>0.118</comp> </nuclide>
+  <nuclide> <id>U238</id> <comp>0.8812</comp> </nuclide>
+  <nuclide> <id>PU239</id> <comp>0.1188</comp> </nuclide>
 </recipe>
 <!-- *********************** -->
 
@@ -90,7 +90,7 @@
   <recipe>
     <name>FBR_MOX_new</name>
     <basis>mass</basis>
-    <nuclide><id>U238</id> <comp>0.91466</comp></nuclide>
+    <nuclide><id>U238</id>  <comp>0.91466</comp></nuclide>
     <nuclide><id>Pu239</id> <comp>0.08534</comp></nuclide>
   </recipe>
 

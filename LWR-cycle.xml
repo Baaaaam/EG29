@@ -37,7 +37,7 @@
         </fiss_commods>
 
         <fiss_recipe>FBR_blanket_Upu</fiss_recipe>
-        <fiss_size>90000</fiss_size>
+        <fiss_size>10800</fiss_size>
 
         <fill_commods>
           <val>PWR_Upu_stored</val>
@@ -50,9 +50,9 @@
           <val>1.0</val>
         </fill_commod_prefs>
 
-        <fill_size>90000</fill_size>
+        <fill_size>18800</fill_size>
 
-        <throughput>1e100</throughput>
+        <throughput>29565</throughput>
         <spectrum>thermal</spectrum>
         <outcommod>PWR_MOX_new</outcommod>
 
@@ -134,8 +134,8 @@
           <info>
             <buf_size>1e100</buf_size>
             <efficiencies>
-              <item> <comp>Pu</comp> <eff>.99</eff> </item>
-              <item> <comp>U</comp> <eff>.99</eff> </item>
+              <item> <comp>Pu</comp> <eff>.988</eff> </item>
+              <item> <comp>U</comp> <eff>.988</eff> </item>
             </efficiencies>
           </info>
         </item>
@@ -145,7 +145,7 @@
           <info>
             <buf_size>1e100</buf_size>
             <efficiencies>
-              <item> <comp>CS</comp> <eff>.99</eff> </item>
+              <item> <comp>CS</comp> <eff>.988</eff> </item>
             </efficiencies>
           </info>
         </item>
@@ -155,7 +155,7 @@
           <info>
             <buf_size>1e100</buf_size>
             <efficiencies>
-              <item> <comp>AM</comp> <eff>.99</eff> </item>
+              <item> <comp>AM</comp> <eff>.988</eff> </item>
             </efficiencies>
           </info>
         </item>
@@ -180,6 +180,7 @@
     </Storage>
   </config>
 </prototype>
+
 <!-- *********************** -->
 
 <!--      PWR fp storage     -->
