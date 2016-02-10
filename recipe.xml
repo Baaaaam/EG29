@@ -37,40 +37,24 @@
 <!-- *********************** -->
 
 
-<!-- Blanket Uranium recipe -->
+
+<!-- Blanket U/plutonium recipe -->
 <recipe>
-  <name>FBR_blanket_ru_stored</name>
+  <name>FBR_blanket_Upu</name>
   <basis>mass</basis>
-  <nuclide> <id>U238</id> <comp>1</comp> </nuclide>
+  <nuclide> <id>U238</id> <comp>0.882</comp> </nuclide>
+  <nuclide> <id>PU239</id> <comp>0.118</comp> </nuclide>
 </recipe>
 <!-- *********************** -->
 
-
-<!-- Blanket plutonium recipe -->
-<recipe>
-  <name>FBR_blanket_pu_stored</name>
-  <basis>mass</basis>
-  <nuclide> <id>PU239</id> <comp>1</comp> </nuclide>
-</recipe>
-<!-- *********************** -->
-
-
-
-
-<!-- recycled PWR Uranium recipe -->
-<recipe>
-  <name>PWR_ru_stored</name>
-  <basis>mass</basis>
-  <nuclide> <id>U238</id> <comp>1</comp> </nuclide>
-</recipe>
-<!-- *********************** -->
 
 
 <!-- recycled PWR plutonium recipe -->
 <recipe>
-  <name>PWR_pu_stored</name>
+  <name>PWR_Upu</name>
   <basis>mass</basis>
-  <nuclide> <id>PU239</id> <comp>1</comp> </nuclide>
+  <nuclide> <id>U238</id> <comp>0.93632</comp> </nuclide>
+  <nuclide> <id>PU239</id> <comp>0.06368</comp> </nuclide>
 </recipe>
 <!-- *********************** -->
 
