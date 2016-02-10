@@ -2,14 +2,14 @@
 
   <!-- depleted Uranium recipe -->
   <recipe>
-    <name>depleted_u</name>
+    <name>du</name>
     <basis>mass</basis>
     <nuclide> <id>U235</id><comp>0.0025</comp></nuclide>
     <nuclide><id>U238</id><comp>0.9975</comp></nuclide>
   </recipe>
   <!-- *********************** -->
 
-  <!-- depleted Uranium recipe -->
+  <!-- Naturel Uranium recipe -->
   <recipe>
     <name>natl_u</name>
     <basis>mass</basis>
@@ -18,7 +18,36 @@
   </recipe>
   <!-- *********************** -->
 
-  <!-- ****** UOX recipe ***** -->
+EXT2_ru_stored
+
+<!-- storage Uranium recipe -->
+<recipe>
+  <name>EXT2_ru_stored</name>
+  <basis>mass</basis>
+  <nuclide> <id>U238</id> <comp>1</comp> </nuclide>
+</recipe>
+<!-- *********************** -->
+
+
+<!-- storage plutonium recipe -->
+<recipe>
+  <name>EXT2_pu_stored</name>
+  <basis>mass</basis>
+  <nuclide> <id>PU239</id> <comp>1</comp> </nuclide>
+</recipe>
+<!-- *********************** -->
+
+
+
+
+
+
+
+
+
+
+
+  <!-- ****** PWR MOX recipe ***** -->
   <!-- *** new **** -->
   <recipe>
     <name>PWR_MOX_new</name>
@@ -37,6 +66,24 @@
     <nuclide><id>Cs137</id> <comp>0.0507</comp> </nuclide>
   </recipe>
   <!-- *********************** -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   <!-- ****** MOX recipe ***** -->
   <!-- *** new **** -->

@@ -2,9 +2,9 @@
 
   <schematype>flat</schematype>
   <control>
-    <duration>2400</duration>
+    <duration>1200</duration>
     <startmonth>1</startmonth>
-    <startyear>2000</startyear>
+    <startyear>2015</startyear>
     <decay>never</decay>
   </control>
 
@@ -21,8 +21,96 @@
 
 
   <xi:include href="recipe.xml" xpointer="xpointer(//My_include/*)"/>
-  <xi:include href="FBR-cycle.xml" xpointer="xpointer(//My_include/*)"/>
+  <!--      <xi:include href="FBR-cycle.xml" xpointer="xpointer(//My_include/*)"/> -->
   <xi:include href="LWR-cycle.xml" xpointer="xpointer(//My_include/*)"/>
+
+
+  <prototype>
+    <name>pu_limited_source</name>
+    <config>
+      <Source>
+        <outcommod>EXT2_pu_stored</outcommod>
+        <outrecipe>EXT2_pu_stored</outrecipe>
+
+        <inventory_size>2000000</inventory_size>
+        <throughput>1e100</throughput>
+      </Source>
+    </config>
+  </prototype>
+
+  <prototype>
+    <name>u_limited_source</name>
+    <config>
+      <Source>
+        <outcommod>EXT2_ru_stored</outcommod>
+        <outrecipe>EXT2_ru_stored</outrecipe>
+
+        <inventory_size>2000000</inventory_size>
+        <throughput>1e100</throughput>
+      </Source>
+    </config>
+  </prototype>
+
+
+
+  <prototype>
+    <name>deployer_PWR_CHAIN</name>
+    <config>
+      <DeployInst>
+        <prototypes>
+          <val>pu_limited_source</val>
+          <val>u_limited_source</val>
+          <val>PWR_fabrication</val>
+          <val>PWR_cooling</val>
+          <val>PWR_storage</val>
+          <val>PWR_separation</val>
+          <val>PWR_storage_pu</val>
+          <val>PWR_storage_fp</val>
+          <val>PWR_storage_ma</val>
+          <val>PWR_storage_fp</val>
+          <val>PWR_storage_ru</val>
+          <val>PWR</val>
+          <val>PWR</val>
+        </prototypes>
+
+        <build_times>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>961</val>
+        </build_times>
+
+        <n_build>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+        </n_build>
+      </DeployInst>
+    </config>
+  </prototype>
+
+
+  <agent> <name>deployer</name> <prototype>deployer_PWR_CHAIN</prototype> </agent>
+  
   
   
 </simulation>

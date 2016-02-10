@@ -28,7 +28,7 @@
 <!--      PWR fabrication      -->
   <prototype>
     <name>PWR_fabrication</name>
-    <lifetime>960</lifetime>
+<!--    <lifetime>960</lifetime> -->
     <config>
       <FuelFab>
 
@@ -38,18 +38,19 @@
           <val>FBR_blanket_ru_stored</val>
         </fill_commods>
 
-        <fill_recipe>PWR_du_stored</fill_recipe>
+        <fill_recipe>du</fill_recipe>
         <fill_size>69492</fill_size>
 
         <fiss_commods>
           <val>PWR_pu_stored</val>
+          <val>EXT2_pu_stored</val>
           <val>FBR_blanket_pu_stored</val>
-          <val>EXT2_blanket_pu_stored</val>
         </fiss_commods>
 
         <fiss_commod_prefs>
           <val>1.0</val>
           <val>2.0</val>
+          <val>3.0</val>
         </fiss_commod_prefs>
 
         <fiss_size>5748</fiss_size>
@@ -64,6 +65,7 @@
   <!-- *********************** -->
 
   <!--       PWR reactor       -->
+  <prototype>
   <name>PWR</name>
   <lifetime>960</lifetime>
   <config>
@@ -74,10 +76,10 @@
       <fuel_outrecipes> <val>PWR_MOX_spent</val></fuel_outrecipes>
       <fuel_outcommods> <val>PWR_MOX_spent</val></fuel_outcommods>
 
-      <cycle_time>9</cycle_time>
+      <cycle_time>18</cycle_time>
       <refuel_time>0</refuel_time>
-      <assem_size>14784</assem_size>
-      <n_assem_core>6</n_assem_core>
+      <assem_size>19710</assem_size>
+      <n_assem_core>3</n_assem_core>
       <n_assem_batch>1</n_assem_batch>
       <power_cap>900</power_cap>
 
