@@ -146,7 +146,7 @@
             <info>
               <buf_size>1e100</buf_size>
               <efficiencies>
-                <item> <comp>H </comp> <eff>.988</eff> </item>
+                <item> <comp>H1</comp> <eff>.988</eff> </item>
                 <item> <comp>HE</comp> <eff>.988</eff> </item>
                 <item> <comp>BA</comp> <eff>.988</eff> </item>
                 <item> <comp>BR</comp> <eff>.988</eff> </item>
@@ -159,7 +159,7 @@
                 <item> <comp>GD</comp> <eff>.988</eff> </item>
                 <item> <comp>GE</comp> <eff>.988</eff> </item>
                 <item> <comp>HO</comp> <eff>.988</eff> </item>
-                <item> <comp>I </comp> <eff>.988</eff> </item>
+                <item> <comp>I</comp> <eff>.988</eff> </item>
                 <item> <comp>LA</comp> <eff>.988</eff> </item>
                 <item> <comp>ND</comp> <eff>.988</eff> </item>
                 <item> <comp>PD</comp> <eff>.988</eff> </item>
@@ -174,7 +174,7 @@
                 <item> <comp>TB</comp> <eff>.988</eff> </item>
                 <item> <comp>TE</comp> <eff>.988</eff> </item>
                 <item> <comp>XE</comp> <eff>.988</eff> </item>
-                <item> <comp>Y </comp> <eff>.988</eff> </item>
+                <item> <comp>Y</comp> <eff>.988</eff> </item>
                 <item> <comp>ZR</comp> <eff>.988</eff> </item>
               </efficiencies>
             </info>
@@ -204,11 +204,11 @@
 
   <!--      PWR pu storage     -->
   <prototype>
-    <name>PWR_storage_pu</name>
+    <name>PWR_storage_Upu</name>
     <config>
       <Storage>
-        <in_commods> <val>PWR_pu</val></in_commods>
-        <out_commods><val>Upu_stored</val></out_commods>
+        <in_commods> <val>PWR_Upu</val></in_commods>
+        <out_commods> <val>PWR_Upu_stored</val></out_commods>
         <residence_time>0</residence_time>
       </Storage>
     </config>
