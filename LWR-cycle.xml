@@ -32,32 +32,27 @@
     <config>
       <FuelFab>
 
+        <fiss_commods>
+          <val>FBR_blanket_Upu_stored</val>
+        </fiss_commods>
+
+        <fiss_recipe>FBR_blanket_Upu</fiss_recipe>
+        <fiss_size>10800</fiss_size>
+
         <fill_commods>
-          <val>ru_stored</val>
-          <val>EXT2_ru_stored</val>
+          <val>PWR_Upu_stored</val>
+          <val>PWR_Upu_initial_stored</val>
         </fill_commods>
 
+        <fill_recipe>PWR_Upu</fill_recipe>
         <fill_commod_prefs>
           <val>2.0</val>
           <val>1.0</val>
         </fill_commod_prefs>
 
-        <fill_recipe>du</fill_recipe>
-        <fill_size>100000</fill_size>
+        <fill_size>18800</fill_size>
 
-        <fiss_commods>
-          <val>pu_stored</val>
-          <val>EXT2_pu_stored</val>
-        </fiss_commods>
-
-        <fiss_commod_prefs>
-          <val>3.0</val>
-          <val>1.0</val>
-        </fiss_commod_prefs>
-
-        <fiss_size>100000</fiss_size>
-
-        <throughput>75240</throughput>
+        <throughput>29565</throughput>
         <spectrum>thermal</spectrum>
         <outcommod>PWR_MOX_new</outcommod>
 
@@ -135,60 +130,52 @@
 
         <streams>
           <item>
-            <commod>PWR_pu</commod>
+            <commod>PWR_Upu</commod>
             <info>
               <buf_size>1e100</buf_size>
               <efficiencies>
-                <item> <comp>Pu</comp> <eff>.99</eff> </item>
+                <item> <comp>Pu</comp> <eff>.988</eff> </item>
+                <item> <comp>U</comp> <eff>.988</eff> </item>
               </efficiencies>
             </info>
           </item>
 
-          <item>
-            <commod>PWR_ru</commod>
-            <info>
-              <buf_size>1e100</buf_size>
-              <efficiencies>
-                <item> <comp>U</comp> <eff>.99</eff> </item>
-              </efficiencies>
-            </info>
-          </item>
 
           <item>
             <commod>PWR_fp</commod>
             <info>
               <buf_size>1e100</buf_size>
               <efficiencies>
-                <item> <comp>H</comp> <eff>.99</eff> </item>
-                <item> <comp>HE</comp> <eff>.99</eff> </item>
-                <item> <comp>BA</comp> <eff>.99</eff> </item>
-                <item> <comp>BR</comp> <eff>.99</eff> </item>
-                <item> <comp>CD</comp> <eff>.99</eff> </item>
-                <item> <comp>CE</comp> <eff>.99</eff> </item>
-                <item> <comp>CS</comp> <eff>.99</eff> </item>
-                <item> <comp>DY</comp> <eff>.99</eff> </item>
-                <item> <comp>ER</comp> <eff>.99</eff> </item>
-                <item> <comp>EU</comp> <eff>.99</eff> </item>
-                <item> <comp>GD</comp> <eff>.99</eff> </item>
-                <item> <comp>GE</comp> <eff>.99</eff> </item>
-                <item> <comp>HO</comp> <eff>.99</eff> </item>
-                <item> <comp>I</comp> <eff>.99</eff> </item>
-                <item> <comp>LA</comp> <eff>.99</eff> </item>
-                <item> <comp>ND</comp> <eff>.99</eff> </item>
-                <item> <comp>PD</comp> <eff>.99</eff> </item>
-                <item> <comp>PM</comp> <eff>.99</eff> </item>
-                <item> <comp>PR</comp> <eff>.99</eff> </item>
-                <item> <comp>RB</comp> <eff>.99</eff> </item>
-                <item> <comp>RU</comp> <eff>.99</eff> </item>
-                <item> <comp>SB</comp> <eff>.99</eff> </item>
-                <item> <comp>SM</comp> <eff>.99</eff> </item>
-                <item> <comp>SN</comp> <eff>.99</eff> </item>
-                <item> <comp>SR</comp> <eff>.99</eff> </item>
-                <item> <comp>TB</comp> <eff>.99</eff> </item>
-                <item> <comp>TE</comp> <eff>.99</eff> </item>
-                <item> <comp>XE</comp> <eff>.99</eff> </item>
-                <item> <comp>Y</comp> <eff>.99</eff> </item>
-                <item> <comp>ZR</comp> <eff>.99</eff> </item>
+                <item> <comp>H </comp> <eff>.988</eff> </item>
+                <item> <comp>HE</comp> <eff>.988</eff> </item>
+                <item> <comp>BA</comp> <eff>.988</eff> </item>
+                <item> <comp>BR</comp> <eff>.988</eff> </item>
+                <item> <comp>CD</comp> <eff>.988</eff> </item>
+                <item> <comp>CE</comp> <eff>.988</eff> </item>
+                <item> <comp>CS</comp> <eff>.988</eff> </item>
+                <item> <comp>DY</comp> <eff>.988</eff> </item>
+                <item> <comp>ER</comp> <eff>.988</eff> </item>
+                <item> <comp>EU</comp> <eff>.988</eff> </item>
+                <item> <comp>GD</comp> <eff>.988</eff> </item>
+                <item> <comp>GE</comp> <eff>.988</eff> </item>
+                <item> <comp>HO</comp> <eff>.988</eff> </item>
+                <item> <comp>I </comp> <eff>.988</eff> </item>
+                <item> <comp>LA</comp> <eff>.988</eff> </item>
+                <item> <comp>ND</comp> <eff>.988</eff> </item>
+                <item> <comp>PD</comp> <eff>.988</eff> </item>
+                <item> <comp>PM</comp> <eff>.988</eff> </item>
+                <item> <comp>PR</comp> <eff>.988</eff> </item>
+                <item> <comp>RB</comp> <eff>.988</eff> </item>
+                <item> <comp>RU</comp> <eff>.988</eff> </item>
+                <item> <comp>SB</comp> <eff>.988</eff> </item>
+                <item> <comp>SM</comp> <eff>.988</eff> </item>
+                <item> <comp>SN</comp> <eff>.988</eff> </item>
+                <item> <comp>SR</comp> <eff>.988</eff> </item>
+                <item> <comp>TB</comp> <eff>.988</eff> </item>
+                <item> <comp>TE</comp> <eff>.988</eff> </item>
+                <item> <comp>XE</comp> <eff>.988</eff> </item>
+                <item> <comp>Y </comp> <eff>.988</eff> </item>
+                <item> <comp>ZR</comp> <eff>.988</eff> </item>
               </efficiencies>
             </info>
           </item>
@@ -198,10 +185,10 @@
             <info>
               <buf_size>1e100</buf_size>
               <efficiencies>
-                <item> <comp>Np</comp> <eff>.99</eff> </item>
-                <item> <comp>Am</comp> <eff>.99</eff> </item>
-                <item> <comp>Cm</comp> <eff>.99</eff> </item>
-                <item> <comp>Th</comp> <eff>.99</eff> </item>
+                <item> <comp>Np</comp> <eff>.988</eff> </item>
+                <item> <comp>Am</comp> <eff>.988</eff> </item>
+                <item> <comp>Cm</comp> <eff>.988</eff> </item>
+                <item> <comp>Th</comp> <eff>.988</eff> </item>
               </efficiencies>
             </info>
           </item>
@@ -221,7 +208,7 @@
     <config>
       <Storage>
         <in_commods> <val>PWR_pu</val></in_commods>
-        <out_commods> <val>pu_stored</val></out_commods>
+        <out_commods><val>Upu_stored</val></out_commods>
         <residence_time>0</residence_time>
       </Storage>
     </config>
@@ -240,7 +227,7 @@
     </config>
   </prototype>
   <!-- *********************** -->
-  
+
   <!--      PWR ma storage     -->
   <prototype>
     <name>PWR_storage_ma</name>
@@ -253,18 +240,6 @@
     </config>
   </prototype>
   <!-- *********************** -->
-  
-  <!--      PWR ru storage     -->
-  <prototype>
-    <name>PWR_storage_ru</name>
-    <config>
-      <Storage>
-        <in_commods> <val>PWR_ru</val></in_commods>
-        <out_commods> <val>ru_stored</val></out_commods>
-        <residence_time>0</residence_time>
-      </Storage>
-    </config>
-  </prototype>
   
   
   <!-- *********************** -->
