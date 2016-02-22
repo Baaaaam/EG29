@@ -33,26 +33,24 @@
       <FuelFab>
 
         <fiss_commods>
-          <val>FBR_blanket_Upu_stored</val>
+          <val>FBR_blanket_UPu_stored</val>
         </fiss_commods>
 
-        <fiss_recipe>FBR_blanket_Upu</fiss_recipe>
+        <fiss_recipe>FBR_blanket_UPu</fiss_recipe>
         <fiss_size>10800</fiss_size>
 
         <fill_commods>
-          <val>PWR_Upu_stored</val>
-          <val>PWR_Upu_initial_stored</val>
+          <val>PWR_UPu_stored</val>
         </fill_commods>
 
-        <fill_recipe>PWR_Upu</fill_recipe>
+        <fill_recipe>PWR_UPu</fill_recipe>
        <fill_commod_prefs>
-          <val>2.0</val>
           <val>1.0</val>
         </fill_commod_prefs>
 
         <fill_size>18800</fill_size>
 
-        <throughput>29565</throughput>
+        <throughput>30000</throughput>
         <spectrum>thermal</spectrum>
         <outcommod>PWR_MOX_new</outcommod>
 
@@ -130,7 +128,7 @@
 
       <streams>
         <item>
-          <commod>PWR_Upu</commod>
+          <commod>PWR_UPu</commod>
           <info>
             <buf_size>1e100</buf_size>
             <efficiencies>
@@ -171,11 +169,24 @@
 
 <!--      PWR U/pu storage     -->
 <prototype>
-  <name>PWR_storage_Upu</name>
+  <name>FBR_Fake_stream_storage_UPu</name>
   <config>
     <Storage>
-      <in_commods> <val>PWR_Upu</val></in_commods>
-      <out_commods> <val>PWR_Upu_stored</val></out_commods>
+      <in_commods> <val>FBR_blanket_UPu</val></in_commods>
+      <out_commods> <val>FBR_blanket_UPu_stored</val></out_commods>
+      <residence_time>0</residence_time>
+    </Storage>
+  </config>
+</prototype>
+
+
+<!--      PWR U/pu storage     -->
+<prototype>
+  <name>PWR_storage_UPu</name>
+  <config>
+    <Storage>
+      <in_commods> <val>PWR_UPu</val></in_commods>
+      <out_commods> <val>PWR_UPu_stored</val></out_commods>
       <residence_time>0</residence_time>
     </Storage>
   </config>
