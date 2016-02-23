@@ -65,18 +65,6 @@
 
 
 <prototype>
-  <name>PWR_Upu_limited_storage</name>
-  <config>
-    <Storage>
-      <in_commods> <val>PWR_Upu_initial</val></in_commods>
-      <out_commods> <val>PWR_Upu_initial_stored</val></out_commods>
-      <residence_time>0</residence_time>
-    </Storage>
-  </config>
-</prototype>
-
-
-<prototype>
   <name>waste</name>
   <config>
     <Sink>
@@ -95,7 +83,6 @@
           <val>blanket_Upu_limited_source</val>
           <val>PWR_Upu_limited_source</val>
           <val>blanket_Upu_limited_storage</val>
-          <val>PWR_Upu_limited_storage</val>
           <val>PWR_fabrication</val>
           <val>PWR_cooling</val>
           <val>PWR_storage</val>
@@ -120,12 +107,10 @@
           <val>1</val>
           <val>1</val>
           <val>1</val>
-          <val>1</val>
           <val>957</val>
         </build_times>
 
         <n_build>
-          <val>1</val>
           <val>1</val>
           <val>1</val>
           <val>1</val>

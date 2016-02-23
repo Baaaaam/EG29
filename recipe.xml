@@ -42,8 +42,8 @@
 <recipe>
   <name>FBR_blanket_Upu</name>
   <basis>mass</basis>
-  <nuclide> <id>U238</id> <comp>0.8812</comp> </nuclide>
-  <nuclide> <id>PU239</id> <comp>0.1188</comp> </nuclide>
+  <nuclide> <id>U238</id>  <comp>0.81371</comp> </nuclide>
+  <nuclide> <id>PU239</id> <comp>0.18629</comp> </nuclide>
 </recipe>
 <!-- *********************** -->
 
