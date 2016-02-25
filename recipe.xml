@@ -41,17 +41,17 @@
   <recipe>
     <name>FBR_blanket_Upu</name>
     <basis>mass</basis>
-    <nuclide> <id>U234</id> <comp>0.00003</comp> </nuclide>
-    <nuclide> <id>U235</id> <comp>0.00220</comp> </nuclide>
-    <nuclide> <id>U236</id> <comp>0.00090</comp> </nuclide>
+    <nuclide> <id>U234</id> <comp>0.00002</comp> </nuclide>
+    <nuclide> <id>U235</id> <comp>0.00203</comp> </nuclide>
+    <nuclide> <id>U236</id> <comp>0.00083</comp> </nuclide>
     <nuclide> <id>U237</id> <comp>0.00000</comp> </nuclide>
-    <nuclide> <id>U238</id> <comp>0.87807</comp> </nuclide>
+    <nuclide> <id>U238</id> <comp>0.81082</comp> </nuclide>
 
     <nuclide> <id>PU238</id> <comp>0.000087</comp> </nuclide>
-    <nuclide> <id>PU239</id> <comp>0.114638</comp> </nuclide>
-    <nuclide> <id>PU240</id> <comp>0.003932</comp> </nuclide>
-    <nuclide> <id>PU241</id> <comp>0.000138</comp> </nuclide>
-    <nuclide> <id>PU242</id> <comp>0.000005</comp> </nuclide>
+    <nuclide> <id>PU239</id> <comp>0.179764</comp> </nuclide>
+    <nuclide> <id>PU240</id> <comp>0.006166</comp> </nuclide>
+    <nuclide> <id>PU241</id> <comp>0.000216</comp> </nuclide>
+    <nuclide> <id>PU242</id> <comp>0.000007</comp> </nuclide>
   </recipe>
   <!-- *********************** -->
 
@@ -62,7 +62,7 @@
   <recipe>
     <name>PWR_Upu</name>
     <basis>mass</basis>
-    <nuclide> <id>U238</id> <comp>0.93632 </comp> </nuclide>
+    <nuclide> <id>U238</id>  <comp>0.93632 </comp> </nuclide>
     <nuclide> <id>PU238</id> <comp>0.001216</comp> </nuclide>
     <nuclide> <id>PU239</id> <comp>0.027058</comp> </nuclide>
     <nuclide> <id>PU240</id> <comp>0.018193</comp> </nuclide>
