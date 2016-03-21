@@ -37,7 +37,7 @@
         </fiss_commods>
 
         <fiss_recipe>FBR_blanket_Upu</fiss_recipe>
-        <fiss_size>5000</fiss_size>
+        <fiss_size>8000</fiss_size>
 
         <fill_commods>
           <val>PWR_Upu_stored</val>
@@ -48,7 +48,7 @@
           <val>1.0</val>
         </fill_commod_prefs>
 
-        <fill_size>26000</fill_size>
+        <fill_size>27000</fill_size>
 
         <throughput>29565</throughput>
         <spectrum>thermal</spectrum>
