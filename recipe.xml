@@ -262,7 +262,7 @@
     <nuclide><id>SM147</id><comp>0.0000858</comp></nuclide>
     <nuclide><id>ND148</id><comp>0.0005543</comp></nuclide>
     <nuclide><id>PM148</id><comp>0.0000015</comp></nuclide>
-    <nuclide><id>PM148M</id><comp>0.0000014</comp></nuclide>
+<!--    <nuclide><id>PM148M</id><comp>0.0000014</comp></nuclide> -->
     <nuclide><id>SM148</id><comp>0.0002823</comp></nuclide>
     <nuclide><id>PM149</id><comp>0.0000014</comp></nuclide>
     <nuclide><id>SM149</id><comp>0.0000027</comp></nuclide>
