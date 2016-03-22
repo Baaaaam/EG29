@@ -47,7 +47,6 @@
        <fill_commod_prefs>
           <val>1.0</val>
         </fill_commod_prefs>
-
         <fill_size>27000</fill_size>
 
         <throughput>29565</throughput>
@@ -153,8 +152,8 @@
   <config>
     <Storage>
       <in_commods>
-        <val>PWR_Upu</val>
         <val>PWR_Upu_initial</val>
+        <val>PWR_Upu</val>
       </in_commods>
       <out_commods> <val>PWR_Upu_stored</val></out_commods>
       <residence_time>0</residence_time>
