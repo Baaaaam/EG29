@@ -38,7 +38,6 @@
   <!--      FBR fabrication      -->
   <prototype>
     <name>FBR_driver_upu_repro_mix_fabrication</name>
-    <lifetime>960</lifetime>
     <config>
       <FuelFab>
         
@@ -47,7 +46,7 @@
         </fill_commods>
         
         <fill_recipe>FBR_blanket_upu_E2</fill_recipe>
-        <fill_size>69492</fill_size>
+        <fill_size>100000</fill_size>
         
         <fiss_commods>
           <val>FBR_driver_pu_E1_stored</val>
@@ -57,11 +56,11 @@
           <val>1.0</val>
         </fiss_commod_prefs>
         
-        <fiss_size>5748</fiss_size>
+        <fiss_size>100000</fiss_size>
         
-        <throughput>75240</throughput>
+        <throughput>1000000</throughput>
         <spectrum>fission_spectrum_ave</spectrum>
-        <outcommod>FBR_upu_repro_mix</outcommod>
+        <outcommod>FBR_driver_MOX_new</outcommod>
         
       </FuelFab>
     </config>
@@ -69,7 +68,6 @@
   
   <prototype>
     <name>FBR_fabrication</name>
-    <lifetime>960</lifetime>
     <config>
       <FuelFab>
         
@@ -78,21 +76,21 @@
         </fill_commods>
         
         <fill_recipe>natl_u</fill_recipe>
-        <fill_size>69492</fill_size>
+        <fill_size>100000</fill_size>
         
         <fiss_commods>
-          <val>FBR_upu_repro_mix</val>
+          <val>upu_repro_mix</val>
         </fiss_commods>
         
         <fiss_commod_prefs>
           <val>1.0</val>
         </fiss_commod_prefs>
         
-        <fiss_size>5748</fiss_size>
+        <fiss_size>100000</fiss_size>
         
-        <throughput>75240</throughput>
+        <throughput>1000000</throughput>
         <spectrum>fission_spectrum_ave</spectrum>
-        <outcommod>FBR_MOX_new</outcommod>
+        <outcommod>test</outcommod>
         
       </FuelFab>
     </config>
@@ -101,30 +99,29 @@
   
   <prototype>
     <name>FBR_blanket_fabrication</name>
-    <lifetime>960</lifetime>
     <config>
       <FuelFab>
         
         <fill_commods>
-          <val>natl_u</val>
+          <val>FBR_blanket_u_RU_stored</val>
         </fill_commods>
         
-        <fill_recipe>natl_u</fill_recipe>
-        <fill_size>69492</fill_size>
+        <fill_recipe>FBR_blanket_u_RU</fill_recipe>
+        <fill_size>100000</fill_size>
         
         <fiss_commods>
-          <val>FBR_blanket_u_RU_stored</val>
+          <val>natl_u</val>
         </fiss_commods>
         
         <fiss_commod_prefs>
           <val>1.0</val>
         </fiss_commod_prefs>
         
-        <fiss_size>5748</fiss_size>
+        <fiss_size>100000</fiss_size>
         
-        <throughput>75240</throughput>
+        <throughput>1000000</throughput>
         <spectrum>fission_spectrum_ave</spectrum>
-        <outcommod>FBR_MOX_new</outcommod>
+        <outcommod>FBR_blanket_new</outcommod>
         
       </FuelFab>
     </config>
@@ -309,7 +306,7 @@
             <info>
               <buf_size>1e100</buf_size>
               <efficiencies>
-                <item> <comp>Pu</comp> <eff>.988</eff> </item>
+                <item> <comp>Pu</comp> <eff>0.388898</eff> </item>
                 <item> <comp>U</comp> <eff>.988</eff> </item>
               </efficiencies>
             </info>
@@ -319,7 +316,7 @@
             <info>
               <buf_size>1e100</buf_size>
               <efficiencies>
-                <item> <comp>Pu</comp> <eff>.988</eff> </item>
+                <item> <comp>Pu</comp> <eff>0.590746</eff> </item>
                 <item> <comp>U</comp> <eff>.988</eff> </item>
               </efficiencies>
             </info>
@@ -375,7 +372,10 @@
     <name>FBR_blanket_storage_RU</name>
     <config>
       <Storage>
-        <in_commods> <val>FBR_blanket_u_RU</val></in_commods>
+        <in_commods>
+          <val>FBR_blanket_u_RU_initial</val>
+          <val>FBR_blanket_u_RU</val>
+        </in_commods>
         <out_commods> <val>FBR_blanket_u_RU_stored</val></out_commods>
         <residence_time>0</residence_time>
       </Storage>

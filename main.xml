@@ -20,11 +20,11 @@
   </archetypes>
   
   
-  <!--        <xi:include href="recipe.xml" xpointer="xpointer(//My_include/*)"/> -->
-  <xi:include href="FBR-cycle.xml" xpointer="xpointer(//My_include/*)"/>
-  <xi:include href="LWR-cycle.xml" xpointer="xpointer(//My_include/*)"/>
-
-<prototype>
+  <xi:include href="recipe.xml" xpointer="xpointer(//My_include/*)"/>
+  <xi:include href="SFR-cycle.xml" xpointer="xpointer(//My_include/*)"/>
+  <!--        <xi:include href="LWR-cycle.xml" xpointer="xpointer(//My_include/*)"/> -->
+  
+  <prototype>
     <name>natl_u_source</name>
     <config>
       <Source>
@@ -36,8 +36,8 @@
       </Source>
     </config>
   </prototype>
-
-
+  
+  
   <prototype>
     <name>blanket_Upu_limited_E2_source</name>
     <config>
@@ -64,6 +64,18 @@
     </config>
   </prototype>
   
+  <prototype>
+    <name>FBR_blanket_u_limited_RU_source</name>
+    <config>
+      <Source>
+        <outcommod>FBR_blanket_u_RU_initial</outcommod>
+        <outrecipe>FBR_blanket_u_RU</outrecipe>
+        
+        <inventory_size>1000000</inventory_size>
+        <throughput>1e100</throughput>
+      </Source>
+    </config>
+  </prototype>
   
   <prototype>
     <name>waste</name>
@@ -76,7 +88,7 @@
   </prototype>
   
   <prototype>
-    <name>deployer_PWR_CHAIN</name>
+    <name>deployer_FBR_CHAIN</name>
     <config>
       <DeployInst>
         <prototypes>
@@ -85,17 +97,23 @@
           <val>natl_u_source</val>
           <val>blanket_Upu_limited_E2_source</val>
           <val>FBR_Upu_limited_E1_source</val>
+          <val>FBR_blanket_u_limited_RU_source</val>
           
           
           <val>FBR_driver_upu_repro_mix_fabrication</val>
-          <val>FBR_fabrication</val>
+          
           
           <val>FBR_blanket_fabrication</val>
-          
-          
           <val>FBR_driver_MOX_cooling</val>
           <val>FBR_driver_MOX_storage</val>
           <val>FBR_driver_separation</val>
+          <val>FBR_fabrication</val>
+          
+          <!--
+           
+           
+           
+           -->
           <val>FBR_driver_storage_upu_E1</val>
           
           <val>FBR_blanket_cooling</val>
@@ -104,10 +122,10 @@
           <val>FBR_blanket_storage_E2</val>
           <val>FBR_blanket_storage_E3</val>
           <val>FBR_blanket_storage_RU</val>
+          <!--
+           
+           -->
           
-          
-          <val>FBR_driver</val>
-          <val>FBR_blanket</val>
           <val>FBR_driver</val>
           <val>FBR_blanket</val>
         </prototypes>
@@ -125,10 +143,25 @@
           <val>1</val>
           <val>1</val>
           <val>1</val>
-          <val>957</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          
+          <val>1</val>
+          <val>1</val>
         </build_times>
         
         <n_build>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
           <val>1</val>
           <val>1</val>
           <val>1</val>
@@ -148,7 +181,7 @@
   </prototype>
   
   
-  <agent> <name>deployer</name> <prototype>deployer_PWR_CHAIN</prototype> </agent>
+  <agent> <name>deployer</name> <prototype>deployer_FBR_CHAIN</prototype> </agent>
   
   
   
