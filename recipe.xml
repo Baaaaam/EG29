@@ -19,35 +19,22 @@
   <!-- *********************** -->
 
 
-<!-- EXT2 Uranium recipe -->
+<!-- upu E2 recipe -->
 <recipe>
-  <name>EXT2_ru_stored</name>
+  <name>FBR_blanket_upu_E2</name>
   <basis>mass</basis>
   <nuclide> <id>U238</id> <comp>1</comp> </nuclide>
 </recipe>
 <!-- *********************** -->
 
 
-<!-- EXT2 plutonium recipe -->
+<!-- upu E1 recipe -->
 <recipe>
-  <name>EXT2_pu_stored</name>
+  <name>FBR_driver_upu_E1</name>
   <basis>mass</basis>
   <nuclide> <id>PU239</id> <comp>1</comp> </nuclide>
 </recipe>
 <!-- *********************** -->
-
-
-
-<!-- Blanket U/plutonium recipe -->
-<recipe>
-  <name>FBR_blanket_Upu</name>
-  <basis>mass</basis>
-  <nuclide> <id>U238</id>  <comp>0.81371</comp> </nuclide>
-  <nuclide> <id>PU239</id> <comp>0.18629</comp> </nuclide>
-</recipe>
-<!-- *********************** -->
-
-
 
 <!-- recycled PWR plutonium recipe -->
 <recipe>
@@ -59,16 +46,10 @@
 <!-- *********************** -->
 
 
-
-
-
-
-
-
-  <!-- ****** PWR MOX recipe ***** -->
+  <!-- ****** FBR MOX recipe ***** -->
   <!-- *** new **** -->
   <recipe>
-    <name>PWR_MOX_new</name>
+    <name>FBR_driver_MOX_new</name>
     <basis>mass</basis>
     <nuclide><id>U238</id> <comp>0.9162</comp></nuclide>
     <nuclide><id>PU239</id><comp>0.0838</comp></nuclide>
@@ -76,7 +57,7 @@
 
   <!-- *** spent *** -->
   <recipe>
-    <name>PWR_MOX_spent</name>
+    <name>FBR_driver_MOX_spent</name>
     <basis>mass</basis>
     <nuclide><id>U238</id>  <comp>0.8851</comp></nuclide>
     <nuclide><id>Pu239</id> <comp>0.0602</comp></nuclide>
@@ -85,10 +66,10 @@
   </recipe>
   <!-- *********************** -->
 
-  <!-- *** FBR MOX recipe **** -->
+  <!-- *** FBR blanket recipe **** -->
   <!-- *** new **** -->
   <recipe>
-    <name>FBR_MOX_new</name>
+    <name>FBR_blanket_new</name>
     <basis>mass</basis>
     <nuclide><id>U238</id>  <comp>0.91466</comp></nuclide>
     <nuclide><id>Pu239</id> <comp>0.08534</comp></nuclide>
@@ -96,36 +77,19 @@
 
   <!-- *** spent *** -->
   <recipe>
-    <name>FBR_MOX_spent</name>
+    <name>FBR_blanket_spent</name>
     <basis>mass</basis>
     <nuclide><id>U238</id> <comp>0.91466</comp></nuclide>
     <nuclide><id>Pu239</id> <comp>0.08534</comp></nuclide>
   </recipe>
   <!-- *********************** -->
 
-
-  <!-- * FBR blanket recipe ** -->
-  <!-- *** new **** -->
-  <recipe>
-    <name>FBR_blanket_new</name>
-    <basis>mass</basis>
-    <nuclide><id>U238</id> <comp>0.86025</comp></nuclide>
-    <nuclide><id>Pu239</id> <comp>0.09596</comp></nuclide>
-    <nuclide><id>Am241</id> <comp>0.00107</comp></nuclide>
-
-    <nuclide> <id>Cs137</id> <comp>0.04272</comp> </nuclide>
-  </recipe>
-
-  <!-- *** spent *** -->
-  <recipe>
-    <name>FBR_blanket_spent</name>
-    <basis>mass</basis>
-    <nuclide><id>U238</id> <comp>0.86025</comp></nuclide>
-    <nuclide><id>Pu239</id> <comp>0.09596</comp></nuclide>
-    <nuclide><id>Am241</id> <comp>0.00107</comp></nuclide>
-    
-    <nuclide> <id>Cs137</id> <comp>0.04272</comp> </nuclide>
-  </recipe>
-  <!-- *********************** -->
+  
+  
+  
+  
+  
+  
+  
   
 </My_include>
