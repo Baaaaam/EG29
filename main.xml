@@ -16,6 +16,7 @@
     <spec> <lib>cycamore</lib> <name>Reactor</name> </spec>
     <spec> <lib>cycamore</lib> <name>Storage</name> </spec>
     <spec> <lib>cycamore</lib> <name>FuelFab</name> </spec>
+    <spec> <lib>cycamore</lib> <name>MixingFab</name> </spec>
     <spec> <lib>cycamore</lib> <name>Separations</name> </spec>
   </archetypes>
 
