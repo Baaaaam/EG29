@@ -30,31 +30,29 @@
     <name>PWR_fabrication</name>
 <!--    <lifetime>960</lifetime> -->
     <config>
-      <FuelFab>
+      <MixingFab>
 
-        <fiss_commods>
+        <in_commods>
           <val>FBR_blanket_Upu_stored</val>
-        </fiss_commods>
-
-        <fiss_recipe>FBR_blanket_Upu</fiss_recipe>
-        <fiss_size>5000</fiss_size>
-
-        <fill_commods>
           <val>PWR_Upu_stored</val>
-        </fill_commods>
+        </in_commods>
+        
+        <commods_frac>
+          <val>0.3648</val>
+          <val>0.6352</val>
+        </commods_frac>
 
-        <fill_recipe>PWR_Upu</fill_recipe>
-       <fill_commod_prefs>
-          <val>1.0</val>
-        </fill_commod_prefs>
 
-        <fill_size>25000</fill_size>
+        <commods_size>
+          <val>5000</val>
+          <val>25000</val>
+        </commods_size>
 
         <throughput>29565</throughput>
-        <spectrum>thermal</spectrum>
         <outcommod>PWR_MOX_new</outcommod>
+        <outputbuf_size>29565</outputbuf_size>
 
-      </FuelFab>
+      </MixingFab>
     </config>
   </prototype>
   <!-- *********************** -->
