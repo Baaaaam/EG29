@@ -92,13 +92,13 @@
   <config>
     <cyclassReactor>
       <eq_model>PWR_MLP_MOX</eq_model>
-      <eq_command>/Users/mouginot/scratch/App/CLASS/Database/PWR/MOX/EQModel/MLP/EQM_MLP_PWR_MOX_3batch.xml</eq_command>
+      <eq_command>/Users/mouginot/work/App/CLASS/Database/PWR/MOX/EQModel/MLP/EQM_MLP_PWR_MOX_3batch.xml</eq_command>
       
       <ir_model>RK4</ir_model>
       <ir_command>none</ir_command>
       
       <xs_model>XSM_MLP</xs_model>
-      <xs_command>/Users/mouginot/scratch/App/CLASS/Database/PWR/MOX/XSModel/30Wg_FullMOX/,Data_Base_Info.nfo,false</xs_command>
+      <xs_command>/Users/mouginot/work/App/CLASS/Database/PWR/MOX/XSModel/30Wg_FullMOX/,Data_Base_Info.nfo,false</xs_command>
       
       
       
@@ -110,7 +110,6 @@
       <power_cap>900</power_cap>
       <power>2700</power>
       <refuel_time>0</refuel_time>
-      <assem_size>82</assem_size>
       <assem_size>29565</assem_size>
       <n_assem_core>3</n_assem_core>
       <n_assem_batch>1</n_assem_batch>
