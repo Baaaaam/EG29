@@ -35,13 +35,13 @@
         <eq_command>/Users/mouginot/work/App/CLASS/Database/PWR/MOX/EQModel/MLP/EQM_MLP_PWR_MOX_3batch.xml</eq_command>
         
         <fiss_commods><val>FBR_blanket_Upu_stored</val></fiss_commods>
-        <fiss_size>50000</fiss_size>
+        <fiss_size>100000</fiss_size>
         
         
         <fill_commods><val>PWR_Upu_stored</val></fill_commods>
         <fill_recipe>PWR_Upu</fill_recipe>
         <fill_commod_prefs><val>1.0</val></fill_commod_prefs>
-        <fill_size>250000</fill_size>
+        <fill_size>100000</fill_size>
         
         <throughput>100000</throughput>
         <outcommod>PWR_MOX_new</outcommod>
@@ -75,12 +75,12 @@
         <fuel_outcommods>	<val>PWR_MOX_spent</val>	</fuel_outcommods>
         <burnup>50</burnup>
         
-        <cycle_time>18</cycle_time>
+        <cycle_time>54</cycle_time>
         <power_cap>900</power_cap>
-        <power>2700</power>
+        <power>3000</power>
         <refuel_time>0</refuel_time>
-        <assem_size>29565</assem_size>
-        <n_assem_core>3</n_assem_core>
+        <assem_size>88695</assem_size>
+        <n_assem_core>1</n_assem_core>
         <n_assem_batch>1</n_assem_batch>
       </cyclassReactor>
     </config>
