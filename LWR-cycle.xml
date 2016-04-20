@@ -34,16 +34,16 @@
           <val>PWR_Upu_stored</val>
         </in_commods>
         
-        <mixing_ratio>
+        <mixing_ratios>
           <val>0.3648</val>
           <val>0.6352</val>
-        </mixing_ratio>
+        </mixing_ratios>
         
         
-        <in_buf_size>
-          <val>5000</val>
-          <val>25000</val>
-        </in_buf_size>
+        <in_buf_sizes>
+          <val>11000</val>
+          <val>19000</val>
+        </in_buf_sizes>
         
         <throughput>29565</throughput>
         <out_commod>PWR_MOX_new</out_commod>
@@ -51,7 +51,7 @@
         
       </Mixer>
     </config>
-  </prototype>
+  </prototype>e>
   
   
   <!-- *********************** -->
