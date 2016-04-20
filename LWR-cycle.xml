@@ -30,29 +30,29 @@
     <name>PWR_fabrication</name>
 <!--    <lifetime>960</lifetime> -->
     <config>
-      <MixingFab>
+      <Mixer>
 
         <in_commods>
           <val>FBR_blanket_Upu_stored</val>
           <val>PWR_Upu_stored</val>
         </in_commods>
         
-        <commods_frac>
+        <mixing_ratios>
           <val>0.3648</val>
           <val>0.6352</val>
-        </commods_frac>
+        </mixing_ratios>
 
 
-        <commods_size>
-          <val>5000</val>
-          <val>25000</val>
-        </commods_size>
+        <in_buf_sizes>
+          <val>11000</val>
+          <val>19000</val>
+        </in_buf_sizes>
 
         <throughput>29565</throughput>
-        <outcommod>PWR_MOX_new</outcommod>
-        <outputbuf_size>29565</outputbuf_size>
+        <out_commod>PWR_MOX_new</out_commod>
+        <out_buf_size>29565</out_buf_size>
 
-      </MixingFab>
+      </Mixer>
     </config>
   </prototype>
   <!-- *********************** -->
