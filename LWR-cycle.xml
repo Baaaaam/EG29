@@ -31,8 +31,8 @@
     <config>
       <cyclassFuelFab>
         
-        <eq_model>PWR_MLP_MOX</eq_model>
-        <eq_command>/Users/mouginot/work/App/CLASS/Database/PWR/MOX/EQModel/MLP/EQM_MLP_PWR_MOX_3batch.xml</eq_command>
+        <eq_model>MLP_Kinf</eq_model>
+        <eq_command>/Users/mouginot/work/App/CLASS/Database/PWR/MOX/EQModel/MLP_Kinf/MLP/PWR_MOX_30Wg.xml,3,/Users/mouginot/work/App/CLASS/Database/PWR/MOX/EQModel/MLP_Kinf/MLP/PWR_MOX_30Wg.nfo,1.05</eq_command>
         
         <fiss_commods><val>PWR_Upu_stored</val></fiss_commods>
         <fiss_size>100000</fiss_size>
@@ -59,8 +59,8 @@
     <name>PWR</name>
     <config>
       <cyclassReactor>
-        <eq_model>PWR_MLP_MOX</eq_model>
-        <eq_command>/Users/mouginot/work/App/CLASS/Database/PWR/MOX/EQModel/MLP/EQM_MLP_PWR_MOX_3batch.xml</eq_command>
+        <eq_model>MLP_Kinf</eq_model>
+        <eq_command>/Users/mouginot/work/App/CLASS/Database/PWR/MOX/EQModel/MLP_Kinf/MLP/PWR_MOX_30Wg.xml,3,/Users/mouginot/work/App/CLASS/Database/PWR/MOX/EQModel/MLP_Kinf/MLP/PWR_MOX_30Wg.nfo,1.05</eq_command>
         
         <ir_model>RK4</ir_model>
         <ir_command>none</ir_command>
@@ -73,7 +73,7 @@
         <fuel_incommods>	<val>PWR_MOX_new</val>		</fuel_incommods>
         
         <fuel_outcommods>	<val>PWR_MOX_spent</val>	</fuel_outcommods>
-        <burnup>40</burnup>
+        <burnup>50</burnup>
         
         <cycle_time>54</cycle_time>
         <power_cap>900</power_cap>
