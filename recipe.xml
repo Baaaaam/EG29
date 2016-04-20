@@ -1,5 +1,5 @@
 <My_include>
-
+  
   <!-- depleted Uranium recipe -->
   <recipe>
     <name>du</name>
@@ -8,7 +8,7 @@
     <nuclide><id>U238</id><comp>0.9975</comp></nuclide>
   </recipe>
   <!-- *********************** -->
-
+  
   <!-- Naturel Uranium recipe -->
   <recipe>
     <name>natl_u</name>
@@ -17,8 +17,8 @@
     <nuclide> <id>U238</id> <comp>99.289</comp> </nuclide>
   </recipe>
   <!-- *********************** -->
-
-
+  
+  
   <!-- EXT2 Uranium recipe -->
   <recipe>
     <name>EXT2_ru_stored</name>
@@ -26,8 +26,8 @@
     <nuclide> <id>U238</id> <comp>1</comp> </nuclide>
   </recipe>
   <!-- *********************** -->
-
-
+  
+  
   <!-- EXT2 plutonium recipe -->
   <recipe>
     <name>EXT2_pu_stored</name>
@@ -35,8 +35,8 @@
     <nuclide> <id>PU239</id> <comp>1</comp> </nuclide>
   </recipe>
   <!-- *********************** -->
-
-
+  
+  
   <!-- Blanket Uranium recipe -->
   <recipe>
     <name>FBR_blanket_Upu</name>
@@ -46,7 +46,7 @@
     <nuclide> <id>U236</id> <comp>0.00083</comp> </nuclide>
     <nuclide> <id>U237</id> <comp>0.00000</comp> </nuclide>
     <nuclide> <id>U238</id> <comp>0.81082</comp> </nuclide>
-
+    
     <nuclide> <id>PU238</id> <comp>0.000087</comp> </nuclide>
     <nuclide> <id>PU239</id> <comp>0.179764</comp> </nuclide>
     <nuclide> <id>PU240</id> <comp>0.006166</comp> </nuclide>
@@ -54,10 +54,10 @@
     <nuclide> <id>PU242</id> <comp>0.000007</comp> </nuclide>
   </recipe>
   <!-- *********************** -->
-
-
-
-
+  
+  
+  
+  
   <!-- recycled PWR Uranium recipe -->
   <recipe>
     <name>PWR_Upu</name>
@@ -70,8 +70,8 @@
     <nuclide> <id>PU242</id> <comp>0.006833</comp> </nuclide>
   </recipe>
   <!-- *********************** -->
-
-
+  
+  
   <!-- ****** PWR MOX recipe ***** -->
   <!-- *** new **** -->
   <recipe>
@@ -84,7 +84,7 @@
     <nuclide><id>PU241</id><comp>0.006376</comp></nuclide>
     <nuclide><id>PU242</id><comp>0.005854</comp></nuclide>
   </recipe>
-
+  
   <!-- *** spent *** -->
   <recipe>
     <name>PWR_MOX_spent</name>
@@ -294,8 +294,8 @@
     <nuclide><id>ER166</id><comp>0.0000003</comp></nuclide>
   </recipe>
   <!-- *********************** -->
-
-
+  
+  
   <!-- *** FBR MOX recipe **** -->
   <!-- *** new **** -->
   <recipe>
@@ -304,7 +304,7 @@
     <nuclide><id>U238</id> <comp>0.91466</comp></nuclide>
     <nuclide><id>Pu239</id> <comp>0.08534</comp></nuclide>
   </recipe>
-
+  
   <!-- *** spent *** -->
   <recipe>
     <name>FBR_MOX_spent</name>
@@ -313,8 +313,8 @@
     <nuclide><id>Pu239</id> <comp>0.08534</comp></nuclide>
   </recipe>
   <!-- *********************** -->
-
-
+  
+  
   <!-- * FBR blanket recipe ** -->
   <!-- *** new **** -->
   <recipe>
@@ -323,10 +323,10 @@
     <nuclide><id>U238</id> <comp>0.86025</comp></nuclide>
     <nuclide><id>Pu239</id> <comp>0.09596</comp></nuclide>
     <nuclide><id>Am241</id> <comp>0.00107</comp></nuclide>
-
+    
     <nuclide> <id>Cs137</id> <comp>0.04272</comp> </nuclide>
   </recipe>
-
+  
   <!-- *** spent *** -->
   <recipe>
     <name>FBR_blanket_spent</name>
@@ -334,7 +334,7 @@
     <nuclide><id>U238</id> <comp>0.86025</comp></nuclide>
     <nuclide><id>Pu239</id> <comp>0.09596</comp></nuclide>
     <nuclide><id>Am241</id> <comp>0.00107</comp></nuclide>
-
+    
     <nuclide> <id>Cs137</id> <comp>0.04272</comp> </nuclide>
   </recipe>
   <!-- *********************** -->
