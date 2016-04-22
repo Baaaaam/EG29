@@ -78,11 +78,11 @@
     <name>PWR_MOX_new</name>
     <basis>mass</basis>
     <nuclide><id>U238</id> <comp>0.916169</comp></nuclide>
-    <nuclide><id>PU238</id><comp>0.001134</comp></nuclide>
-    <nuclide><id>PU239</id><comp>0.053608</comp></nuclide>
-    <nuclide><id>PU240</id><comp>0.016859</comp></nuclide>
-    <nuclide><id>PU241</id><comp>0.006376</comp></nuclide>
-    <nuclide><id>PU242</id><comp>0.005854</comp></nuclide>
+    <nuclide><id>PU238</id><comp>0.001039</comp></nuclide>
+    <nuclide><id>PU239</id><comp>0.052117</comp></nuclide>
+    <nuclide><id>PU240</id><comp>0.016220</comp></nuclide>
+    <nuclide><id>PU241</id><comp>0.008712</comp></nuclide>
+    <nuclide><id>PU242</id><comp>0.005713</comp></nuclide>
   </recipe>
 
   <!-- *** spent *** -->
