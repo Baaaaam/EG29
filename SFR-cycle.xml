@@ -307,7 +307,7 @@
               <buf_size>1e100</buf_size>
               <efficiencies>
                 <item> <comp>Pu</comp> <eff>0.388898</eff> </item>
-                <item> <comp>U</comp> <eff>.988</eff> </item>
+                <item> <comp>U</comp> <eff>0.388898</eff> </item>
               </efficiencies>
             </info>
           </item>
@@ -317,7 +317,7 @@
               <buf_size>1e100</buf_size>
               <efficiencies>
                 <item> <comp>Pu</comp> <eff>0.590746</eff> </item>
-                <item> <comp>U</comp> <eff>.988</eff> </item>
+                <item> <comp>U</comp> <eff>0.590746</eff> </item>
               </efficiencies>
             </info>
           </item>
