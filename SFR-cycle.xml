@@ -39,7 +39,7 @@
   <prototype>
     <name>FBR_driver_upu_repro_mix_fabrication</name>
     <config>
-      <FuelFab>
+      <Mixer>
         
         <fill_commods>
           <val>FBR_blanket_upu_E2_stored</val>
@@ -62,7 +62,7 @@
         <spectrum>fission_spectrum_ave</spectrum>
         <outcommod>FBR_driver_MOX_new</outcommod>
         
-      </FuelFab>
+      </Mixer>
     </config>
   </prototype>
   
