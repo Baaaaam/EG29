@@ -22,7 +22,7 @@
   
   <!-- upu E1 recipe -->
   <recipe>
-    <name>FBR_driver_upu_E1</name>
+    <name>E1</name>
     <basis>mass</basis>
     <nuclide> <id>U238</id>  <comp>0.883885</comp> </nuclide>
     <nuclide> <id>PU239</id> <comp>0.116115</comp> </nuclide>
@@ -31,14 +31,14 @@
 
 <!-- upu E2 recipe -->
 <recipe>
-  <name>FBR_blanket_upu_E2</name>
+  <name>E2</name>
   <basis>mass</basis>
   <nuclide> <id>U238</id>  <comp>0.9167665</comp> </nuclide>
   <nuclide> <id>PU239</id> <comp>0.0832335</comp> </nuclide>
 </recipe>
 
 <recipe>
-  <name>FBR_blanket_u_RU</name>
+  <name>E4</name>
   <basis>mass</basis>
   <nuclide> <id>U238</id> <comp>1</comp> </nuclide>
 </recipe>

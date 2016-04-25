@@ -40,11 +40,11 @@
   
   
   <prototype>
-    <name>blanket_Upu_limited_E2_source</name>
+    <name>E2_limited_source</name>
     <config>
       <Source>
-        <outcommod>FBR_blanket_upu_E2_initial</outcommod>
-        <outrecipe>FBR_blanket_upu_E2</outrecipe>
+        <outcommod>E2_second_initial</outcommod>
+        <outrecipe>E2</outrecipe>
         
         <inventory_size>1000000</inventory_size>
         <throughput>1e100</throughput>
@@ -53,11 +53,11 @@
   </prototype>
   
   <prototype>
-    <name>FBR_Upu_limited_E1_source</name>
+    <name>E1_limited_source</name>
     <config>
       <Source>
-        <outcommod>FBR_driver_upu_E1_initial</outcommod>
-        <outrecipe>FBR_driver_upu_E1</outrecipe>
+        <outcommod>E1_second_initial</outcommod>
+        <outrecipe>E1</outrecipe>
         
         <inventory_size>1000000</inventory_size>
         <throughput>1e100</throughput>
@@ -66,11 +66,11 @@
   </prototype>
   
   <prototype>
-    <name>FBR_blanket_u_limited_RU_source</name>
+    <name>E4_limited_source</name>
     <config>
       <Source>
-        <outcommod>FBR_blanket_u_RU_initial</outcommod>
-        <outrecipe>FBR_blanket_u_RU</outrecipe>
+        <outcommod>E4_initial</outcommod>
+        <outrecipe>E4</outrecipe>
         
         <inventory_size>1000000</inventory_size>
         <throughput>1e100</throughput>
@@ -96,39 +96,33 @@
           <val>waste</val>
           
           <val>natl_u_source</val>
-          <val>blanket_Upu_limited_E2_source</val>
-          <val>FBR_Upu_limited_E1_source</val>
-          <val>FBR_blanket_u_limited_RU_source</val>
+          <val>E1_limited_source</val>
+          <val>E2_limited_source</val>
+          <val>E4_limited_source</val>
           
           
-          <val>FBR_driver_upu_repro_mix_fabrication</val>
-          
-          
+          <val>FBR_driver_fabrication</val>
           <val>FBR_blanket_fabrication</val>
+          
+          <val>FBR_driver</val>
+          <val>FBR_blanket</val>
+          
           <val>FBR_driver_MOX_cooling</val>
           <val>FBR_driver_MOX_storage</val>
           <val>FBR_driver_separation</val>
-          <val>FBR_fabrication</val>
-          
-          <!--
-           
-           
-           
-           -->
-          <val>FBR_driver_storage_upu_E1</val>
           
           <val>FBR_blanket_cooling</val>
           <val>FBR_blanket_storage</val>
           <val>FBR_blanket_separation</val>
-          <val>FBR_blanket_storage_E2</val>
-          <val>FBR_blanket_storage_E3</val>
-          <val>FBR_blanket_storage_RU</val>
-          <!--
-           
-           -->
           
-          <val>FBR_driver</val>
-          <val>FBR_blanket</val>
+          <val>Storage_E1_prime</val>
+          <val>Storage_E1_second</val>
+          <val>Storage_E2_prime</val>
+          <val>Storage_E2_second</val>
+          <val>Storage_E3_prime</val>
+          <val>Storage_E3_second</val>
+          <val>Storage_E4</val>
+          
         </prototypes>
         
         <build_times>
@@ -150,12 +144,15 @@
           <val>1</val>
           <val>1</val>
           <val>1</val>
-          
+          <val>1</val>
+          <val>1</val>
           <val>1</val>
           <val>1</val>
         </build_times>
         
         <n_build>
+          <val>1</val>
+          <val>1</val>
           <val>1</val>
           <val>1</val>
           <val>1</val>
