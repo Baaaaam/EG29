@@ -76,10 +76,10 @@
   <recipe>
     <name>FBR_driver_MOX_spent</name>
     <basis>mass</basis>
-    <nuclide><id>U238</id>  <comp>0.8851</comp></nuclide>
-    <nuclide><id>Pu239</id> <comp>0.0602</comp></nuclide>
-    <nuclide><id>Am241</id> <comp>0.0040</comp></nuclide>
-    <nuclide><id>Cs137</id> <comp>0.0507</comp> </nuclide>
+    <nuclide><id>U238</id>  <comp>0.8270</comp></nuclide>
+    <nuclide><id>Pu239</id> <comp>0.1086</comp></nuclide>
+    <nuclide><id>Am241</id> <comp>0.0009</comp></nuclide>
+    <nuclide><id>Cs137</id> <comp>0.0635</comp> </nuclide>
   </recipe>
   <!-- *********************** -->
 
@@ -96,8 +96,10 @@
   <recipe>
     <name>FBR_blanket_spent</name>
     <basis>mass</basis>
-    <nuclide><id>U238</id> <comp>0.91466</comp></nuclide>
-    <nuclide><id>Pu239</id> <comp>0.08534</comp></nuclide>
+    <nuclide><id>U238</id>  <comp>0.97666</comp></nuclide>
+    <nuclide><id>Pu239</id> <comp>0.01769</comp></nuclide>
+    <nuclide><id>Am241</id> <comp>0.00013</comp></nuclide>
+    <nuclide><id>Cs137</id> <comp>0.00552</comp></nuclide>
   </recipe>
   <!-- *********************** -->
 

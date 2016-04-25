@@ -46,7 +46,7 @@
         <outcommod>E2_second_initial</outcommod>
         <outrecipe>E2</outrecipe>
         
-        <inventory_size>1000000</inventory_size>
+        <inventory_size>10000000</inventory_size>
         <throughput>1e100</throughput>
       </Source>
     </config>
@@ -59,7 +59,7 @@
         <outcommod>E1_second_initial</outcommod>
         <outrecipe>E1</outrecipe>
         
-        <inventory_size>1000000</inventory_size>
+        <inventory_size>10000000</inventory_size>
         <throughput>1e100</throughput>
       </Source>
     </config>
@@ -72,7 +72,7 @@
         <outcommod>E4_initial</outcommod>
         <outrecipe>E4</outrecipe>
         
-        <inventory_size>1000000</inventory_size>
+        <inventory_size>10000000</inventory_size>
         <throughput>1e100</throughput>
       </Source>
     </config>

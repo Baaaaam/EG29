@@ -37,28 +37,31 @@
   <prototype>
     <name>FBR_driver_fabrication</name>
     <config>
-      <Mixer>
+      <FuelFab>
         
-        <in_commods>
+        <fiss_commods>
           <val>E1_second_stored</val>
+        </fiss_commods>
+        
+        <fiss_recipe>E1</fiss_recipe>
+        <fiss_size>7900</fiss_size>
+        
+        <fill_commods>
           <val>E2_second_stored</val>
-        </in_commods>
+        </fill_commods>
         
-        <mixing_ratios>
-          <val>1.86505443260844145e-01</val>
-          <val>8.13494556739155938e-01</val>
-        </mixing_ratios>
+        <fill_recipe>E2</fill_recipe>
+        <fill_commod_prefs>
+          <val>1.0</val>
+        </fill_commod_prefs>
         
-        <in_buf_sizes>
-          <val>790</val>
-          <val>3400</val>
-        </in_buf_sizes>
+        <fill_size>34000</fill_size>
         
-        <throughput>4145</throughput>
-        <out_commod>FBR_driver_MOX_new</out_commod>
-        <out_buf_size>29565</out_buf_size>
+        <throughput>41450</throughput>
+        <spectrum>thermal</spectrum>
+        <outcommod>FBR_driver_MOX_new</outcommod>
         
-      </Mixer>
+      </FuelFab>
     </config>
   </prototype>
   
@@ -78,13 +81,13 @@
         </mixing_ratios>
         
         <in_buf_sizes>
-          <val>302</val>
-          <val>1605</val>
+          <val>3020</val>
+          <val>16050</val>
         </in_buf_sizes>
         
         <throughput>18881</throughput>
         <out_commod>FBR_blanket_new</out_commod>
-        <out_buf_size>29565</out_buf_size>
+        <out_buf_size>20000</out_buf_size>
         
       </Mixer>
     </config>
