@@ -55,7 +55,7 @@
           <val>1.0</val>
         </fill_commod_prefs>
         
-        <fill_size>790</fill_size>
+        <fill_size>100</fill_size>
         
         <throughput>4150</throughput>
         <spectrum>fission_spectrum_ave</spectrum>
