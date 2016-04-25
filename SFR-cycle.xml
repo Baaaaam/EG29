@@ -45,18 +45,18 @@
         </in_commods>
         
         <mixing_ratios>
-          <val>1.86505443260844145e-01</val>
           <val>8.13494556739155938e-01</val>
+          <val>1.86505443260844145e-01</val>
         </mixing_ratios>
         
         <in_buf_sizes>
-          <val>790</val>
           <val>3400</val>
+          <val>790</val>
         </in_buf_sizes>
         
-        <throughput>4145</throughput>
+        <throughput>4200</throughput>
         <out_commod>FBR_driver_MOX_new</out_commod>
-        <out_buf_size>29565</out_buf_size>
+        <out_buf_size>4200</out_buf_size>
         
       </Mixer>
     </config>
@@ -78,13 +78,13 @@
         </mixing_ratios>
         
         <in_buf_sizes>
-          <val>302</val>
-          <val>1605</val>
+          <val>3020</val>
+          <val>16050</val>
         </in_buf_sizes>
         
-        <throughput>18881</throughput>
+        <throughput>19000</throughput>
         <out_commod>FBR_blanket_new</out_commod>
-        <out_buf_size>29565</out_buf_size>
+        <out_buf_size>19000</out_buf_size>
         
       </Mixer>
     </config>
