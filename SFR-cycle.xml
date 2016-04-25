@@ -44,7 +44,7 @@
         </fiss_commods>
         
         <fiss_recipe>E1</fiss_recipe>
-        <fiss_size>3400</fiss_size>
+        <fiss_size>4000</fiss_size>
         
         <fill_commods>
           <val>E2_second_stored</val>
@@ -85,9 +85,9 @@
           <val>16050</val>
         </in_buf_sizes>
         
-        <throughput>18881</throughput>
+        <throughput>19000</throughput>
         <out_commod>FBR_blanket_new</out_commod>
-        <out_buf_size>20000</out_buf_size>
+        <out_buf_size>19000</out_buf_size>
         
       </Mixer>
     </config>
