@@ -54,9 +54,9 @@
           <val>790</val>
         </in_buf_sizes>
         
-        <throughput>4145</throughput>
+        <throughput>4200</throughput>
         <out_commod>FBR_driver_MOX_new</out_commod>
-        <out_buf_size>4145</out_buf_size>
+        <out_buf_size>4200</out_buf_size>
         
       </Mixer>
     </config>
@@ -82,9 +82,9 @@
           <val>16050</val>
         </in_buf_sizes>
         
-        <throughput>18881</throughput>
+        <throughput>19000</throughput>
         <out_commod>FBR_blanket_new</out_commod>
-        <out_buf_size>29565</out_buf_size>
+        <out_buf_size>19000</out_buf_size>
         
       </Mixer>
     </config>
