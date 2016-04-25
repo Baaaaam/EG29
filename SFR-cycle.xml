@@ -44,7 +44,7 @@
         </fiss_commods>
         
         <fiss_recipe>E1</fiss_recipe>
-        <fiss_size>7900</fiss_size>
+        <fiss_size>3400</fiss_size>
         
         <fill_commods>
           <val>E2_second_stored</val>
@@ -55,9 +55,9 @@
           <val>1.0</val>
         </fill_commod_prefs>
         
-        <fill_size>34000</fill_size>
+        <fill_size>790</fill_size>
         
-        <throughput>41450</throughput>
+        <throughput>4150</throughput>
         <spectrum>thermal</spectrum>
         <outcommod>FBR_driver_MOX_new</outcommod>
         
