@@ -50,11 +50,11 @@
         </mixing_ratios>
         
         <in_buf_sizes>
-          <val>11000</val>
-          <val>19000</val>
+          <val>790</val>
+          <val>3400</val>
         </in_buf_sizes>
         
-        <throughput>29565</throughput>
+        <throughput>4145</throughput>
         <out_commod>FBR_driver_MOX_new</out_commod>
         <out_buf_size>29565</out_buf_size>
         
@@ -78,11 +78,11 @@
         </mixing_ratios>
         
         <in_buf_sizes>
-          <val>11000</val>
-          <val>19000</val>
+          <val>302</val>
+          <val>1605</val>
         </in_buf_sizes>
         
-        <throughput>29565</throughput>
+        <throughput>18881</throughput>
         <out_commod>FBR_blanket_new</out_commod>
         <out_buf_size>29565</out_buf_size>
         
