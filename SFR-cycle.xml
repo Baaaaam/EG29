@@ -82,7 +82,7 @@
           <val>16050</val>
         </in_buf_sizes>
         
-        <throughput>18881</throughput>
+        <throughput>19000</throughput>
         <out_commod>FBR_blanket_new</out_commod>
         <out_buf_size>19000</out_buf_size>
         
