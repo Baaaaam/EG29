@@ -45,13 +45,13 @@
         </in_commods>
         
         <mixing_ratios>
-          <val>1.86505443260844145e-01</val>
           <val>8.13494556739155938e-01</val>
+          <val>1.86505443260844145e-01</val>
         </mixing_ratios>
         
         <in_buf_sizes>
-          <val>790</val>
           <val>3400</val>
+          <val>790</val>
         </in_buf_sizes>
         
         <throughput>4145</throughput>
