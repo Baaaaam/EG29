@@ -41,8 +41,8 @@
         
         
         <in_buf_sizes>
-          <val>11000</val>
-          <val>19000</val>
+          <val>5000</val>
+          <val>25000</val>
         </in_buf_sizes>
         
         <throughput>29565</throughput>
