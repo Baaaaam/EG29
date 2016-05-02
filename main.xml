@@ -16,6 +16,7 @@
     <spec> <lib>cycamore</lib> <name>Reactor</name> </spec>
     <spec> <lib>cycamore</lib> <name>Storage</name> </spec>
     <spec> <lib>cycamore</lib> <name>FuelFab</name> </spec>
+    <spec> <lib>cycamore</lib> <name>Mixer</name> </spec>
     <spec> <lib>cycamore</lib> <name>Separations</name> </spec>
     <spec><lib>cyclass</lib><name>Reactor</name><alias>cyclassReactor</alias></spec>
     <spec><lib>cyclass</lib><name>FuelFab</name><alias>cyclassFuelFab</alias></spec>
@@ -28,42 +29,53 @@
 
 
   <prototype>
-    <name>blanket_Upu_limited_source</name>
+    <name>E3_limited_source_u</name>
     <config>
       <Source>
-        <outcommod>FBR_blanket_Upu</outcommod>
-        <outrecipe>FBR_blanket_Upu</outrecipe>
+        <outcommod>E3_u_initial</outcommod>
+        <outrecipe>E3_u</outrecipe>
+        <inventory_size>100000000</inventory_size>
+        <throughput>1e100</throughput>
+      </Source>
+    </config>
+  </prototype>
 
+  <prototype>
+    <name>E3_limited_source_pu</name>
+    <config>
+      <Source>
+        <outcommod>E3_pu_initial</outcommod>
+        <outrecipe>E3_pu</outrecipe>
         <inventory_size>1000000</inventory_size>
         <throughput>1e100</throughput>
       </Source>
     </config>
   </prototype>
 
-<prototype>
-  <name>blanket_Upu_limited_storage</name>
-  <config>
-    <Storage>
-      <in_commods> <val>FBR_blanket_Upu</val></in_commods>
-      <out_commods> <val>FBR_blanket_Upu_stored</val></out_commods>
-      <residence_time>0</residence_time>
-    </Storage>
-  </config>
-</prototype>
 
+  <prototype>
+    <name>J1_limited_source_u</name>
+    <config>
+      <Source>
+        <outcommod>J1_u_initial</outcommod>
+        <outrecipe>J1_u</outrecipe>
+        <inventory_size>100000000</inventory_size>
+        <throughput>1e100</throughput>
+      </Source>
+    </config>
+  </prototype>
 
-<prototype>
-  <name>PWR_Upu_limited_source</name>
-  <config>
-    <Source>
-      <outcommod>PWR_Upu_initial</outcommod>
-      <outrecipe>PWR_Upu</outrecipe>
-
-      <inventory_size>1000000</inventory_size>
-      <throughput>1e100</throughput>
-    </Source>
-  </config>
-</prototype>
+  <prototype>
+    <name>J1_limited_source_pu</name>
+    <config>
+      <Source>
+        <outcommod>J1_pu_initial</outcommod>
+        <outrecipe>J1_pu</outrecipe>
+        <inventory_size>1000000</inventory_size>
+        <throughput>1e100</throughput>
+      </Source>
+    </config>
+  </prototype>
 
 
 <prototype>
@@ -82,14 +94,21 @@
       <DeployInst>
         <prototypes>
           <val>waste</val>
-          <val>blanket_Upu_limited_source</val>
-          <val>PWR_Upu_limited_source</val>
-          <val>blanket_Upu_limited_storage</val>
+          <val>E3_limited_source_u</val>
+          <val>E3_limited_source_pu</val>
+          <val>J1_limited_source_u</val>
+          <val>J1_limited_source_pu</val>
+          <val>u_mixer</val>
+          <val>pu_mixer</val>
           <val>PWR_fabrication</val>
           <val>PWR_cooling</val>
           <val>PWR_storage</val>
           <val>PWR_separation</val>
-          <val>PWR_storage_Upu</val>
+          <val>J1_second_storage_u</val>
+          <val>J1_second_storage_pu</val>
+          <val>E3_storage_u</val>
+          <val>E3_storage_pu</val>
+          <val>J1_prime_storage</val>
           <val>PWR_storage_fp</val>
           <val>PWR_storage_ma</val>
           <val>PWR</val>
@@ -109,10 +128,24 @@
           <val>1</val>
           <val>1</val>
           <val>1</val>
-          <val>957</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>961</val>
         </build_times>
 
         <n_build>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
+          <val>1</val>
           <val>1</val>
           <val>1</val>
           <val>1</val>
