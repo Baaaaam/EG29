@@ -50,11 +50,11 @@
         </mixing_ratios>
         
         <in_buf_sizes>
-          <val>3400</val>
-          <val>790</val>
+          <val>6000</val>
+          <val>2000</val>
         </in_buf_sizes>
         
-        <throughput>4200</throughput>
+        <throughput>6458</throughput>
         <out_commod>FBR_driver_MOX_new</out_commod>
         <out_buf_size>4200</out_buf_size>
         
@@ -82,9 +82,9 @@
           <val>16050</val>
         </in_buf_sizes>
         
-        <throughput>19000</throughput>
+        <throughput>16561</throughput>
         <out_commod>FBR_blanket_new</out_commod>
-        <out_buf_size>19000</out_buf_size>
+        <out_buf_size>16561</out_buf_size>
         
       </Mixer>
     </config>
@@ -107,7 +107,7 @@
         
         <cycle_time>18</cycle_time>
         <refuel_time>0</refuel_time>
-        <assem_size>4145</assem_size>
+        <assem_size>6458</assem_size>
         <n_assem_core>3</n_assem_core>
         <n_assem_batch>1</n_assem_batch>
         <power_cap>400</power_cap>
@@ -129,7 +129,7 @@
         
         <cycle_time>18</cycle_time>
         <refuel_time>0</refuel_time>
-        <assem_size>18881</assem_size>
+        <assem_size>16561</assem_size>
         <n_assem_core>3</n_assem_core>
         <n_assem_batch>1</n_assem_batch>
         <power_cap>1</power_cap>
