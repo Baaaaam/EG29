@@ -175,7 +175,7 @@
     <nuclide><id>ZR94</id><comp>8.87010E-03</comp></nuclide>
     <nuclide><id>ZR95</id><comp>6.09348E-04</comp></nuclide>
     <nuclide><id>NB95</id><comp>3.33377E-04</comp></nuclide>
-    <nuclide><id>NB95M</id><comp>2.42265E-07</comp></nuclide>
+    <!-- <nuclide><id>NB95M</id><comp>2.42265E-07</comp></nuclide> -->
     <nuclide><id>MO95</id><comp>8.89639E-03</comp></nuclide>
     <nuclide><id>ZR96</id><comp>1.06617E-02</comp></nuclide>
     <nuclide><id>MO96</id><comp>3.97872E-04</comp></nuclide>
@@ -329,7 +329,7 @@
     <nuclide><id>SM147</id><comp>2.10242E-03</comp></nuclide>
     <nuclide><id>ND148</id><comp>5.64446E-03</comp></nuclide>
     <nuclide><id>PM148</id><comp>5.98546E-06</comp></nuclide>
-    <nuclide><id>PM148M</id><comp>5.69376E-05</comp></nuclide>
+    <!-- <nuclide><id>PM148M</id><comp>5.69376E-05</comp></nuclide> -->
     <nuclide><id>SM148</id><comp>1.71770E-03</comp></nuclide>
     <nuclide><id>ND149</id><comp>3.24221E-07</comp></nuclide>
     <nuclide><id>PM149</id><comp>1.00889E-05</comp></nuclide>
@@ -578,7 +578,7 @@
     <nuclide><id>SM147</id><comp>4.88120E-04</comp></nuclide>
     <nuclide><id>ND148</id><comp>1.32790E-03</comp></nuclide>
     <nuclide><id>PM148</id><comp>9.26944E-07</comp></nuclide>
-    <nuclide><id>PM148M</id><comp>8.70085E-06</comp></nuclide>
+    <!-- <nuclide><id>PM148M</id><comp>8.70085E-06</comp></nuclide>  -->
     <nuclide><id>SM148</id><comp>1.93205E-04</comp></nuclide>
     <nuclide><id>ND149</id><comp>1.08776E-07</comp></nuclide>
     <nuclide><id>PM149</id><comp>3.35008E-06</comp></nuclide>
