@@ -24,18 +24,18 @@
   <recipe>
     <name>E1</name>
     <basis>mass</basis>
-    <nuclide> <id>U234</id><comp>5.02037E-05</comp></nuclide>
-    <nuclide> <id>U235</id><comp>1.38910E-03</comp></nuclide>
-    <nuclide> <id>U236</id><comp>9.60671E-04</comp></nuclide>
-    <nuclide> <id>U237</id><comp>2.89893E-06</comp></nuclide>
-    <nuclide> <id>U238</id><comp>8.18516E-01</comp></nuclide>
-    <nuclide> <id>U239</id><comp>8.08634E-07</comp> </nuclide>
-    <nuclide> <id>PU238</id><comp>2.32746E-04</comp></nuclide>
-    <nuclide> <id>PU239</id><comp>8.02649E-02</comp></nuclide>
-    <nuclide> <id>PU240</id><comp>2.41635E-02</comp></nuclide>
-    <nuclide> <id>PU241</id><comp>2.38242E-03</comp></nuclide>
-    <nuclide> <id>PU242</id><comp>7.95878E-04</comp></nuclide>
-    <nuclide> <id>PU243</id><comp>1.84242E-08</comp> </nuclide>
+    <nuclide> <id>U234</id> <comp>5.40546E-05</comp></nuclide>
+    <nuclide> <id>U235</id> <comp>1.49565E-03</comp></nuclide>
+    <nuclide> <id>U236</id> <comp>1.03436E-03</comp></nuclide>
+    <nuclide> <id>U237</id> <comp>3.12129E-06</comp></nuclide>
+    <nuclide> <id>U238</id> <comp>8.81301E-01</comp></nuclide>
+    <nuclide> <id>U239</id> <comp>8.70660E-07</comp> </nuclide>
+    <nuclide> <id>PU238</id><comp>2.50599E-04</comp></nuclide>
+    <nuclide> <id>PU239</id><comp>8.64217E-02</comp></nuclide>
+    <nuclide> <id>PU240</id><comp>2.60169E-02</comp></nuclide>
+    <nuclide> <id>PU241</id><comp>2.56516E-03</comp></nuclide>
+    <nuclide> <id>PU242</id><comp>8.56926E-04</comp></nuclide>
+    <nuclide> <id>PU243</id><comp>1.98374E-08</comp> </nuclide>
   </recipe>
   <!-- *********************** -->
   
@@ -43,18 +43,17 @@
   <recipe>
     <name>E2</name>
     <basis>mass</basis>
-    <nuclide> <id>U234</id><comp>3.90456E-06</comp></nuclide>
-    <nuclide> <id>U235</id><comp>3.55847E-03</comp></nuclide>
-    <nuclide> <id>U236</id><comp>7.59893E-04</comp></nuclide>
-    <nuclide> <id>U237</id><comp>7.37522E-07</comp></nuclide>
-    <nuclide> <id>U238</id><comp>9.74102E-01</comp></nuclide>
-    <nuclide> <id>U239</id><comp>3.26561E-07</comp></nuclide>
-    <nuclide> <id>PU238</id><comp>1.28561E-05</comp></nuclide>
-    <nuclide> <id>PU239</id><comp>1.70995E-02</comp></nuclide>
-    <nuclide> <id>PU240</id><comp>5.86483E-04</comp></nuclide>
-    <nuclide> <id>PU241</id><comp>2.05956E-05</comp></nuclide>
-    <nuclide> <id>PU242</id><comp>7.00701E-07</comp></nuclide>
-    <nuclide> <id>PU243</id><comp>0.00000E+00</comp></nuclide>
+    <nuclide> <id>U234</id> <comp><3.91966E-06/comp></nuclide>
+    <nuclide> <id>U235</id> <comp><3.57224E-03/comp></nuclide>
+    <nuclide> <id>U236</id> <comp><7.62833E-04/comp></nuclide>
+    <nuclide> <id>U237</id> <comp><7.40376E-07/comp></nuclide>
+    <nuclide> <id>U238</id> <comp><9.77871E-01/comp></nuclide>
+    <nuclide> <id>U239</id> <comp><3.27824E-07/comp></nuclide>
+    <nuclide> <id>PU238</id><comp><1.29058E-05/comp></nuclide>
+    <nuclide> <id>PU239</id><comp><1.71656E-02/comp></nuclide>
+    <nuclide> <id>PU240</id><comp><5.88753E-04/comp></nuclide>
+    <nuclide> <id>PU241</id><comp><2.06753E-05/comp></nuclide>
+    <nuclide> <id>PU242</id><comp><7.03412E-07/comp></nuclide>
   </recipe>
   
   <recipe>
