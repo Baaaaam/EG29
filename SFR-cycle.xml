@@ -45,8 +45,8 @@
         </in_commods>
         
         <mixing_ratios>
-          <val>8.07889336699292859e-01</val>
-          <val>1.92110663300707141e-01</val>
+          <val>8.13497471866829081e-01</val>
+          <val>1.86506111596205865e-01</val>
         </mixing_ratios>
         
         <in_buf_sizes>
@@ -266,22 +266,22 @@
         
         <streams>
           <item>
-            <commod>E2_second</commod>
-            <info>
-              <buf_size>1e100</buf_size>
-              <efficiencies>
-                <item> <comp>Pu</comp> <eff>3.42234160214883842e-01</eff> </item>
-                <item> <comp>U</comp>  <eff>6.82666435205277339e-02</eff> </item>
-              </efficiencies>
-            </info>
-          </item>
-          <item>
             <commod>E2_prime</commod>
             <info>
               <buf_size>1e100</buf_size>
               <efficiencies>
                 <item> <comp>Pu</comp> <eff>4.66635066097856391e-02</eff> </item>
                 <item> <comp>U</comp>  <eff>9.30837238449424946e-03</eff> </item>
+              </efficiencies>
+            </info>
+          </item>
+          <item>
+            <commod>E2_second</commod>
+            <info>
+              <buf_size>1e100</buf_size>
+              <efficiencies>
+                <item> <comp>Pu</comp> <eff>3.42234160214883842e-01</eff> </item>
+                <item> <comp>U</comp>  <eff>6.82666435205277339e-02</eff> </item>
               </efficiencies>
             </info>
           </item>
