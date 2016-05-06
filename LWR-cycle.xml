@@ -32,8 +32,8 @@
       <Mixer>
         
         <in_commods>
-          <val>FBR_blanket_Upu_stored</val>
-          <val>PWR_Upu_stored</val>
+          <val>E3_second_stored</val>
+          <val>J1_second_stored</val>
         </in_commods>
         
         <mixing_ratios>
@@ -125,7 +125,7 @@
         
         <streams>
           <item>
-            <commod>PWR_Upu</commod>
+            <commod>J1_second</commod>
             <info>
               <buf_size>1e100</buf_size>
               <efficiencies>
@@ -150,10 +150,10 @@
     <config>
       <Storage>
         <in_commods>
-          <val>PWR_Upu</val>
-          <val>PWR_Upu_initial</val>
+          <val>J1_second</val>
+          <val>J1_second_initial</val>
         </in_commods>
-        <out_commods> <val>PWR_Upu_stored</val></out_commods>
+        <out_commods> <val>J1_second_stored</val></out_commods>
         <residence_time>0</residence_time>
       </Storage>
     </config>
