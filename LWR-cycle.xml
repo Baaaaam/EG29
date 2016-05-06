@@ -23,6 +23,9 @@
    * EXT2_ru_stored         : ru from EXT source 2
 
    -->
+
+  
+  <!--      PWR fabrication      -->
   <prototype>
     <name>PWR_fabrication</name>
     <!--    <lifetime>960</lifetime> -->
@@ -52,7 +55,6 @@
       </Mixer>
     </config>
   </prototype>
-  
   
   <!-- *********************** -->
 
@@ -129,14 +131,12 @@
           <info>
             <buf_size>1e100</buf_size>
             <efficiencies>
-              <item> <comp>Pu</comp> <eff>.988</eff> </item>
-              <item> <comp>U</comp> <eff>.988</eff> </item>
+              <item> <comp>Pu</comp> <eff>8.83838383838383757e-01</eff> </item>
+              <item> <comp>U</comp> <eff>8.83838383838383757e-01</eff> </item>
             </efficiencies>
           </info>
         </item>
-
       </streams>
-
       <leftover_commod>waste</leftover_commod>
 
     </Separations>
@@ -150,10 +150,21 @@
   <config>
     <Storage>
       <in_commods>
-        <val>J1_second</val>
         <val>J1_second_initial</val>
+        <val>J1_second</val>
       </in_commods>
       <out_commods> <val>J1_second_stored</val></out_commods>
+      <residence_time>0</residence_time>
+    </Storage>
+  </config>
+</prototype>
+
+<prototype>
+  <name>PWR_J1_prime</name>
+  <config>
+    <Storage>
+      <in_commods><val>J1_prime</val></in_commods>
+      <out_commods><val>J1_prime_stored</val></out_commods>
       <residence_time>0</residence_time>
     </Storage>
   </config>
