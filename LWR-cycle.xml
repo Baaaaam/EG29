@@ -136,6 +136,16 @@
             </efficiencies>
           </info>
         </item>
+        <item>
+          <commod>J1_prime</commod>
+          <info>
+            <buf_size>1e100</buf_size>
+            <efficiencies>
+              <item> <comp>Pu</comp> <eff>1.03535353535353536e-01</eff> </item>
+              <item> <comp>U</comp> <eff>1.03535353535353536e-01</eff> </item>
+            </efficiencies>
+          </info>
+        </item>
       </streams>
       <leftover_commod>waste</leftover_commod>
 
