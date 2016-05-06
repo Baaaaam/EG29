@@ -39,7 +39,7 @@
 
   <!-- Blanket Uranium recipe -->
   <recipe>
-    <name>FBR_blanket_Upu</name>
+    <name>E3_second</name>
     <basis>mass</basis>
     <nuclide> <id>U234</id> <comp>0.00002</comp> </nuclide>
     <nuclide> <id>U235</id> <comp>0.00203</comp> </nuclide>
@@ -60,7 +60,7 @@
 
   <!-- recycled PWR Uranium recipe -->
   <recipe>
-    <name>PWR_Upu</name>
+    <name>J1_second</name>
     <basis>mass</basis>
     <nuclide> <id>U238</id>  <comp>0.93632 </comp> </nuclide>
     <nuclide> <id>PU238</id> <comp>0.001216</comp> </nuclide>

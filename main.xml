@@ -30,8 +30,8 @@
     <name>blanket_Upu_limited_source</name>
     <config>
       <Source>
-        <outcommod>FBR_blanket_Upu</outcommod>
-        <outrecipe>FBR_blanket_Upu</outrecipe>
+        <outcommod>E3_second</outcommod>
+        <outrecipe>E3_second</outrecipe>
 
         <inventory_size>1000000</inventory_size>
         <throughput>1e100</throughput>
@@ -43,8 +43,8 @@
   <name>blanket_Upu_limited_storage</name>
   <config>
     <Storage>
-      <in_commods> <val>FBR_blanket_Upu</val></in_commods>
-      <out_commods> <val>FBR_blanket_Upu_stored</val></out_commods>
+      <in_commods> <val>E3_second</val></in_commods>
+      <out_commods> <val>E3_second_stored</val></out_commods>
       <residence_time>0</residence_time>
     </Storage>
   </config>
@@ -52,11 +52,11 @@
 
 
 <prototype>
-  <name>PWR_Upu_limited_source</name>
+  <name>J1_second_limited_source</name>
   <config>
     <Source>
-      <outcommod>PWR_Upu_initial</outcommod>
-      <outrecipe>PWR_Upu</outrecipe>
+      <outcommod>J1_second_initial</outcommod>
+      <outrecipe>J1_second</outrecipe>
 
       <inventory_size>1000000</inventory_size>
       <throughput>1e100</throughput>
@@ -82,7 +82,7 @@
         <prototypes>
           <val>waste</val>
           <val>blanket_Upu_limited_source</val>
-          <val>PWR_Upu_limited_source</val>
+          <val>J1_second_limited_source</val>
           <val>blanket_Upu_limited_storage</val>
           <val>PWR_fabrication</val>
           <val>PWR_cooling</val>
