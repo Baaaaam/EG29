@@ -75,7 +75,7 @@
       <assem_size>29565</assem_size>
       <n_assem_core>3</n_assem_core>
       <n_assem_batch>1</n_assem_batch>
-      <power_cap>900</power_cap>
+      <power_cap>1000</power_cap>
 
     </Reactor>
   </config>
@@ -155,8 +155,20 @@
 <!-- *********************** -->
 
 <!--      PWR U/pu storage     -->
+
 <prototype>
-  <name>PWR_storage_Upu</name>
+  <name>Storage_J1_prime</name>
+  <config>
+    <Storage>
+      <in_commods><val>J1_prime</val></in_commods>
+      <out_commods><val>J1_prime_stored</val></out_commods>
+      <residence_time>0</residence_time>
+    </Storage>
+  </config>
+</prototype>
+
+<prototype>
+  <name>Storage_J1_second</name>
   <config>
     <Storage>
       <in_commods>
@@ -169,46 +181,9 @@
   </config>
 </prototype>
 
-<prototype>
-  <name>PWR_J1_prime</name>
-  <config>
-    <Storage>
-      <in_commods><val>J1_prime</val></in_commods>
-      <out_commods><val>J1_prime_stored</val></out_commods>
-      <residence_time>0</residence_time>
-    </Storage>
-  </config>
-</prototype>
-
-<!-- *********************** -->
-
-<!--      PWR fp storage     -->
-<prototype>
-  <name>PWR_storage_fp</name>
-  <config>
-    <Storage>
-      <in_commods> <val>PWR_fp</val></in_commods>
-      <out_commods> <val>PWR_fp_stored</val></out_commods>
-      <residence_time>0</residence_time>
-    </Storage>
-  </config>
-</prototype>
-<!-- *********************** -->
-
-<!--      PWR ma storage     -->
-<prototype>
-  <name>PWR_storage_ma</name>
-  <config>
-    <Storage>
-      <in_commods> <val>PWR_ma</val></in_commods>
-      <out_commods> <val>PWR_ma_stored</val></out_commods>
-      <residence_time>0</residence_time>
-    </Storage>
-  </config>
-</prototype>
-<!-- *********************** -->
-
 
 <!-- *********************** -->
 
 </My_include>
+
+
