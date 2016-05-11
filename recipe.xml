@@ -60,14 +60,15 @@
 
   <!-- recycled PWR Uranium recipe -->
   <recipe>
-    <name>J1_second</name>
+    <name>J1_second_initial</name>
     <basis>mass</basis>
     <nuclide> <id>U238</id>  <comp>0.93632 </comp> </nuclide>
     <nuclide> <id>PU238</id> <comp>0.001216</comp> </nuclide>
     <nuclide> <id>PU239</id> <comp>0.027058</comp> </nuclide>
     <nuclide> <id>PU240</id> <comp>0.018193</comp> </nuclide>
-    <nuclide> <id>PU241</id> <comp>0.010380</comp> </nuclide>
+    <nuclide> <id>PU241</id> <comp>0.007402</comp> </nuclide>
     <nuclide> <id>PU242</id> <comp>0.006833</comp> </nuclide>
+    <nuclide> <id>AM241</id> <comp>0.002978</comp> </nuclide>
   </recipe>
   <!-- *********************** -->
 

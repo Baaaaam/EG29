@@ -56,14 +56,13 @@
   <config>
     <Source>
       <outcommod>J1_second_initial</outcommod>
-      <outrecipe>J1_second</outrecipe>
+      <outrecipe>J1_second_initial</outrecipe>
 
       <inventory_size>300000</inventory_size>
-      <throughput>1e100</throughput>
+      <throughput>1500</throughput>
     </Source>
   </config>
 </prototype>
-
 
 <prototype>
   <name>waste</name>
@@ -80,7 +79,7 @@
     <config>
       <DeployInst>
         <prototypes>
-          <val>waste</val>
+	  <val>waste</val>
           <val>blanket_Upu_limited_source</val>
           <val>J1_second_limited_source</val>
           <val>blanket_Upu_limited_storage</val>
