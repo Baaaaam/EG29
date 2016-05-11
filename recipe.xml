@@ -66,9 +66,8 @@
     <nuclide> <id>PU238</id> <comp>0.001216</comp> </nuclide>
     <nuclide> <id>PU239</id> <comp>0.027058</comp> </nuclide>
     <nuclide> <id>PU240</id> <comp>0.018193</comp> </nuclide>
-    <nuclide> <id>PU241</id> <comp>0.007402</comp> </nuclide>
+    <nuclide> <id>PU241</id> <comp>0.010380</comp> </nuclide>
     <nuclide> <id>PU242</id> <comp>0.006833</comp> </nuclide>
-    <nuclide> <id>AM241</id> <comp>0.002978</comp> </nuclide>
   </recipe>
   <!-- *********************** -->
 
@@ -263,7 +262,7 @@
     <nuclide><id>SM147</id><comp>0.0000858</comp></nuclide>
     <nuclide><id>ND148</id><comp>0.0005543</comp></nuclide>
     <nuclide><id>PM148</id><comp>0.0000015</comp></nuclide>
-<!--    <nuclide><id>PM148M</id><comp>0.0000014</comp></nuclide> -->
+    <nuclide><id>PM148M</id><comp>0.0000014</comp></nuclide>
     <nuclide><id>SM148</id><comp>0.0002823</comp></nuclide>
     <nuclide><id>PM149</id><comp>0.0000014</comp></nuclide>
     <nuclide><id>SM149</id><comp>0.0000027</comp></nuclide>
