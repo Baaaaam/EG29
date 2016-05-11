@@ -89,7 +89,7 @@
     <Storage>
       <in_commods> <val>PWR_MOX_spent</val></in_commods>
       <out_commods> <val>PWR_MOX_spent_cooled</val></out_commods>
-      <residence_time>0</residence_time>
+      <residence_time>84</residence_time>
     </Storage>
   </config>
 </prototype>
