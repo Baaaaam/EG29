@@ -25,38 +25,46 @@
    -->
 
 
-<!--      PWR fabrication      -->
+
+
+
+
+
+
+  <!--      PWR fabrication      -->
   <prototype>
     <name>PWR_fabrication</name>
-<!--    <lifetime>960</lifetime> -->
+    <!--    <lifetime>960</lifetime> -->
     <config>
       <FuelFab>
 
-        <fiss_commods>
-          <val>E3_second_stored</val>
-        </fiss_commods>
+	<fiss_commods>
+	  <val>E3_second_stored</val>
+	</fiss_commods>
 
-        <fiss_recipe>E3_second</fiss_recipe>
-        <fiss_size>5000</fiss_size>
+	<fiss_recipe>E3_second</fiss_recipe>
+	<fiss_size>7000</fiss_size>
 
-        <fill_commods>
-          <val>J1_second_stored</val>
-        </fill_commods>
+	<fill_commods>
+	  <val>J1_second_stored</val>
+	</fill_commods>
 
-        <fill_recipe>J1_second</fill_recipe>
-       <fill_commod_prefs>
-          <val>1.0</val>
-        </fill_commod_prefs>
+	<fill_recipe>J1_second_initial</fill_recipe>
+	<fill_commod_prefs>
+	  <val>1.0</val>
+	</fill_commod_prefs>
 
-        <fill_size>26000</fill_size>
+	<fill_size>27000</fill_size>
 
-        <throughput>29565</throughput>
-        <spectrum>thermal</spectrum>
-        <outcommod>PWR_MOX_new</outcommod>
+	<throughput>29565</throughput>
+	<spectrum>thermal</spectrum>
+	<outcommod>PWR_MOX_new</outcommod>
 
       </FuelFab>
     </config>
   </prototype>
+  
+  
   <!-- *********************** -->
 
   <!--       PWR reactor       -->
@@ -132,14 +140,22 @@
           <info>
             <buf_size>1e100</buf_size>
             <efficiencies>
-              <item> <comp>Pu</comp> <eff>.988</eff> </item>
-              <item> <comp>U</comp> <eff>.988</eff> </item>
+              <item> <comp>Pu</comp> <eff>8.83838383838383757e-01</eff> </item>
+              <item> <comp>U</comp> <eff>8.83838383838383757e-01</eff> </item>
             </efficiencies>
           </info>
         </item>
-
+        <item>
+          <commod>J1_prime</commod>
+          <info>
+            <buf_size>1e100</buf_size>
+            <efficiencies>
+              <item> <comp>Pu</comp> <eff>1.03535353535353536e-01</eff> </item>
+              <item> <comp>U</comp> <eff>1.03535353535353536e-01</eff> </item>
+            </efficiencies>
+          </info>
+        </item>
       </streams>
-
       <leftover_commod>waste</leftover_commod>
 
     </Separations>
@@ -153,10 +169,21 @@
   <config>
     <Storage>
       <in_commods>
-        <val>J1_second</val>
         <val>J1_second_initial</val>
+        <val>J1_second</val>
       </in_commods>
       <out_commods> <val>J1_second_stored</val></out_commods>
+      <residence_time>0</residence_time>
+    </Storage>
+  </config>
+</prototype>
+
+<prototype>
+  <name>PWR_J1_prime</name>
+  <config>
+    <Storage>
+      <in_commods><val>J1_prime</val></in_commods>
+      <out_commods><val>J1_prime_stored</val></out_commods>
       <residence_time>0</residence_time>
     </Storage>
   </config>
