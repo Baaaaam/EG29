@@ -53,6 +53,7 @@
 
 <prototype>
   <name>J1_second_limited_source</name>
+  <lifetime>600</lifetime>
   <config>
     <Source>
       <outcommod>J1_second_initial</outcommod>
