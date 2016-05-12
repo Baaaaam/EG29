@@ -47,11 +47,13 @@
 
 	<fill_commods>
 	  <val>J1_second_stored</val>
+	  <val>J1_second_initial</val>
 	</fill_commods>
 
 	<fill_recipe>J1_second_initial</fill_recipe>
 	<fill_commod_prefs>
 	  <val>1.0</val>
+	  <val>2.0</val>
 	</fill_commod_prefs>
 
 	<fill_size>30000</fill_size>
@@ -169,7 +171,6 @@
   <config>
     <Storage>
       <in_commods>
-        <val>J1_second_initial</val>
         <val>J1_second</val>
       </in_commods>
       <out_commods> <val>J1_second_stored</val></out_commods>
