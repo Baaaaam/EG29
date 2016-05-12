@@ -127,22 +127,22 @@
 
       <streams>
         <item>
-          <commod>J1_second</commod>
-          <info>
-            <buf_size>1e100</buf_size>
-            <efficiencies>
-              <item> <comp>Pu</comp> <eff>8.83838383838383757e-01</eff> </item>
-              <item> <comp>U</comp> <eff>8.83838383838383757e-01</eff> </item>
-            </efficiencies>
-          </info>
-        </item>
-        <item>
           <commod>J1_prime</commod>
           <info>
             <buf_size>1e100</buf_size>
             <efficiencies>
               <item> <comp>Pu</comp> <eff>1.03535353535353536e-01</eff> </item>
               <item> <comp>U</comp> <eff>1.03535353535353536e-01</eff> </item>
+            </efficiencies>
+          </info>
+        </item>
+        <item>
+          <commod>J1_second</commod>
+          <info>
+            <buf_size>1e100</buf_size>
+            <efficiencies>
+              <item> <comp>Pu</comp> <eff>8.83838383838383757e-01</eff> </item>
+              <item> <comp>U</comp> <eff>8.83838383838383757e-01</eff> </item>
             </efficiencies>
           </info>
         </item>
@@ -156,7 +156,7 @@
 
 <!--      PWR U/pu storage     -->
 <prototype>
-  <name>PWR_storage_Upu</name>
+  <name>J1_second_storage</name>
   <config>
     <Storage>
       <in_commods>
@@ -170,7 +170,7 @@
 </prototype>
 
 <prototype>
-  <name>PWR_J1_prime</name>
+  <name>J1_prime_storage</name>
   <config>
     <Storage>
       <in_commods><val>J1_prime</val></in_commods>
