@@ -28,7 +28,6 @@
 <!--      PWR fabrication      -->
   <prototype>
     <name>PWR_fabrication</name>
-<!--    <lifetime>960</lifetime> -->
     <config>
       <FuelFab>
 
@@ -48,7 +47,7 @@
           <val>1.0</val>
         </fill_commod_prefs>
 
-        <fill_size>25000</fill_size>
+        <fill_size>30000</fill_size>
 
         <throughput>29565</throughput>
         <spectrum>thermal</spectrum>
@@ -127,17 +126,28 @@
       <throughput>1e100</throughput>
 
       <streams>
+	<!--
+	    <item>
+          <commod>J1_prime</commod>
+          <info>
+            <buf_size>1e100</buf_size>
+            <efficiencies>
+              <item> <comp>Pu</comp> <eff>1.03535353535353536e-01</eff> </item>
+              <item> <comp>U</comp>  <eff>1.03535353535353536e-01</eff> </item>
+            </efficiencies>
+          </info>
+        </item>
+-->
         <item>
           <commod>J1_second</commod>
           <info>
             <buf_size>1e100</buf_size>
             <efficiencies>
-              <item> <comp>Pu</comp> <eff>.988</eff> </item>
-              <item> <comp>U</comp> <eff>.988</eff> </item>
+              <item> <comp>Pu</comp> <eff>8.83838383838383757e-01</eff> </item>
+              <item> <comp>U</comp>  <eff>8.83838383838383757e-01</eff> </item>
             </efficiencies>
           </info>
         </item>
-
       </streams>
 
       <leftover_commod>waste</leftover_commod>
@@ -149,7 +159,7 @@
 
 <!--      PWR U/pu storage     -->
 <prototype>
-  <name>PWR_storage_Upu</name>
+  <name>J1_second_storage</name>
   <config>
     <Storage>
       <in_commods>
@@ -157,6 +167,19 @@
         <val>J1_second_initial</val>
       </in_commods>
       <out_commods> <val>J1_second_stored</val></out_commods>
+      <residence_time>0</residence_time>
+    </Storage>
+  </config>
+</prototype>
+
+<prototype>
+  <name>J1_prime_storage</name>
+  <config>
+    <Storage>
+      <in_commods>
+        <val>J1_prime</val>
+      </in_commods>
+      <out_commods> <val>J1_prime_stored</val></out_commods>
       <residence_time>0</residence_time>
     </Storage>
   </config>
