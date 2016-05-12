@@ -126,8 +126,7 @@
       <throughput>1e100</throughput>
 
       <streams>
-	<!--
-	    <item>
+	<item>
           <commod>J1_prime</commod>
           <info>
             <buf_size>1e100</buf_size>
@@ -136,8 +135,8 @@
               <item> <comp>U</comp>  <eff>1.03535353535353536e-01</eff> </item>
             </efficiencies>
           </info>
-        </item>
--->
+	</item>
+    
         <item>
           <commod>J1_second</commod>
           <info>
