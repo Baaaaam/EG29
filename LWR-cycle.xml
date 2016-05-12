@@ -156,7 +156,7 @@
 
 <!--      PWR U/pu storage     -->
 <prototype>
-  <name>PWR_storage_Upu</name>
+  <name>J1_second_storage</name>
   <config>
     <Storage>
       <in_commods>
@@ -170,7 +170,7 @@
 </prototype>
 
 <prototype>
-  <name>PWR_J1_prime</name>
+  <name>J1_prime_storage</name>
   <config>
     <Storage>
       <in_commods><val>J1_prime</val></in_commods>
