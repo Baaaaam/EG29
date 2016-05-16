@@ -58,7 +58,7 @@
       <outcommod>J1_second_initial</outcommod>
       <outrecipe>J1_second_initial</outrecipe>
 
-      <inventory_size>275000</inventory_size>
+      <inventory_size>260000</inventory_size>
       <throughput>25000</throughput>
     </Source>
   </config>
