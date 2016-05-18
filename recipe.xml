@@ -54,6 +54,25 @@
     <nuclide> <id>PU242</id> <comp>0.000007</comp> </nuclide>
   </recipe>
   <!-- *********************** -->
+  <recipe>
+    <name>E3_u</name>
+    <basis>mass</basis>
+    <nuclide> <id>U234</id> <comp>0.00002</comp> </nuclide>
+    <nuclide> <id>U235</id> <comp>0.00203</comp> </nuclide>
+    <nuclide> <id>U236</id> <comp>0.00083</comp> </nuclide>
+    <nuclide> <id>U237</id> <comp>0.00000</comp> </nuclide>
+    <nuclide> <id>U238</id> <comp>0.81082</comp> </nuclide>
+  </recipe>
+  <!-- *********************** -->
+  <recipe>
+    <name>E3_pu</name>
+    <basis>mass</basis>
+    <nuclide> <id>PU238</id> <comp>0.000087</comp> </nuclide>
+    <nuclide> <id>PU239</id> <comp>0.179764</comp> </nuclide>
+    <nuclide> <id>PU240</id> <comp>0.006166</comp> </nuclide>
+    <nuclide> <id>PU241</id> <comp>0.000216</comp> </nuclide>
+    <nuclide> <id>PU242</id> <comp>0.000007</comp> </nuclide>
+  </recipe>
   
   
   
@@ -70,6 +89,24 @@
     <nuclide> <id>PU242</id> <comp>0.006833</comp> </nuclide>
   </recipe>
   <!-- *********************** -->
+  <recipe>
+    <name>J1_u</name>
+    <basis>mass</basis>
+    <nuclide> <id>U238</id>  <comp>0.93632 </comp> </nuclide>
+    <nuclide> <id>PU238</id> <comp>0.001216</comp> </nuclide>
+  </recipe>
+  <recipe>
+    <name>J1_pu</name>
+    <basis>mass</basis>
+    <nuclide> <id>PU239</id> <comp>0.027058</comp> </nuclide>
+    <nuclide> <id>PU240</id> <comp>0.018193</comp> </nuclide>
+    <nuclide> <id>PU241</id> <comp>0.010380</comp> </nuclide>
+    <nuclide> <id>PU242</id> <comp>0.006833</comp> </nuclide>
+  </recipe>
+
+  <!-- *********************** -->
+
+
   
   
   <!-- ****** PWR MOX recipe ***** -->
