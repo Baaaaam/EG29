@@ -34,7 +34,7 @@
         <eq_model>MLP_Kinf</eq_model>
         <eq_command>/Users/mouginot/work/App/CLASS/DATA_BASES/PWR/MOX/EQModel/MLP_Kinf/MLP/PWR_MOX_30Wg.xml,/Users/mouginot/work/App/CLASS/DATA_BASES/PWR/MOX/EQModel/MLP_Kinf/MLP/PWR_MOX_30Wg.nfo,4,1.034</eq_command>
         <fiss_commods><val>pu_mixed</val></fiss_commods>
-        <fiss_size>88695</fiss_size>
+        <fiss_size>8869</fiss_size>
         
         
         <fill_commods><val>u_mixed</val></fill_commods>
@@ -65,13 +65,13 @@
 
 
 	<in_buf_sizes>
-	  <val>50000</val>
-	  <val>25000</val>
+	  <val>5000</val>
+	  <val>2500</val>
 	</in_buf_sizes>
 
-	<throughput>88695</throughput>
+	<throughput>8869</throughput>
 	<out_commod>pu_mixed</out_commod>
-	<out_buf_size>88695</out_buf_size>
+	<out_buf_size>8869</out_buf_size>
 
       </Mixer>
     </config>
