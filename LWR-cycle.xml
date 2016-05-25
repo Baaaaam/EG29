@@ -116,7 +116,7 @@
     <config>
       <cyclassReactor>
         <eq_model>MLP_Kinf</eq_model>
-        <eq_command>/Users/mouginot/work/App/CLASS/DATA_BASES/PWR/MOX/EQModel/MLP_Kinf/MLP/PWR_MOX_30Wg.xml,/Users/mouginot/work/App/CLASS/DATA_BASES/PWR/MOX/EQModel/MLP_Kinf/MLP/PWR_MOX_30Wg.nfo,3,1.034</eq_command>
+        <eq_command>/Users/mouginot/work/App/CLASS/DATA_BASES/PWR/MOX/EQModel/MLP_Kinf/MLP/PWR_MOX_30Wg.xml,/Users/mouginot/work/App/CLASS/DATA_BASES/PWR/MOX/EQModel/MLP_Kinf/MLP/PWR_MOX_30Wg.nfo,4,1.034</eq_command>
         
         <ir_model>RK4</ir_model>
         <ir_command>none</ir_command>
