@@ -46,8 +46,8 @@
       <Source>
         <outcommod>E3_pu_initial</outcommod>
         <outrecipe>E3_pu</outrecipe>
-        <inventory_size>1000000</inventory_size>
-        <throughput>1e100</throughput>
+        <inventory_size>1250000</inventory_size>
+        <throughput>20000</throughput>
       </Source>
     </config>
   </prototype>
@@ -71,8 +71,8 @@
       <Source>
         <outcommod>J1_pu_initial</outcommod>
         <outrecipe>J1_pu</outrecipe>
-        <inventory_size>750000</inventory_size>
-        <throughput>10000</throughput>
+        <inventory_size>190000</inventory_size>
+        <throughput>100000</throughput>
       </Source>
     </config>
   </prototype>

@@ -31,9 +31,8 @@
     <config>
       <cyclassFuelFab>
         
-        <eq_model>PWR_MLP_MOX</eq_model>
-        <eq_command>/Users/mouginot/work/App/CLASS/DATA_BASES/PWR/MOX/EQModel/MLP/EQM_MLP_PWR_MOX_3batch.xml</eq_command>
-        
+	<eq_model>PWR_MLP_MOX</eq_model>
+	<eq_command>/Users/mouginot/work/App/CLASS/DATA_BASES/PWR/MOX/EQModel/MLP/EQM_MLP_PWR_MOX_3batch.xml</eq_command>
         <fiss_commods><val>pu_mixed</val></fiss_commods>
         <fiss_size>88695</fiss_size>
         
@@ -66,13 +65,13 @@
 
 
 	<in_buf_sizes>
-	  <val>50000</val>
-	  <val>25000</val>
+	  <val>10000</val>
+	  <val>6000</val>
 	</in_buf_sizes>
 
-	<throughput>88695</throughput>
+	<throughput>15000</throughput>
 	<out_commod>pu_mixed</out_commod>
-	<out_buf_size>88695</out_buf_size>
+	<out_buf_size>15000</out_buf_size>
 
       </Mixer>
     </config>
@@ -116,8 +115,8 @@
     <lifetime>960</lifetime>
     <config>
       <cyclassReactor>
-        <eq_model>PWR_MLP_MOX</eq_model>
-        <eq_command>/Users/mouginot/work/App/CLASS/DATA_BASES/PWR/MOX/EQModel/MLP/EQM_MLP_PWR_MOX_3batch.xml</eq_command>
+	<eq_model>PWR_MLP_MOX</eq_model>
+	<eq_command>/Users/mouginot/work/App/CLASS/DATA_BASES/PWR/MOX/EQModel/MLP/EQM_MLP_PWR_MOX_3batch.xml</eq_command>
         
         <ir_model>RK4</ir_model>
         <ir_command>none</ir_command>
