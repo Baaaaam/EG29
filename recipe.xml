@@ -38,7 +38,7 @@
   </recipe>
   <!-- Blanket U/plutonium recipe -->
   <recipe>
-    <name>E3_second</name>
+    <name>E3</name>
     <basis>mass</basis>
     <nuclide> <id>U238</id>  <comp>0.81371</comp> </nuclide>
     <nuclide> <id>PU239</id> <comp>0.18629</comp> </nuclide>
@@ -52,7 +52,7 @@
   <!-- *********************** -->
   
   <recipe>
-    <name>J1_second</name>
+    <name>J1</name>
     <basis>mass</basis>
     <nuclide> <id>U238</id> <comp>0.93632</comp> </nuclide>
     <nuclide> <id>PU239</id> <comp>0.06368</comp> </nuclide>

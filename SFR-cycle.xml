@@ -78,8 +78,8 @@
         </mixing_ratios>
         
         <in_buf_sizes>
-          <val>30200</val>
-          <val>16050</val>
+          <val>3000</val>
+          <val>14000</val>
         </in_buf_sizes>
         
         <throughput>16561</throughput>

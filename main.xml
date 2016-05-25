@@ -43,10 +43,10 @@
     <config>
       <Source>
 	<outcommod>J1_second_initial</outcommod>
-	<outrecipe>J1_second</outrecipe>
+	<outrecipe>J1</outrecipe>
 
-	<inventory_size>10000000000</inventory_size>
-	<throughput>1e100</throughput>
+	<inventory_size>1000000</inventory_size>
+	<throughput>25000</throughput>
       </Source>
     </config>
   </prototype>
@@ -57,9 +57,8 @@
       <Source>
 	<outcommod>E1_second_initial</outcommod>
 	<outrecipe>E1</outrecipe>
-
-	<inventory_size>1000000000000</inventory_size>
-	<throughput>1e100</throughput>
+	<inventory_size>1200000</inventory_size>
+	<throughput>200000</throughput>
       </Source>
     </config>
   </prototype>
@@ -71,8 +70,8 @@
 	<outcommod>E2_second_initial</outcommod>
 	<outrecipe>E2</outrecipe>
 
-	<inventory_size>1000000000000</inventory_size>
-	<throughput>1e100</throughput>
+	<inventory_size>290000</inventory_size>
+	<throughput>20000</throughput>
       </Source>
     </config>
   </prototype>
@@ -82,10 +81,10 @@
     <config>
       <Source>
         <outcommod>E3_second_initial</outcommod>
-        <outrecipe>E3_second</outrecipe>
+        <outrecipe>E3</outrecipe>
 
-        <inventory_size>1000000000</inventory_size>
-        <throughput>1e100</throughput>
+        <inventory_size>180000</inventory_size>
+        <throughput>20000</throughput>
       </Source>
     </config>
   </prototype>
@@ -97,7 +96,7 @@
 	<outcommod>E4_initial</outcommod>
 	<outrecipe>E4</outrecipe>
 
-	<inventory_size>1000000000</inventory_size>
+	<inventory_size>3200000</inventory_size>
 	<throughput>1e100</throughput>
       </Source>
     </config>
@@ -214,7 +213,7 @@
           <val>1</val>
 
 	  <val>1</val>
-          <val>957</val>
+          <val>960</val>
         </build_times>
 
         <n_build>
@@ -237,7 +236,7 @@
           <val>1</val>
           <val>1</val>
           <val>1</val>
-          <val>1</val>
+          <val>3</val>
 
 	  <val>3</val>
           <val>3</val>
@@ -247,7 +246,7 @@
           <val>1</val>
           <val>1</val>
 
-	  <val>1</val>
+	  <val>15</val>
 
 	  <val>18</val>
           <val>18</val>
@@ -256,7 +255,7 @@
           <val>1</val>
           <val>1</val>
 
-	  <val>1</val>
+	  <val>15</val>
 
 	  <val>18</val>
           <val>18</val>
