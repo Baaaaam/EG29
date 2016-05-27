@@ -236,29 +236,29 @@
           <val>1</val>
           <val>1</val>
           <val>1</val>
-          <val>3</val>
+          <val>6</val>
 
-	  <val>3</val>
-          <val>3</val>
+	  <val>6</val>
+          <val>6</val>
 
 	  
 	  <val>1</val>
           <val>1</val>
           <val>1</val>
 
-	  <val>15</val>
+	  <val>35</val>
 
-	  <val>18</val>
-          <val>18</val>
+	  <val>35</val>
+          <val>35</val>
 
 	  <val>1</val>
           <val>1</val>
           <val>1</val>
 
-	  <val>15</val>
+	  <val>35</val>
 
-	  <val>18</val>
-          <val>18</val>
+	  <val>35</val>
+          <val>35</val>
         </n_build>
       </DeployInst>
     </config>
