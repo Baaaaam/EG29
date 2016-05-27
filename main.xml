@@ -45,8 +45,8 @@
 	<outcommod>J1_second_initial</outcommod>
 	<outrecipe>J1</outrecipe>
 
-	<inventory_size>1000000</inventory_size>
-	<throughput>25000</throughput>
+	<inventory_size>1931000</inventory_size>
+	<throughput>250000</throughput>
       </Source>
     </config>
   </prototype>
@@ -57,8 +57,8 @@
       <Source>
 	<outcommod>E1_second_initial</outcommod>
 	<outrecipe>E1</outrecipe>
-	<inventory_size>1200000</inventory_size>
-	<throughput>200000</throughput>
+	<inventory_size>2400000</inventory_size>
+	<throughput>2000000</throughput>
       </Source>
     </config>
   </prototype>
@@ -70,8 +70,8 @@
 	<outcommod>E2_second_initial</outcommod>
 	<outrecipe>E2</outrecipe>
 
-	<inventory_size>290000</inventory_size>
-	<throughput>20000</throughput>
+	<inventory_size>560000</inventory_size>
+	<throughput>200000</throughput>
       </Source>
     </config>
   </prototype>
@@ -83,8 +83,8 @@
         <outcommod>E3_second_initial</outcommod>
         <outrecipe>E3</outrecipe>
 
-        <inventory_size>180000</inventory_size>
-        <throughput>20000</throughput>
+        <inventory_size>381000</inventory_size>
+        <throughput>200000</throughput>
       </Source>
     </config>
   </prototype>
@@ -96,7 +96,7 @@
 	<outcommod>E4_initial</outcommod>
 	<outrecipe>E4</outrecipe>
 
-	<inventory_size>3200000</inventory_size>
+	<inventory_size>6360000</inventory_size>
 	<throughput>1e100</throughput>
       </Source>
     </config>
