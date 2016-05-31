@@ -72,7 +72,7 @@
         <outcommod>J1_pu_initial</outcommod>
         <outrecipe>J1_pu</outrecipe>
         <inventory_size>92000</inventory_size>
-        <throughput>100000</throughput>
+        <throughput>9200</throughput>
       </Source>
     </config>
   </prototype>
