@@ -112,7 +112,7 @@
   
   <prototype>
     <name>PWR</name>
-    <lifetime>960</lifetime>
+    <lifetime>3600</lifetime>
     <config>
       <cyclassReactor>
 	<eq_model>PWR_MLP_MOX</eq_model>
