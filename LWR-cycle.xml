@@ -47,7 +47,6 @@
 
 	<fill_commods>
 	  <val>J1_second_stored</val>
-	  <val>J1_second_initial</val>
 	</fill_commods>
 
 	<fill_recipe>J1_second_initial</fill_recipe>
@@ -172,6 +171,7 @@
     <Storage>
       <in_commods>
         <val>J1_second</val>
+	      <val>J1_second_initial</val>
       </in_commods>
       <out_commods> <val>J1_second_stored</val></out_commods>
       <residence_time>0</residence_time>
