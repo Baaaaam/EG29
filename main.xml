@@ -96,7 +96,6 @@
 	  <val>PWR_storage_fp</val>
           <val>PWR_storage_ma</val>
           <val>PWR</val>
-          <val>PWR</val>
         </prototypes>
 
         <build_times>
@@ -113,11 +112,9 @@
           <val>1</val>
           <val>1</val>
           <val>1</val>
-          <val>957</val>
         </build_times>
 
         <n_build>
-          <val>1</val>
           <val>1</val>
           <val>1</val>
           <val>1</val>
