@@ -60,7 +60,7 @@
       <outrecipe>J1_second_initial</outrecipe>
 
       <inventory_size>450000</inventory_size>
-      <throughput>4500000</throughput>
+      <throughput>45000</throughput>
     </Source>
   </config>
 </prototype>
