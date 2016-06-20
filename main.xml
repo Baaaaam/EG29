@@ -22,9 +22,11 @@
 
 
   <xi:include href="recipe.xml" xpointer="xpointer(//My_include/*)"/>
-  <xi:include href="fbr-cycle.xml" xpointer="xpointer(//My_include/*)"/>
-  <xi:include href="pwr-cycle.xml" xpointer="xpointer(//My_include/*)"/>
+  <xi:include href="fbr_cycle.xml" xpointer="xpointer(//My_include/*)"/>
+  <xi:include href="pwr_cycle.xml" xpointer="xpointer(//My_include/*)"/>
   <xi:include href="pwr_deployement.xml" xpointer="xpointer(//My_include/*)"/>
+  <xi:include href="fbr_deployement.xml" xpointer="xpointer(//My_include/*)"/>
+  <xi:include href="fbr_blanket_deployement.xml" xpointer="xpointer(//My_include/*)"/>
   
   <prototype>
     <name>natl_u_source</name>

@@ -4,7 +4,7 @@
   <agent> <name>deployer</name> <prototype>D_PWR_CHAIN_SEPARATION</prototype> </agent>
   <agent> <name>deployer</name> <prototype>D_PWR_CHAIN_FABRICATION</prototype> </agent>
   <agent> <name>deployer</name> <prototype>D_PWR_CHAIN_REACTOR</prototype> </agent>
-  
+
   <prototype>
     <name>D_PWR_CHAIN_FIX_SUPPLY</name>
     <config>
@@ -12,10 +12,10 @@
         <prototypes>
           <val>Storage_J1_prime</val>
           <val>Storage_J1_second</val>
-          
+
           <val>PWR_cooling</val>
           <val>PWR_storage</val>
-          
+
         </prototypes>
 
         <build_times>
@@ -29,8 +29,8 @@
         <n_build>
           <val>1</val>
           <val>1</val>
-          
-            <val>1</val>
+
+          <val>1</val>
           <val>1</val>
         </n_build>
       </DeployInst>
@@ -213,9 +213,11 @@
           <val>PWR_separation</val>
           <val>PWR_separation</val>
           <val>PWR_separation</val>
+          <val>PWR_separation</val>
         </prototypes>
 
         <build_times>
+          <val>1   </val>
           <val>301 </val>
           <val>313 </val>
           <val>325 </val>
@@ -385,6 +387,7 @@
         </build_times>
 
         <n_build>
+          <val>34</val>
           <val>1</val>
           <val>1</val>
           <val>1</val>
@@ -558,6 +561,9 @@
           <val>5</val>
         </n_build>
       </DeployInst>
+    </config>
+  </prototype>
+
   <prototype>
     <name>D_PWR_CHAIN_FAB</name>
     <config>
@@ -734,9 +740,11 @@
           <val>PWR_fabrication</val>
           <val>PWR_fabrication</val>
           <val>PWR_fabrication</val>
+          <val>PWR_fabrication</val>
         </prototypes>
 
         <build_times>
+          <val>1   </val>
           <val>301 </val>
           <val>313 </val>
           <val>325 </val>
@@ -906,6 +914,7 @@
         </build_times>
 
         <n_build>
+          <val>34</val>
           <val>1</val>
           <val>1</val>
           <val>1</val>
@@ -1079,6 +1088,9 @@
           <val>5</val>
         </n_build>
       </DeployInst>
+    </config>
+  </prototype>
+
   <prototype>
     <name>D_PWR_CHAIN_REACTOR</name>
     <config>
@@ -1255,9 +1267,11 @@
           <val>PWR</val>
           <val>PWR</val>
           <val>PWR</val>
+          <val>PWR</val>
         </prototypes>
 
         <build_times>
+          <val>1   </val>
           <val>301 </val>
           <val>313 </val>
           <val>325 </val>
@@ -1427,6 +1441,7 @@
         </build_times>
 
         <n_build>
+          <val>34</val>
           <val>1</val>
           <val>1</val>
           <val>1</val>
