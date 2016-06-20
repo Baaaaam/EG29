@@ -1,9 +1,9 @@
 <My_include>
 
-  <agent> <name>deployer</name> <prototype>D_FBR_CHAIN_FIX_SUPPLY</prototype> </agent>
-  <agent> <name>deployer</name> <prototype>D_FBR_CHAIN_SEPARATION</prototype> </agent>
-  <agent> <name>deployer</name> <prototype>D_FBR_CHAIN_FABRICATION</prototype> </agent>
-  <agent> <name>deployer</name> <prototype>D_FBR_CHAIN_REACTOR</prototype> </agent>
+  <agent> <name>deployer_fbr1</name> <prototype>D_FBR_CHAIN_FIX_SUPPLY</prototype> </agent>
+  <agent> <name>deployer_fbr2</name> <prototype>D_FBR_CHAIN_SEPARATION</prototype> </agent>
+  <agent> <name>deployer_fbr3</name> <prototype>D_FBR_CHAIN_FAB</prototype> </agent>
+  <agent> <name>deployer_fbr4</name> <prototype>D_FBR_CHAIN_REACTOR</prototype> </agent>
 
   <prototype>
     <name>D_FBR_CHAIN_FIX_SUPPLY</name>
@@ -19,8 +19,7 @@
           <val>Storage_E3_prime</val>
           <val>Storage_E3_second</val>
 
-          <val>Storage_E4_prime</val>
-          <val>Storage_E4_second</val>
+          <val>Storage_E4</val>
 
           <val>FBR_driver_MOX_cooling</val>
           <val>FBR_driver_MOX_storage</val>
@@ -38,7 +37,6 @@
           <val>1</val>
 
           <val>1</val>
-          <val>1</val>
 
           <val>1</val>
           <val>1</val>
@@ -54,7 +52,6 @@
           <val>1</val>
           <val>1</val>
 
-          <val>1</val>
           <val>1</val>
 
           <val>1</val>

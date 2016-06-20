@@ -48,8 +48,8 @@
 	<outcommod>J1_second_initial</outcommod>
 	<outrecipe>J1</outrecipe>
 
-	<inventory_size>1931000</inventory_size>
-	<throughput>250000</throughput>
+	<inventory_size>1e100</inventory_size>
+	<throughput>1e100</throughput>
       </Source>
     </config>
   </prototype>
@@ -60,8 +60,8 @@
       <Source>
 	<outcommod>E1_second_initial</outcommod>
 	<outrecipe>E1</outrecipe>
-	<inventory_size>2400000</inventory_size>
-	<throughput>2000000</throughput>
+	<inventory_size>1e100</inventory_size>
+	<throughput>1e100</throughput>
       </Source>
     </config>
   </prototype>
@@ -73,8 +73,8 @@
 	<outcommod>E2_second_initial</outcommod>
 	<outrecipe>E2</outrecipe>
 
-	<inventory_size>560000</inventory_size>
-	<throughput>200000</throughput>
+	<inventory_size>1e100</inventory_size>
+	<throughput>1e100</throughput>
       </Source>
     </config>
   </prototype>
@@ -86,8 +86,8 @@
         <outcommod>E3_second_initial</outcommod>
         <outrecipe>E3</outrecipe>
 
-        <inventory_size>381000</inventory_size>
-        <throughput>200000</throughput>
+        <inventory_size>1e100</inventory_size>
+        <throughput>1e100</throughput>
       </Source>
     </config>
   </prototype>
@@ -99,7 +99,7 @@
 	<outcommod>E4_initial</outcommod>
 	<outrecipe>E4</outrecipe>
 
-	<inventory_size>6360000</inventory_size>
+	<inventory_size>1e100</inventory_size>
 	<throughput>1e100</throughput>
       </Source>
     </config>
@@ -117,6 +117,61 @@
 </prototype>
 
   
+  <agent> <name>deployer</name> <prototype>D_CHAIN_INITIAL_SUPPLY</prototype> </agent>
+
+  <prototype>
+    <name>D_CHAIN_INITIAL_SUPPLY</name>
+    <config>
+      <DeployInst>
+        <prototypes>
+
+          <val>J1_second_limited_source</val>
+          
+          <val>E1_second_limited_source</val>
+
+          <val>E2_second_limited_source</val>
+
+          <val>E3_second_limited_source</val>
+
+          <val>E4_limited_source</val>
+
+          <val>waste</val>
+          <val>natl_u_source</val>
+
+        </prototypes>
+
+        <build_times>
+          <val>1</val>
+
+          <val>1</val>
+
+          <val>1</val>
+
+          <val>1</val>
+
+          <val>1</val>
+
+          <val>1</val>
+          <val>1</val>
+        </build_times>
+
+        <n_build>
+          <val>1</val>
+
+          <val>1</val>
+
+          <val>1</val>
+
+          <val>1</val>
+
+          <val>1</val>
+
+          <val>1</val>
+          <val>1</val>
+        </n_build>
+      </DeployInst>
+    </config>
+  </prototype>
   
   
 </simulation>

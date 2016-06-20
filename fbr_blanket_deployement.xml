@@ -1,9 +1,9 @@
 <My_include>
 
-  <agent> <name>deployer</name> <prototype>D_FBR_B_CHAIN_FIX_SUPPLY</prototype> </agent>
-  <agent> <name>deployer</name> <prototype>D_FBR_B_CHAIN_SEPARATION</prototype> </agent>
-  <agent> <name>deployer</name> <prototype>D_FBR_B_CHAIN_FABRICATION</prototype> </agent>
-  <agent> <name>deployer</name> <prototype>D_FBR_B_CHAIN_REACTOR</prototype> </agent>
+  <agent> <name>deployer_fbr_b1</name> <prototype>D_FBR_B_CHAIN_FIX_SUPPLY</prototype> </agent>
+  <agent> <name>deployer_fbr_b2</name> <prototype>D_FBR_B_CHAIN_SEPARATION</prototype> </agent>
+  <agent> <name>deployer_fbr_b3</name> <prototype>D_FBR_B_CHAIN_FAB</prototype> </agent>
+  <agent> <name>deployer_fbr_b4</name> <prototype>D_FBR_B_CHAIN_REACTOR</prototype> </agent>
 
   <prototype>
     <name>D_FBR_B_CHAIN_FIX_SUPPLY</name>
@@ -19,33 +19,9 @@
         <build_times>
           <val>1</val>
           <val>1</val>
-
-          <val>1</val>
-          <val>1</val>
-
-          <val>1</val>
-          <val>1</val>
-
-          <val>1</val>
-          <val>1</val>
-
-          <val>1</val>
-          <val>1</val>
         </build_times>
 
         <n_build>
-          <val>1</val>
-          <val>1</val>
-
-          <val>1</val>
-          <val>1</val>
-
-          <val>1</val>
-          <val>1</val>
-
-          <val>1</val>
-          <val>1</val>
-
           <val>1</val>
           <val>1</val>
         </n_build>

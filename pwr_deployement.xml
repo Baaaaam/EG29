@@ -1,9 +1,9 @@
 <My_include>
 
-  <agent> <name>deployer</name> <prototype>D_PWR_CHAIN_FIX_SUPPLY</prototype> </agent>
-  <agent> <name>deployer</name> <prototype>D_PWR_CHAIN_SEPARATION</prototype> </agent>
-  <agent> <name>deployer</name> <prototype>D_PWR_CHAIN_FABRICATION</prototype> </agent>
-  <agent> <name>deployer</name> <prototype>D_PWR_CHAIN_REACTOR</prototype> </agent>
+  <agent> <name>deployer_pwr1</name> <prototype>D_PWR_CHAIN_FIX_SUPPLY</prototype> </agent>
+  <agent> <name>deployer_pwr2</name> <prototype>D_PWR_CHAIN_SEPARATION</prototype> </agent>
+  <agent> <name>deployer_pwr3</name> <prototype>D_PWR_CHAIN_FABRICATION</prototype> </agent>
+  <agent> <name>deployer_pwr4</name> <prototype>D_PWR_CHAIN_REACTOR</prototype> </agent>
 
   <prototype>
     <name>D_PWR_CHAIN_FIX_SUPPLY</name>
@@ -42,11 +42,6 @@
     <config>
       <DeployInst>
         <prototypes>
-          <val>PWR_separation</val>
-          <val>PWR_separation</val>
-          <val>PWR_separation</val>
-          <val>PWR_separation</val>
-          <val>PWR_separation</val>
           <val>PWR_separation</val>
           <val>PWR_separation</val>
           <val>PWR_separation</val>
