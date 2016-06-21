@@ -209,6 +209,11 @@
           <val>PWR_separation</val>
           <val>PWR_separation</val>
           <val>PWR_separation</val>
+          <val>PWR_separation</val>
+          <val>PWR_separation</val>
+          <val>PWR_separation</val>
+          <val>PWR_separation</val>
+          <val>PWR_separation</val>
         </prototypes>
 
         <build_times>
@@ -379,6 +384,11 @@
           <val>2317</val>
           <val>2329</val>
           <val>2341</val>
+          <val>2353</val>
+          <val>2365</val>
+          <val>2377</val>
+          <val>2389</val>
+          <val>2401</val>
         </build_times>
 
         <n_build>
@@ -560,7 +570,7 @@
   </prototype>
 
   <prototype>
-    <name>D_PWR_CHAIN_FAB</name>
+    <name>D_PWR_CHAIN_FABRICATION</name>
     <config>
       <DeployInst>
         <prototypes>
@@ -906,6 +916,11 @@
           <val>2317</val>
           <val>2329</val>
           <val>2341</val>
+          <val>2353</val>
+          <val>2365</val>
+          <val>2377</val>
+          <val>2389</val>
+          <val>2401</val>
         </build_times>
 
         <n_build>
@@ -1433,6 +1448,11 @@
           <val>2317</val>
           <val>2329</val>
           <val>2341</val>
+          <val>2353</val>
+          <val>2365</val>
+          <val>2377</val>
+          <val>2389</val>
+          <val>2401</val>
         </build_times>
 
         <n_build>
