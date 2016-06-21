@@ -2,7 +2,7 @@
 
   <schematype>flat</schematype>
   <control>
-    <duration>1200</duration>
+    <duration>2400</duration>
     <startmonth>1</startmonth>
     <startyear>2015</startyear>
     <decay>never</decay>
@@ -27,6 +27,7 @@
   <xi:include href="pwr_deployement.xml" xpointer="xpointer(//My_include/*)"/>
   <xi:include href="fbr_deployement.xml" xpointer="xpointer(//My_include/*)"/>
   <xi:include href="fbr_blanket_deployement.xml" xpointer="xpointer(//My_include/*)"/>
+  <xi:include href="initial_deployement.xml" xpointer="xpointer(//My_include/*)"/>
   
   <prototype>
     <name>natl_u_source</name>

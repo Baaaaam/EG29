@@ -9,13 +9,13 @@
     <name>D_PWR_CHAIN_FIX_SUPPLY</name>
     <config>
       <DeployInst>
+
         <prototypes>
           <val>Storage_J1_prime</val>
           <val>Storage_J1_second</val>
 
           <val>PWR_cooling</val>
           <val>PWR_storage</val>
-
         </prototypes>
 
         <build_times>
@@ -33,6 +33,7 @@
           <val>1</val>
           <val>1</val>
         </n_build>
+
       </DeployInst>
     </config>
   </prototype>
