@@ -11,8 +11,8 @@
       <DeployInst>
         <prototypes>
 
-          <val>FBR_blanket_MOX_cooling</val>
-          <val>FBR_blanket_MOX_storage</val>
+          <val>FBR_blanket_cooling</val>
+          <val>FBR_blanket_storage</val>
 
         </prototypes>
 
