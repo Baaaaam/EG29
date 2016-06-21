@@ -213,11 +213,9 @@
           <val>PWR_separation</val>
           <val>PWR_separation</val>
           <val>PWR_separation</val>
-          <val>PWR_separation</val>
         </prototypes>
 
         <build_times>
-          <val>1   </val>
           <val>301 </val>
           <val>313 </val>
           <val>325 </val>
@@ -392,7 +390,6 @@
         </build_times>
 
         <n_build>
-          <val>34</val>
           <val>1</val>
           <val>1</val>
           <val>1</val>
@@ -745,11 +742,9 @@
           <val>PWR_fabrication</val>
           <val>PWR_fabrication</val>
           <val>PWR_fabrication</val>
-          <val>PWR_fabrication</val>
         </prototypes>
 
         <build_times>
-          <val>1   </val>
           <val>301 </val>
           <val>313 </val>
           <val>325 </val>
@@ -924,7 +919,6 @@
         </build_times>
 
         <n_build>
-          <val>34</val>
           <val>1</val>
           <val>1</val>
           <val>1</val>
@@ -1277,11 +1271,9 @@
           <val>PWR</val>
           <val>PWR</val>
           <val>PWR</val>
-          <val>PWR</val>
         </prototypes>
 
         <build_times>
-          <val>1   </val>
           <val>301 </val>
           <val>313 </val>
           <val>325 </val>
@@ -1456,7 +1448,6 @@
         </build_times>
 
         <n_build>
-          <val>34</val>
           <val>1</val>
           <val>1</val>
           <val>1</val>

@@ -224,11 +224,9 @@
           <val>FBR_blanket_separation</val>
           <val>FBR_blanket_separation</val>
           <val>FBR_blanket_separation</val>
-          <val>FBR_blanket_separation</val>
         </prototypes>
 
         <build_times>
-          <val>1   </val>
           <val>133 </val>
           <val>145 </val>
           <val>157 </val>
@@ -422,7 +420,6 @@
         </build_times>
 
         <n_build>
-          <val>198 </val>
           <val>3 </val>
           <val>2 </val>
           <val>3 </val>
@@ -813,11 +810,9 @@
           <val>FBR_blanket_fabrication</val>
           <val>FBR_blanket_fabrication</val>
           <val>FBR_blanket_fabrication</val>
-          <val>FBR_blanket_fabrication</val>
         </prototypes>
 
         <build_times>
-          <val>1   </val>
           <val>133 </val>
           <val>145 </val>
           <val>157 </val>
@@ -1011,7 +1006,6 @@
         </build_times>
 
         <n_build>
-          <val>198 </val>
           <val>3 </val>
           <val>2 </val>
           <val>3 </val>
