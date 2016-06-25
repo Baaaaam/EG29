@@ -36,7 +36,7 @@
 	<outcommod>natl_u</outcommod>
 	<outrecipe>natl_u</outrecipe>
 
-	<inventory_size>1e100</inventory_size>
+	<inventory_size>500000000</inventory_size>
 	<throughput>1e100</throughput>
       </Source>
     </config>
@@ -49,7 +49,7 @@
 	<outcommod>J1_second_initial</outcommod>
 	<outrecipe>J1</outrecipe>
 
-	<inventory_size>1e100</inventory_size>
+	<inventory_size>500000000</inventory_size>
 	<throughput>1e100</throughput>
       </Source>
     </config>
@@ -61,7 +61,7 @@
       <Source>
 	<outcommod>E1_second_initial</outcommod>
 	<outrecipe>E1</outrecipe>
-	<inventory_size>1e100</inventory_size>
+	<inventory_size>500000000</inventory_size>
 	<throughput>1e100</throughput>
       </Source>
     </config>
@@ -74,7 +74,7 @@
 	<outcommod>E2_second_initial</outcommod>
 	<outrecipe>E2</outrecipe>
 
-	<inventory_size>1e100</inventory_size>
+	<inventory_size>500000000</inventory_size>
 	<throughput>1e100</throughput>
       </Source>
     </config>
@@ -87,7 +87,7 @@
         <outcommod>E3_second_initial</outcommod>
         <outrecipe>E3</outrecipe>
 
-        <inventory_size>1e100</inventory_size>
+        <inventory_size>500000000</inventory_size>
         <throughput>1e100</throughput>
       </Source>
     </config>
@@ -100,7 +100,7 @@
 	<outcommod>E4_initial</outcommod>
 	<outrecipe>E4</outrecipe>
 
-	<inventory_size>1e100</inventory_size>
+	<inventory_size>500000000</inventory_size>
 	<throughput>1e100</throughput>
       </Source>
     </config>
