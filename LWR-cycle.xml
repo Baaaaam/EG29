@@ -1,77 +1,77 @@
 <My_include>
-  
+
   <!-- Comodity list & definition:
-   
+
    * PWR_MOX_new    : new MOX fuel for PWR
    * PWR_MOX_spent  : spent MOX fuel for PWR
    * PWR_MOX_cooled : spent MOX fuel for PWR AFTER COOLING
    * PWR_MOX_stored : spent MOX fuel for PWR AVAILABLE in storage
-   
+
    * PWR_pu : pu after separation
    * PWR_ma : ma after separation
    * PWR_fp : fp after separation
    * PWR_ru : ru after separation
-   
+
    * PWR_pu_stored : pu AVAILABLE in storage
    * PWR_ma_stored : ma AVAILABLE in storage
    * PWR_fp_stored : fp AVAILABLE in storage
    * PWR_ru_stored : ru AVAILABLE in storage
-   
+
    * FBR_blanket_pu_stored  : pu from FBR blanket
    * FBR_blanket_ru_stored  : ru from FBR blanket
    * EXT2_blanket_pu_stored : pu form EXT source 2
    * EXT2_ru_stored         : ru from EXT source 2
-   
+
    -->
-  
-  
+
+
   <!--      PWR fabrication      -->
   <prototype>
     <name>PWR_fabrication</name>
     <config>
       <cyclassFuelFab>
-        
+
         <eq_model>MLP_Kinf</eq_model>
         <eq_command>/Users/mouginot/work/App/CLASS/DATA_BASES/PWR/MOX/EQModel/MLP_Kinf/MLP/PWR_MOX_30Wg.xml,/Users/mouginot/work/App/CLASS/DATA_BASES/PWR/MOX/EQModel/MLP_Kinf/MLP/PWR_MOX_30Wg.nfo,3,1.034</eq_command>
         <fiss_commods><val>pu_mixed</val></fiss_commods>
         <fiss_size>88695</fiss_size>
-        
-        
+
+
         <fill_commods><val>u_mixed</val></fill_commods>
         <fill_recipe>PWR_Upu</fill_recipe>
         <fill_commod_prefs><val>1.0</val></fill_commod_prefs>
         <fill_size>88695</fill_size>
-        
+
         <throughput>88695</throughput>
         <outcommod>PWR_MOX_new</outcommod>
       </cyclassFuelFab>
     </config>
   </prototype>
-  
+
   <prototype>
     <name>pu_mixer</name>
     <config>
       <Mixer>
 
-	<in_commods>
-	  <val>J1_second_pu_stored</val>
-	  <val>E3_second_pu_stored</val>
-	</in_commods>
+        <in_commods>
+          <val>J1_second_pu_stored</val>
+          <val>E3_second_pu_stored</val>
+        </in_commods>
 
-	<mixing_ratios>
-	  <val>0.350</val>
-	  <val>0.201</val>
-	</mixing_ratios>
+        <mixing_ratios>
+          <val>0.350</val>
+          <val>0.201</val>
+        </mixing_ratios>
 
 
-	<in_buf_sizes>
-	  <val>50000</val>
-	  <val>25000</val>
-	</in_buf_sizes>
+        <in_buf_sizes>
+          <val>50000</val>
+          <val>25000</val>
+        </in_buf_sizes>
 
-	<throughput>88695</throughput>
-	<out_commod>pu_mixed</out_commod>
-	<out_buf_size>88695</out_buf_size>
+        <throughput>88695</throughput>
+        <out_commod>pu_mixed</out_commod>
+        <out_buf_size>88695</out_buf_size>
 
       </Mixer>
     </config>
@@ -82,64 +82,67 @@
     <config>
       <Mixer>
 
-	<in_commods>
-	  <val>J1_second_u_stored</val>
-	  <val>E3_second_u_stored</val>
-	</in_commods>
+        <in_commods>
+          <val>J1_second_u_stored</val>
+          <val>E3_second_u_stored</val>
+        </in_commods>
 
-	<mixing_ratios>
-	  <val>0.350</val>
-	  <val>0.201</val>
-	</mixing_ratios>
+        <mixing_ratios>
+          <val>0.350</val>
+          <val>0.201</val>
+        </mixing_ratios>
 
 
-	<in_buf_sizes>
-	  <val>50000</val>
-	  <val>25000</val>
-	</in_buf_sizes>
+        <in_buf_sizes>
+          <val>50000</val>
+          <val>25000</val>
+        </in_buf_sizes>
 
-	<throughput>88695</throughput>
-	<out_commod>u_mixed</out_commod>
-	<out_buf_size>88695</out_buf_size>
+        <throughput>88695</throughput>
+        <out_commod>u_mixed</out_commod>
+        <out_buf_size>88695</out_buf_size>
 
       </Mixer>
     </config>
   </prototype>
-  
-  
+
+
   <!-- *********************** -->
-  
-  
+
+  <recipe>
+    <name>Fresh_MOX_request</name>
+    <basis>atom</basis>
+
+    <nuclide> <id>U235</id><comp> 0.00239014</comp> </nuclide>
+    <nuclide> <id>U238</id><comp> 0.953665  </comp> </nuclide>
+    <nuclide> <id>PU239</id><comp> 0.0439453 </comp> </nuclide>
+  </recipe>
+
+
   <prototype>
     <name>PWR</name>
     <lifetime>960</lifetime>
     <config>
-      <cyclassReactor>
-        <eq_model>MLP_Kinf</eq_model>
-        <eq_command>/Users/mouginot/work/App/CLASS/DATA_BASES/PWR/MOX/EQModel/MLP_Kinf/MLP/PWR_MOX_30Wg.xml,/Users/mouginot/work/App/CLASS/DATA_BASES/PWR/MOX/EQModel/MLP_Kinf/MLP/PWR_MOX_30Wg.nfo,3,1.034</eq_command>
-        
-        <ir_model>RK4</ir_model>
-        <ir_command>none</ir_command>
-        
-        <xs_model>XSM_MLP</xs_model>
-        <xs_command>/Users/mouginot/work/App/CLASS/DATA_BASES/PWR/MOX/XSModel/30Wg_FullMOX/,Data_Base_Info.nfo,false</xs_command>
-        <fuel_incommods>	<val>PWR_MOX_new</val>		</fuel_incommods>
-        <fuel_outcommods>	<val>PWR_MOX_spent</val>	</fuel_outcommods>
-        <burnup>50</burnup>
-        <cycle_time>54</cycle_time>
-        <power_cap>900</power_cap>
-        <power>3000</power>
-        <refuel_time>0</refuel_time>
-        <assem_size>88695</assem_size>
+      <Reactor>
+        <fuel_inrecipes>  <val>Fresh_MOX_request</val></fuel_inrecipes>
+        <fuel_incommods>  <val>PWR_MOX_new</val></fuel_incommods>
+
+        <fuel_outrecipes> <val>PWR_MOX_spent</val></fuel_outrecipes>
+        <fuel_outcommods> <val>PWR_MOX_spent</val></fuel_outcommods>
+         <assem_size>88695</assem_size>
         <n_assem_core>1</n_assem_core>
+        <cycle_time>54</cycle_time>
+        <refuel_time>0</refuel_time>
         <n_assem_batch>1</n_assem_batch>
-      </cyclassReactor>
+        <power_cap>900</power_cap>
+
+      </Reactor>
     </config>
   </prototype>
-  
-  
-  
-  
+
+
+
+
   <!--       PWR Cooling       -->
   <prototype>
     <name>PWR_cooling</name>
@@ -152,7 +155,7 @@
     </config>
   </prototype>
   <!-- *********************** -->
-  
+
   <!--       PWR Storage       -->
   <prototype>
     <name>PWR_storage</name>
@@ -165,24 +168,24 @@
     </config>
   </prototype>
   <!-- *********************** -->
-  
+
   <!--      PWR Separation     -->
   <prototype>
     <name>PWR_separation</name>
     <config>
       <Separations>
         <feedbuf_size>1e100</feedbuf_size>
-        
+
         <feed_commods>
           <val>PWR_MOX_spent_stored</val>
         </feed_commods>
-        
+
         <feed_commod_prefs>
           <val>1.0</val>
         </feed_commod_prefs>
-        
+
         <throughput>1e100</throughput>
-        
+
         <streams>
           <item>
             <commod>J1_second_pu</commod>
@@ -202,7 +205,7 @@
               </efficiencies>
             </info>
           </item>
-          
+
           <item>
             <commod>J1_prime</commod>
             <info>
@@ -214,14 +217,14 @@
             </info>
           </item>
         </streams>
-        
+
         <leftover_commod>waste</leftover_commod>
-        
+
       </Separations>
     </config>
   </prototype>
   <!-- *********************** -->
-  
+
   <!--      PWR U/pu storage     -->
   <prototype>
     <name>J1_second_storage_pu</name>
@@ -236,7 +239,7 @@
       </Storage>
     </config>
   </prototype>
-  
+
   <prototype>
     <name>J1_second_storage_u</name>
     <config>
@@ -251,7 +254,7 @@
     </config>
   </prototype>
 
-  
+
   <!-- *********************** -->
   <prototype>
     <name>E3_storage_pu</name>
@@ -266,7 +269,7 @@
       </Storage>
     </config>
   </prototype>
-  
+
   <prototype>
     <name>E3_storage_u</name>
     <config>
@@ -296,7 +299,7 @@
     </config>
   </prototype>
   <!-- *********************** -->
-  
+
   <!--      PWR fp storage     -->
   <prototype>
     <name>PWR_storage_fp</name>
@@ -309,7 +312,7 @@
     </config>
   </prototype>
   <!-- *********************** -->
-  
+
   <!--      PWR ma storage     -->
   <prototype>
     <name>PWR_storage_ma</name>
@@ -322,8 +325,8 @@
     </config>
   </prototype>
   <!-- *********************** -->
-  
-  
+
+
   <!-- *********************** -->
-  
+
 </My_include>
