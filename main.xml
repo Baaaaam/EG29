@@ -46,7 +46,7 @@
       <Source>
         <outcommod>E3_pu_initial</outcommod>
         <outrecipe>E3_pu</outrecipe>
-        <inventory_size>10000000</inventory_size>
+        <inventory_size>370000</inventory_size>
         <throughput>1e100</throughput>
       </Source>
     </config>
