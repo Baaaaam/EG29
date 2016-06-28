@@ -34,7 +34,7 @@
       <Source>
         <outcommod>E3_u_initial</outcommod>
         <outrecipe>E3_u</outrecipe>
-        <inventory_size>100000000</inventory_size>
+        <inventory_size>1000000000</inventory_size>
         <throughput>1e100</throughput>
       </Source>
     </config>
@@ -46,7 +46,7 @@
       <Source>
         <outcommod>E3_pu_initial</outcommod>
         <outrecipe>E3_pu</outrecipe>
-        <inventory_size>1000000</inventory_size>
+        <inventory_size>10000000</inventory_size>
         <throughput>1e100</throughput>
       </Source>
     </config>
@@ -59,7 +59,7 @@
       <Source>
         <outcommod>J1_u_initial</outcommod>
         <outrecipe>J1_u</outrecipe>
-        <inventory_size>100000000</inventory_size>
+        <inventory_size>1000000000</inventory_size>
         <throughput>1e100</throughput>
       </Source>
     </config>
@@ -71,7 +71,7 @@
       <Source>
         <outcommod>J1_pu_initial</outcommod>
         <outrecipe>J1_pu</outrecipe>
-        <inventory_size>176000</inventory_size>
+        <inventory_size>300000</inventory_size>
         <throughput>10000</throughput>
       </Source>
     </config>
@@ -112,7 +112,6 @@
           <val>PWR_storage_fp</val>
           <val>PWR_storage_ma</val>
           <val>PWR</val>
-          <val>PWR</val>
         </prototypes>
 
         <build_times>
@@ -135,11 +134,9 @@
           <val>1</val>
           <val>1</val>
           <val>1</val>
-          <val>961</val>
         </build_times>
 
         <n_build>
-          <val>1</val>
           <val>1</val>
           <val>1</val>
           <val>1</val>
