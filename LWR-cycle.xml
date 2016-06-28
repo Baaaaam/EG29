@@ -61,7 +61,7 @@
   <!--       PWR reactor       -->
   <prototype>
   <name>PWR</name>
-  <lifetime>2960</lifetime>
+  <lifetime>3600</lifetime>
   <config>
     <Reactor>
       <fuel_inrecipes>  <val>PWR_MOX_new</val></fuel_inrecipes>
