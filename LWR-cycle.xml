@@ -121,7 +121,7 @@
 
   <prototype>
     <name>PWR</name>
-    <lifetime>960</lifetime>
+    <lifetime>3600</lifetime>
     <config>
       <Reactor>
         <fuel_inrecipes>  <val>Fresh_MOX_request</val></fuel_inrecipes>
