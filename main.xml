@@ -33,7 +33,7 @@
         <outcommod>E3_second</outcommod>
         <outrecipe>E3_second</outrecipe>
 
-        <inventory_size>1000000</inventory_size>
+        <inventory_size>100000000</inventory_size>
         <throughput>1e100</throughput>
       </Source>
     </config>
