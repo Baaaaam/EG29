@@ -36,12 +36,13 @@
   <!--      FBR fabrication      -->
   <prototype>
     <name>FBR_driver_fabrication</name>
+    <lifetime>960</lifetime>
     <config>
       <Mixer>
         
         <in_commods>
-          <val>E1_second_stored</val>
-          <val>E2_second_stored</val>
+          <val>E1_stored</val>
+          <val>E2_stored</val>
         </in_commods>
         
         <mixing_ratios>
@@ -64,6 +65,7 @@
   
   <prototype>
     <name>FBR_blanket_fabrication</name>
+    <lifetime>960</lifetime>
     <config>
       <Mixer>
         
@@ -171,6 +173,7 @@
   <!--      FBR driver Separation     -->
   <prototype>
     <name>FBR_driver_separation</name>
+    <lifetime>960</lifetime>
     <config>
       <Separations>
         <feedbuf_size>107537</feedbuf_size>
@@ -250,6 +253,7 @@
   <!--      FBR blanket Separation     -->
   <prototype>
     <name>FBR_blanket_separation</name>
+    <lifetime>960</lifetime>
     <config>
       <Separations>
         <feedbuf_size>107537</feedbuf_size>
@@ -337,7 +341,7 @@
           <val>E1_prime</val>
           <val>E1_prime_initial</val>
         </in_commods>
-        <out_commods> <val>E1_prime_stored</val></out_commods>
+        <out_commods> <val>E1_stored</val></out_commods>
         <residence_time>0</residence_time>
       </Storage>
     </config>
@@ -353,7 +357,7 @@
           <val>E1_second</val>
           <val>E1_second_initial</val>
         </in_commods>
-        <out_commods> <val>E1_second_stored</val></out_commods>
+        <out_commods> <val>E1_stored</val></out_commods>
         <residence_time>0</residence_time>
       </Storage>
     </config>
@@ -369,7 +373,7 @@
           <val>E2_prime_initial</val>
           <val>E2_prime</val>
         </in_commods>
-        <out_commods> <val>E2_prime_stored</val></out_commods>
+        <out_commods> <val>E2_stored</val></out_commods>
         <residence_time>0</residence_time>
       </Storage>
     </config>
@@ -383,7 +387,7 @@
           <val>E2_second_initial</val>
           <val>E2_second</val>
         </in_commods>
-        <out_commods> <val>E2_second_stored</val></out_commods>
+        <out_commods> <val>E2_stored</val></out_commods>
         <residence_time>0</residence_time>
       </Storage>
     </config>
@@ -397,7 +401,7 @@
           <val>E3_prime_initial</val>
           <val>E3_prime</val>
         </in_commods>
-        <out_commods> <val>E2_prime_stored</val></out_commods>
+        <out_commods> <val>E2_stored</val></out_commods>
         <residence_time>0</residence_time>
       </Storage>
     </config>
@@ -411,7 +415,7 @@
           <val>E3_second_initial</val>
           <val>E3_second</val>
         </in_commods>
-        <out_commods> <val>E3_second_stored</val></out_commods>
+        <out_commods> <val>E3_stored</val></out_commods>
         <residence_time>0</residence_time>
       </Storage>
     </config>

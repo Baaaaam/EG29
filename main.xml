@@ -28,29 +28,42 @@
   <xi:include href="fbr_deployement.xml" xpointer="xpointer(//My_include/*)"/>
   <xi:include href="fbr_blanket_deployement.xml" xpointer="xpointer(//My_include/*)"/>
   <xi:include href="initial_deployement.xml" xpointer="xpointer(//My_include/*)"/>
-  
+
   <prototype>
     <name>natl_u_source</name>
     <config>
       <Source>
-	<outcommod>natl_u</outcommod>
-	<outrecipe>natl_u</outrecipe>
+        <outcommod>natl_u</outcommod>
+        <outrecipe>natl_u</outrecipe>
 
-	<inventory_size>500000000</inventory_size>
-	<throughput>1e100</throughput>
+        <inventory_size>500000000</inventory_size>
+        <throughput>1e100</throughput>
       </Source>
     </config>
   </prototype>
-  
+
+  <prototype>
+    <name>uox_new_source</name>
+    <config>
+      <Source>
+        <outcommod>PWR_UOX_new</outcommod>
+        <outrecipe>PWR_UOX_new</outrecipe>
+
+        <inventory_size>1e100</inventory_size>
+        <throughput>1e100</throughput>
+      </Source>
+    </config>
+  </prototype>
+
   <prototype>
     <name>J1_second_limited_source</name>
     <config>
       <Source>
-	<outcommod>J1_second_initial</outcommod>
-	<outrecipe>J1</outrecipe>
+        <outcommod>J1_second_initial</outcommod>
+        <outrecipe>J1</outrecipe>
 
-	<inventory_size>500000000</inventory_size>
-	<throughput>1e100</throughput>
+        <inventory_size>00000</inventory_size>
+        <throughput>1e100</throughput>
       </Source>
     </config>
   </prototype>
@@ -59,10 +72,10 @@
     <name>E1_second_limited_source</name>
     <config>
       <Source>
-	<outcommod>E1_second_initial</outcommod>
-	<outrecipe>E1</outrecipe>
-	<inventory_size>500000000</inventory_size>
-	<throughput>1e100</throughput>
+        <outcommod>E1_second_initial</outcommod>
+        <outrecipe>E1</outrecipe>
+        <inventory_size>15000000</inventory_size>
+        <throughput>1e100</throughput>
       </Source>
     </config>
   </prototype>
@@ -71,11 +84,11 @@
     <name>E2_second_limited_source</name>
     <config>
       <Source>
-	<outcommod>E2_second_initial</outcommod>
-	<outrecipe>E2</outrecipe>
+        <outcommod>E2_second_initial</outcommod>
+        <outrecipe>E2</outrecipe>
 
-	<inventory_size>500000000</inventory_size>
-	<throughput>1e100</throughput>
+        <inventory_size>3e5</inventory_size>
+        <throughput>1e100</throughput>
       </Source>
     </config>
   </prototype>
@@ -87,7 +100,7 @@
         <outcommod>E3_second_initial</outcommod>
         <outrecipe>E3</outrecipe>
 
-        <inventory_size>500000000</inventory_size>
+        <inventory_size>250000</inventory_size>
         <throughput>1e100</throughput>
       </Source>
     </config>
@@ -97,27 +110,27 @@
     <name>E4_limited_source</name>
     <config>
       <Source>
-	<outcommod>E4_initial</outcommod>
-	<outrecipe>E4</outrecipe>
+        <outcommod>E4_initial</outcommod>
+        <outrecipe>E4</outrecipe>
 
-	<inventory_size>500000000</inventory_size>
-	<throughput>1e100</throughput>
+        <inventory_size>500000000</inventory_size>
+        <throughput>1e100</throughput>
       </Source>
     </config>
   </prototype>
 
 
-<prototype>
-  <name>waste</name>
-  <config>
-    <Sink>
-      <in_commods><val>waste</val></in_commods>
-      <capacity>1e100</capacity>
-    </Sink>
-  </config>
-</prototype>
+  <prototype>
+    <name>waste</name>
+    <config>
+      <Sink>
+        <in_commods><val>waste</val></in_commods>
+        <capacity>1e100</capacity>
+      </Sink>
+    </config>
+  </prototype>
 
-  
+
   <agent> <name>deployer</name> <prototype>D_CHAIN_INITIAL_SUPPLY</prototype> </agent>
 
   <prototype>
@@ -127,7 +140,7 @@
         <prototypes>
 
           <val>J1_second_limited_source</val>
-          
+
           <val>E1_second_limited_source</val>
 
           <val>E2_second_limited_source</val>
@@ -138,6 +151,7 @@
 
           <val>waste</val>
           <val>natl_u_source</val>
+          <val>uox_new_source</val>
 
         </prototypes>
 
@@ -152,6 +166,7 @@
 
           <val>1</val>
 
+          <val>1</val>
           <val>1</val>
           <val>1</val>
         </build_times>
@@ -169,10 +184,11 @@
 
           <val>1</val>
           <val>1</val>
+          <val>1</val>
         </n_build>
       </DeployInst>
     </config>
   </prototype>
-  
-  
+
+
 </simulation>

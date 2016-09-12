@@ -24,62 +24,85 @@
 
    -->
 
-  
+
   <!--      PWR fabrication      -->
   <prototype>
     <name>PWR_fabrication</name>
-    <!--    <lifetime>960</lifetime> -->
+    <lifetime>960</lifetime>
     <config>
       <Mixer>
-        
+
         <in_commods>
-          <val>E3_second_stored</val>
-          <val>J1_second_stored</val>
+          <val>E3_stored</val>
+          <val>J1_stored</val>
         </in_commods>
-        
+
         <mixing_ratios>
           <val>0.1643</val>
           <val>0.8357</val>
         </mixing_ratios>
-        
-        
+
+
         <in_buf_sizes>
           <val>5000</val>
           <val>25000</val>
         </in_buf_sizes>
-        
+
         <throughput>29565</throughput>
         <out_commod>PWR_MOX_new</out_commod>
         <out_buf_size>29565</out_buf_size>
-        
+
       </Mixer>
     </config>
   </prototype>
-  
+
   <!-- *********************** -->
 
   <!--       PWR reactor       -->
   <prototype>
-  <name>PWR</name>
-  <lifetime>960</lifetime>
-  <config>
-    <Reactor>
-      <fuel_inrecipes>  <val>PWR_MOX_new</val></fuel_inrecipes>
-      <fuel_incommods>  <val>PWR_MOX_new</val></fuel_incommods>
+    <name>LWR_UOX</name>
+    <lifetime>960</lifetime>
+    <config>
+      <Reactor>
+        <fuel_inrecipes>  <val>PWR_UOX_new</val></fuel_inrecipes>
+        <fuel_incommods>  <val>PWR_UOX_new</val></fuel_incommods>
 
-      <fuel_outrecipes> <val>PWR_MOX_spent</val></fuel_outrecipes>
-      <fuel_outcommods> <val>PWR_MOX_spent</val></fuel_outcommods>
+        <fuel_outrecipes> <val>PWR_UOX_spent</val></fuel_outrecipes>
+        <fuel_outcommods> <val>PWR_UOX_spent</val></fuel_outcommods>
 
-      <cycle_time>18</cycle_time>
-      <refuel_time>0</refuel_time>
-      <assem_size>29565</assem_size>
-      <n_assem_core>3</n_assem_core>
-      <n_assem_batch>1</n_assem_batch>
-      <power_cap>1000</power_cap>
+        <cycle_time>18</cycle_time>
+        <refuel_time>0</refuel_time>
+        <assem_size>29565</assem_size>
+        <n_assem_core>3</n_assem_core>
+        <n_assem_batch>1</n_assem_batch>
+        <power_cap>1000</power_cap>
 
-    </Reactor>
-  </config>
-</prototype>
+      </Reactor>
+    </config>
+  </prototype>
+
+  <!--       PWR reactor       -->
+  <prototype>
+    <name>PWR</name>
+    <lifetime>960</lifetime>
+    <config>
+      <Reactor>
+        <fuel_inrecipes>  <val>PWR_MOX_new</val></fuel_inrecipes>
+        <fuel_incommods>  <val>PWR_MOX_new</val></fuel_incommods>
+
+        <fuel_outrecipes> <val>PWR_MOX_spent</val></fuel_outrecipes>
+        <fuel_outcommods> <val>PWR_MOX_spent</val></fuel_outcommods>
+
+        <cycle_time>18</cycle_time>
+        <refuel_time>0</refuel_time>
+        <assem_size>29565</assem_size>
+        <n_assem_core>3</n_assem_core>
+        <n_assem_batch>1</n_assem_batch>
+        <power_cap>1000</power_cap>
+
+      </Reactor>
+    </config>
+  </prototype>
 <!-- *********************** -->
 
 <!--       PWR Cooling       -->
@@ -87,8 +110,11 @@
   <name>PWR_cooling</name>
   <config>
     <Storage>
-      <in_commods> <val>PWR_MOX_spent</val></in_commods>
-      <out_commods> <val>PWR_MOX_spent_cooled</val></out_commods>
+      <in_commods> 
+        <val>PWR_MOX_spent</val>
+        <val>PWR_UOX_spent</val>
+      </in_commods>
+      <out_commods> <val>PWR_spent_cooled</val></out_commods>
       <residence_time>84</residence_time>
     </Storage>
   </config>
@@ -100,8 +126,8 @@
   <name>PWR_storage</name>
   <config>
     <Storage>
-      <in_commods> <val>PWR_MOX_spent_cooled</val></in_commods>
-      <out_commods> <val>PWR_MOX_spent_stored</val></out_commods>
+      <in_commods> <val>PWR_spent_cooled</val></in_commods>
+      <out_commods> <val>PWR_spent_stored</val></out_commods>
       <residence_time>0</residence_time>
     </Storage>
   </config>
@@ -111,12 +137,13 @@
 <!--      PWR Separation     -->
 <prototype>
   <name>PWR_separation</name>
+    <lifetime>960</lifetime>
   <config>
     <Separations>
       <feedbuf_size>1e100</feedbuf_size>
 
       <feed_commods>
-        <val>PWR_MOX_spent_stored</val>
+        <val>PWR_spent_stored</val>
       </feed_commods>
 
       <feed_commod_prefs>
@@ -161,7 +188,7 @@
   <config>
     <Storage>
       <in_commods><val>J1_prime</val></in_commods>
-      <out_commods><val>J1_prime_stored</val></out_commods>
+      <out_commods><val>J1_stored</val></out_commods>
       <residence_time>0</residence_time>
     </Storage>
   </config>
@@ -175,7 +202,7 @@
         <val>J1_second_initial</val>
         <val>J1_second</val>
       </in_commods>
-      <out_commods> <val>J1_second_stored</val></out_commods>
+      <out_commods> <val>J1_stored</val></out_commods>
       <residence_time>0</residence_time>
     </Storage>
   </config>
