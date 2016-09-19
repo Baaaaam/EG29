@@ -24,9 +24,9 @@ choises:
     3 batches)
   - MLP_STD_2: fab/depletion fone with MLP CLASS model( K_ths=1.03, 4 batches)
   - MLP_recipe: fab MLP CLASS (k_ths=1.03, 3batches) + recipe reactor
-  - LII_xx incease initial storage (force decay effect) -- xXX multiply by --
+  - LII_xx incease initial storage (force decay effect) -- xXX multiply by -- 
     10/50/100 to be checked
-  _ UOX_start: transition from actual US fleet
+  - UOX_start: transition from actual US fleet
   - XXX_inv: add the inventory in output file
-  _ pucomp
+  - pucomp
 
