@@ -1,27 +1,32 @@
 this calculation run using : 
-- cyclus branch: develop -- commit e94a5a3b10131d39c88e77a21dfc36074b0d29d6
-
-- cycamore fork: https://github.com/jlittell/cycamore.git -- branch:cleanstore -- commit bc2eade822fce9f51464324b607ab4227bc7150a
-
-the Output.xlsm file have been filled using the CYCLUS2FCO tool:
-- https://github.com/Baaaaam/CYCLUS2FCO, branch: master -- commit 4ab084587538af7b2bad4bf7da05bba3b7610748
+this should be running with last CYclus/Cycamore version
 
 the present simulation includes :
 
-Bo-Feng - ANL - EG23 deployement schedule for all reactors.
-the lifetime of each reactor have been set to 80y.
+The input file for the different cases of the EG29 calculation:
+  - Case 1: PWR loop only
+  - Case 2: FBR loop only
+  - Case 3: steady state of FBR/PWR (70/30 of the generated power)
+  - Case 4: the actual transition
 
-Separation of the LWR fuel are made in a commun facility (R.Carlsen number https://github.com/rwcarlsen/eg23-sim), 3 are deployed : 2 in 2030, 1 in 2040.
-
-Separation for FBR are greedy... (throughput 5e6, Pu output buffer 5e6 so about 1000 batch of MOX)
-
-SFR fuel Fabrication are not gready : 1 fab for 10 SFR reactor deployement schedule, the internal parameters allow a little bit more than 10 MOX batch/y
-
-The main difference between SFR & LWR is the 2 SFR type (A or B) did not share the same FAB and SEPARATION, when the LWR do.
+For each/some cases subacses have been considered:
+  - x.1: lumbed composition, no decay
+  - x.2: isotopic composition, no decay
+  - x.3: isotopic composition, decay
 
 
-each fuel type (UOX-A/B and SFR-A/B) have they own dedicated cooling storage (7y) and storage.
+Different declinaison have been perform on each cases, changing some modeling
+choises:
+  - basic (no sufix): fuel fabrication using cycamore::fuel_fab
+  - MF: fabrication done with cicamore::Mixer
+  - MLP: fab/depletion  done with MLP CLASS model (fix K_threshold)
+  - MLP_STD: fab/depletion done woth MLP CLASS model (K_threshold def at 1.03i,
+    3 batches)
+  - MLP_STD_2: fab/depletion fone with MLP CLASS model( K_ths=1.03, 4 batches)
+  - MLP_recipe: fab MLP CLASS (k_ths=1.03, 3batches) + recipe reactor
+  - LII_xx incease initial storage (force decay effect) -- xXX multiply by --
+    10/50/100 to be checked
+  _ UOX_start: transition from actual US fleet
+  - XXX_inv: add the inventory in output file
+  _ pucomp
 
-I have try to put all communs archetypes and recipes in the recycle.xml file, and each reactor type dedicaced ones in the other xml file...
-
-this version is suppose to improve 2015_LWR-group-SEP_SFR-Dedi-SEP version, include a dedicated storage for Recyled Uranium and depleted uranium..
