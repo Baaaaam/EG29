@@ -1,37 +1,37 @@
 <My_include>
-  
+
   <!-- Comodity list & definition:
-   
+
    * FBR_driver_MOX_new    : new MOX driver fuel for FBR
    * FBR_driver_MOX_spent  : spent MOX driver fuel for FBR
    * FBR_driver_MOX_cooled : spent MOX driver fuel for FBR AFTER COOLING
    * FBR_driver_MOX_stored : spent MOX driver fuel for FBR AVAILABLE in storage
-   
+
    * FBR_blanket_U_new    : new U blanket fuel for FBR
    * FBR_blanket_U_spent  : spent U blanket fuel for FBR
    * FBR_blanket_U_cooled : spent U blanket fuel for FBR AFTER COOLING
    * FBR_blanket_U_stored : spent U blanket fuel for FBR AVAILABLE in storage
-   
-   
+
+
    * FBR_driver_pu : pu from driver after separation
    * FBR_driver_ru : ru from driver after separation
    * FBR_driver_pu_stored : pu from FBR driver AVAILABLE in storage
    * FBR_driver_ru_stored : ru from FBR driver AVAILABLE in storage
-   
+
    * FBR_blanket_pu : pu from blanket after separation
    * FBR_blanket_ru : ru from blanket after separation
    * FBR_blanket_pu_stored : pu from FBR blanket AVAILABLE in storage
    * FBR_blanket_ru_stored : ru from FBR blanket AVAILABLE in storage
-   
-   
+
+
    * FBR_ma : ma after separation
    * FBR_fp : fp after separation
    * FBR_ma_stored : ma from FBR AVAILABLE in storage
    * FBR_fp_stored : fp from FBR AVAILABLE in storage
-   
+
    * EXT1_blanket_pu_stored : pu form EXT source 1
    * EXT1_ru_stored         : ru from EXT source 1
-   
+
    -->
   <!--      FBR fabrication      -->
   <prototype>
@@ -39,62 +39,86 @@
     <lifetime>960</lifetime>
     <config>
       <Mixer>
-        
-        <in_commods>
-          <val>E1_stored</val>
-          <val>E2_stored</val>
-        </in_commods>
-        
-        <mixing_ratios>
-          <val>8.13497471866829081e-01</val>
-          <val>1.86506111596205865e-01</val>
-        </mixing_ratios>
-        
-        <in_buf_sizes>
-          <val>5300</val>
-          <val>1300</val>
-        </in_buf_sizes>
-        
+
+        <in_streams>
+          <stream>
+            <info>
+              <mixing_ratio>8.13497471866829081e-01</mixing_ratio>
+              <buf_size>5300</buf_size>
+            </info>
+            <commodities>
+              <item>
+                <commodity>E1_stored</commodity>
+                <pref>1</pref>
+              </item>
+            </commodities>
+          </stream>
+          <stream>
+            <info>
+              <mixing_ratio>1.86506111596205865e-01</mixing_ratio>
+              <buf_size>1300</buf_size>
+            </info>
+            <commodities>
+              <item>
+                <commodity>E2_stored</commodity>
+                <pref>1</pref>
+              </item>
+            </commodities>
+          </stream>
+        </in_streams>
+
         <throughput>6500</throughput>
         <out_commod>FBR_driver_MOX_new</out_commod>
         <out_buf_size>6500</out_buf_size>
-        
+
       </Mixer>
     </config>
   </prototype>
-  
+
   <prototype>
     <name>FBR_blanket_fabrication</name>
     <lifetime>960</lifetime>
     <config>
       <Mixer>
-        
-        <in_commods>
-          <val>natl_u</val>
-          <val>E4_stored</val>
-        </in_commods>
-        
-        <mixing_ratios>
-          <val>1.56406978997421259e-01</val>
-          <val>8.43593021002578713e-01</val>
-        </mixing_ratios>
-        
-        <in_buf_sizes>
-          <val>3000</val>
-          <val>14000</val>
-        </in_buf_sizes>
-        
+
+        <in_streams>
+          <stream>
+            <info>
+              <mixing_ratio>1.56406978997421259e-01</mixing_ratio>
+              <buf_size>3000</buf_size>
+            </info>
+            <commodities>
+              <item>
+                <commodity>natl_u</commodity>
+                <pref>1</pref>
+              </item>
+            </commodities>
+          </stream>
+          <stream>
+            <info>
+              <mixing_ratio>8.43593021002578713e-01</mixing_ratio>
+              <buf_size>14000</buf_size>
+            </info>
+            <commodities>
+              <item>
+                <commodity>E4_stored</commodity>
+                <pref>1</pref>
+              </item>
+            </commodities>
+          </stream>
+        </in_streams>
+
         <throughput>16561</throughput>
         <out_commod>FBR_blanket_new</out_commod>
         <out_buf_size>16561</out_buf_size>
-        
+
       </Mixer>
     </config>
   </prototype>
-  
-  
+
+
   <!-- *********************** -->
-  
+
   <!--       FBR reactor       -->
   <prototype>
     <name>FBR_driver</name>
@@ -103,21 +127,21 @@
       <Reactor>
         <fuel_inrecipes>  <val>FBR_driver_MOX_new</val></fuel_inrecipes>
         <fuel_incommods>  <val>FBR_driver_MOX_new</val></fuel_incommods>
-        
+
         <fuel_outrecipes> <val>FBR_driver_MOX_spent</val></fuel_outrecipes>
         <fuel_outcommods> <val>FBR_driver_MOX_spent</val></fuel_outcommods>
-        
+
         <cycle_time>18</cycle_time>
         <refuel_time>0</refuel_time>
         <assem_size>6458</assem_size>
         <n_assem_core>3</n_assem_core>
         <n_assem_batch>1</n_assem_batch>
         <power_cap>400</power_cap>
-        
+
       </Reactor>
     </config>
   </prototype>
-  
+
   <prototype>
     <name>FBR_blanket</name>
     <lifetime>960</lifetime>
@@ -125,25 +149,25 @@
       <Reactor>
         <fuel_inrecipes>  <val>FBR_blanket_new</val></fuel_inrecipes>
         <fuel_incommods>  <val>FBR_blanket_new</val></fuel_incommods>
-        
+
         <fuel_outrecipes> <val>FBR_blanket_spent</val></fuel_outrecipes>
         <fuel_outcommods> <val>FBR_blanket_spent</val></fuel_outcommods>
-        
+
         <cycle_time>18</cycle_time>
         <refuel_time>0</refuel_time>
         <assem_size>16561</assem_size>
         <n_assem_core>3</n_assem_core>
         <n_assem_batch>1</n_assem_batch>
         <power_cap>1</power_cap>
-        
+
       </Reactor>
     </config>
   </prototype>
-  
-  
-  
+
+
+
   <!-- *********************** -->
-  
+
   <!--       FBR driver Cooling       -->
   <prototype>
     <name>FBR_driver_MOX_cooling</name>
@@ -156,7 +180,7 @@
     </config>
   </prototype>
   <!-- *********************** -->
-  
+
   <!--       FBR driver Storage       -->
   <prototype>
     <name>FBR_driver_MOX_storage</name>
@@ -169,7 +193,7 @@
     </config>
   </prototype>
   <!-- *********************** -->
-  
+
   <!--      FBR driver Separation     -->
   <prototype>
     <name>FBR_driver_separation</name>
@@ -177,17 +201,17 @@
     <config>
       <Separations>
         <feedbuf_size>107537</feedbuf_size>
-        
+
         <feed_commods>
           <val>FBR_driver_MOX_stored</val>
         </feed_commods>
-        
+
         <feed_commod_prefs>
           <val>1.0</val>
         </feed_commod_prefs>
-        
+
         <throughput>83333.3333</throughput>
-        
+
         <streams>
           <item>
             <commod>E1_prime</commod>
@@ -211,9 +235,9 @@
             </info>
           </item>
         </streams>
-        
+
         <leftover_commod>waste</leftover_commod>
-        
+
       </Separations>
     </config>
   </prototype>
@@ -222,8 +246,8 @@
 
 
   <!-- *********************** -->
-  
-  
+
+
   <!--       FBR blanket Cooling       -->
   <prototype>
     <name>FBR_blanket_cooling</name>
@@ -236,7 +260,7 @@
     </config>
   </prototype>
   <!-- *********************** -->
-  
+
   <!--       FBR blanket Storage       -->
   <prototype>
     <name>FBR_blanket_storage</name>
@@ -249,7 +273,7 @@
     </config>
   </prototype>
   <!-- *********************** -->
-  
+
   <!--      FBR blanket Separation     -->
   <prototype>
     <name>FBR_blanket_separation</name>
@@ -257,17 +281,17 @@
     <config>
       <Separations>
         <feedbuf_size>107537</feedbuf_size>
-        
+
         <feed_commods>
           <val>FBR_blanket_stored</val>
         </feed_commods>
-        
+
         <feed_commod_prefs>
           <val>1.0</val>
         </feed_commod_prefs>
-        
+
         <throughput>83333.3333</throughput>
-        
+
         <streams>
           <item>
             <commod>E2_prime</commod>
@@ -318,21 +342,21 @@
               </efficiencies>
             </info>
           </item>
-          
-          
-          
+
+
+
         </streams>
-        
+
         <leftover_commod>waste</leftover_commod>
-        
+
       </Separations>
     </config>
   </prototype>
   <!-- *********************** -->
-  
+
   <!--      FBR blanket E2 storage     -->
-  
-  
+
+
   <prototype>
     <name>Storage_E1_prime</name>
     <config>
@@ -347,7 +371,7 @@
     </config>
   </prototype>
   <!-- *********************** -->
-  
+
   <!--      FBR blanket E3 storage     -->
   <prototype>
     <name>Storage_E1_second</name>
@@ -363,8 +387,8 @@
     </config>
   </prototype>
   <!-- *********************** -->
-  
-  
+
+
   <prototype>
     <name>Storage_E2_prime</name>
     <config>
@@ -378,7 +402,7 @@
       </Storage>
     </config>
   </prototype>
-  
+
   <prototype>
     <name>Storage_E2_second</name>
     <config>
@@ -392,7 +416,7 @@
       </Storage>
     </config>
   </prototype>
-  
+
   <prototype>
     <name>Storage_E3_prime</name>
     <config>
@@ -406,7 +430,7 @@
       </Storage>
     </config>
   </prototype>
-  
+
   <prototype>
     <name>Storage_E3_second</name>
     <config>
@@ -422,19 +446,19 @@
   </prototype>
 
 
-<prototype>
-  <name>Storage_E4</name>
-  <config>
-    <Storage>
-      <in_commods>
-        <val>E4_initial</val>
-        <val>E4</val>
-      </in_commods>
-      <out_commods> <val>E4_stored</val></out_commods>
-      <residence_time>0</residence_time>
-    </Storage>
-  </config>
-</prototype>
+  <prototype>
+    <name>Storage_E4</name>
+    <config>
+      <Storage>
+        <in_commods>
+          <val>E4_initial</val>
+          <val>E4</val>
+        </in_commods>
+        <out_commods> <val>E4_stored</val></out_commods>
+        <residence_time>0</residence_time>
+      </Storage>
+    </config>
+  </prototype>
 
 
 

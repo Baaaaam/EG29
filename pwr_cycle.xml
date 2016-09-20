@@ -32,21 +32,33 @@
     <config>
       <Mixer>
 
-        <in_commods>
-          <val>E3_stored</val>
-          <val>J1_stored</val>
-        </in_commods>
+        <in_streams>
+          <stream>
+            <info>
+              <mixing_ratio>0.1643</mixing_ratio>
+              <buf_size>5000</buf_size>
+            </info>
+            <commodities>
+              <item>
+                <commodity>E3_stored</commodity>
+                <pref>1</pref>
+              </item>
+            </commodities>
+          </stream>
+          <stream>
+            <info>
+              <mixing_ratio>0.8357</mixing_ratio>
+              <buf_size>25000</buf_size>
+            </info>
+            <commodities>
+              <item>
+                <commodity>J1_stored</commodity>
+                <pref>1</pref>
+              </item>
+            </commodities>
+          </stream>
+        </in_streams>
 
-        <mixing_ratios>
-          <val>0.1643</val>
-          <val>0.8357</val>
-        </mixing_ratios>
-
-
-        <in_buf_sizes>
-          <val>5000</val>
-          <val>25000</val>
-        </in_buf_sizes>
 
         <throughput>29565</throughput>
         <out_commod>PWR_MOX_new</out_commod>
@@ -137,7 +149,7 @@
 <!--      PWR Separation     -->
 <prototype>
   <name>PWR_separation</name>
-    <lifetime>960</lifetime>
+  <lifetime>960</lifetime>
   <config>
     <Separations>
       <feedbuf_size>1e100</feedbuf_size>
