@@ -28,5 +28,6 @@ choises:
     10/50/100 to be checked
   - UOX_start: transition from actual US fleet
   - XXX_inv: add the inventory in output file
+  - XXX_manager: attempt to force building FBR in the same time as its blanket
   - pucomp: TBD
 
