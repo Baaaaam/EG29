@@ -11,6 +11,7 @@
 
   <archetypes>
     <spec> <lib>cycamore</lib> <name>Source</name></spec>
+    <spec> <lib>cycamore</lib> <name>ManagerInst</name></spec>
     <spec> <lib>cycamore</lib> <name>DeployInst</name></spec>
     <spec> <lib>cycamore</lib> <name>Sink</name></spec>
     <spec> <lib>cycamore</lib> <name>Enrichment</name> </spec>
@@ -27,7 +28,6 @@
   <xi:include href="pwr_cycle.xml" xpointer="xpointer(//My_include/*)"/>
   <xi:include href="pwr_deployement.xml" xpointer="xpointer(//My_include/*)"/>
   <xi:include href="fbr_deployement.xml" xpointer="xpointer(//My_include/*)"/>
-  <xi:include href="fbr_blanket_deployement.xml" xpointer="xpointer(//My_include/*)"/>
   <xi:include href="initial_deployement.xml" xpointer="xpointer(//My_include/*)"/>
 
   <prototype>
