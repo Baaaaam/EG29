@@ -11,7 +11,7 @@
 
   <archetypes>
     <spec> <lib>cycamore</lib> <name>Source</name></spec>
-    <spec> <lib>cycamore</lib> <name>ManagerInst</name></spec>
+    <spec> <lib>cycamore</lib> <name>GroupInst</name></spec>
     <spec> <lib>cycamore</lib> <name>DeployInst</name></spec>
     <spec> <lib>cycamore</lib> <name>Sink</name></spec>
     <spec> <lib>cycamore</lib> <name>Enrichment</name> </spec>

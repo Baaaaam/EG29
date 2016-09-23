@@ -73,11 +73,10 @@
     </config>
   </prototype>
 
-
   <prototype>
     <name>M_FBR_builder</name>
-    <ManagerInst>
-      <config>
+    <config>
+      <GroupInst>
         <prototypes>
           <val>FBR_driver</val>
           <val>FBR_driver_separation</val>
@@ -87,10 +86,9 @@
           <val>FBR_blanket_separation</val>
           <val>FBR_blanket_fabrication</val>
         </prototypes>
-      </config>
-    </ManagerInst>
+      </GroupInst>
+    </config>
   </prototype>
-
   
   <prototype>
     <name>D_FBR_CHAIN</name>
@@ -678,3 +676,5 @@
     </config>
   </prototype>
 
+
+</My_include>
