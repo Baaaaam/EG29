@@ -56,7 +56,7 @@
           <stream>
             <info>
               <mixing_ratio>0.350</mixing_ratio>
-              <buf_size>50000</buf_size>
+              <buf_size>10000</buf_size>
             </info>
             <commodities>
               <item>
@@ -68,7 +68,7 @@
           <stream>
             <info>
               <mixing_ratio>0.201</mixing_ratio>
-              <buf_size>25000</buf_size>
+              <buf_size>6000</buf_size>
             </info>
             <commodities>
               <item>
@@ -79,9 +79,9 @@
           </stream>
         </in_streams>
 
-        <throughput>88695</throughput>
+        <throughput>15000</throughput>
         <out_commod>pu_mixed</out_commod>
-        <out_buf_size>88695</out_buf_size>
+        <out_buf_size>15000</out_buf_size>
       </Mixer>
     </config>
   </prototype>
