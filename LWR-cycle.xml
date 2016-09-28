@@ -64,6 +64,10 @@
                 <commodity>J1_second_pu_stored</commodity>
                 <pref>1</pref>
               </item>
+              <item>
+                <commodity>J1_pu_initial</commodity>
+                <pref>2</pref>
+              </item>
             </commodities>
           </stream>
           <stream>
@@ -75,6 +79,10 @@
               <item>
                 <commodity>E3_second_pu_stored</commodity>
                 <pref>1</pref>
+              </item>
+              <item>
+                <commodity>E3_pu_initial</commodity>
+                <pref>2</pref>
               </item>
             </commodities>
           </stream>
@@ -103,6 +111,10 @@
                 <commodity>J1_second_u_stored</commodity>
                 <pref>1</pref>
               </item>
+              <item>
+                <commodity>J1_u_initial</commodity>
+                <pref>2</pref>
+              </item>
             </commodities>
           </stream>
           <stream>
@@ -114,6 +126,10 @@
               <item>
                 <commodity>E3_second_u_stored</commodity>
                 <pref>1</pref>
+              </item>
+              <item>
+                <commodity>E3_u_initial</commodity>
+                <pref>2</pref>
               </item>
             </commodities>
           </stream>
@@ -252,7 +268,6 @@
       <Storage>
         <in_commods>
           <val>J1_second_pu</val>
-          <val>J1_pu_initial</val>
         </in_commods>
         <out_commods> <val>J1_second_pu_stored</val></out_commods>
         <residence_time>0</residence_time>
@@ -266,7 +281,6 @@
       <Storage>
         <in_commods>
           <val>J1_second_u</val>
-          <val>J1_u_initial</val>
         </in_commods>
         <out_commods> <val>J1_second_u_stored</val></out_commods>
         <residence_time>0</residence_time>
@@ -282,7 +296,6 @@
       <Storage>
         <in_commods>
           <val>E3_pu</val>
-          <val>E3_pu_initial</val>
         </in_commods>
         <out_commods> <val>E3_second_pu_stored</val></out_commods>
         <residence_time>0</residence_time>
@@ -296,7 +309,6 @@
       <Storage>
         <in_commods>
           <val>E3_u</val>
-          <val>E3_u_initial</val>
         </in_commods>
         <out_commods> <val>E3_second_u_stored</val></out_commods>
         <residence_time>0</residence_time>
