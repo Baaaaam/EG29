@@ -48,26 +48,37 @@
     </config>
   </prototype>
 
+
   <prototype>
     <name>pu_mixer</name>
     <config>
       <Mixer>
-
-        <in_commods>
-          <val>J1_second_pu_stored</val>
-          <val>E3_second_pu_stored</val>
-        </in_commods>
-
-        <mixing_ratios>
-          <val>0.350</val>
-          <val>0.201</val>
-        </mixing_ratios>
-
-
-        <in_buf_sizes>
-          <val>50000</val>
-          <val>25000</val>
-        </in_buf_sizes>
+        <in_streams>
+          <stream>
+            <info>
+              <mixing_ratio>0.350</mixing_ratio>
+              <buf_size>50000</buf_size>
+            </info>
+            <commodities>
+              <item>
+                <commodity>J1_second_pu_stored</commodity>
+                <pref>1</pref>
+              </item>
+            </commodities>
+          </stream>
+          <stream>
+            <info>
+              <mixing_ratio>0.201</mixing_ratio>
+              <buf_size>25000</buf_size>
+            </info>
+            <commodities>
+              <item>
+                <commodity>E3_second_pu_stored</commodity>
+                <pref>1</pref>
+              </item>
+            </commodities>
+          </stream>
+        </in_streams>
 
         <throughput>88695</throughput>
         <out_commod>pu_mixed</out_commod>
@@ -81,27 +92,36 @@
     <name>u_mixer</name>
     <config>
       <Mixer>
-
-        <in_commods>
-          <val>J1_second_u_stored</val>
-          <val>E3_second_u_stored</val>
-        </in_commods>
-
-        <mixing_ratios>
-          <val>0.350</val>
-          <val>0.201</val>
-        </mixing_ratios>
-
-
-        <in_buf_sizes>
-          <val>50000</val>
-          <val>25000</val>
-        </in_buf_sizes>
+        <in_streams>
+          <stream>
+            <info>
+              <mixing_ratio>0.350</mixing_ratio>
+              <buf_size>50000</buf_size>
+            </info>
+            <commodities>
+              <item>
+                <commodity>J1_second_u_stored</commodity>
+                <pref>1</pref>
+              </item>
+            </commodities>
+          </stream>
+          <stream>
+            <info>
+              <mixing_ratio>0.201</mixing_ratio>
+              <buf_size>25000</buf_size>
+            </info>
+            <commodities>
+              <item>
+                <commodity>E3_second_u_stored</commodity>
+                <pref>1</pref>
+              </item>
+            </commodities>
+          </stream>
+        </in_streams>
 
         <throughput>88695</throughput>
         <out_commod>u_mixed</out_commod>
         <out_buf_size>88695</out_buf_size>
-
       </Mixer>
     </config>
   </prototype>
