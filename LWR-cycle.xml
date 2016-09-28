@@ -32,21 +32,32 @@
     <config>
       <Mixer>
         
-        <in_commods>
-          <val>E3_second_stored</val>
-          <val>J1_second_stored</val>
-        </in_commods>
-        
-        <mixing_ratios>
-          <val>0.1643</val>
-          <val>0.8357</val>
-        </mixing_ratios>
-        
-        
-        <in_buf_sizes>
-          <val>5000</val>
-          <val>25000</val>
-        </in_buf_sizes>
+      <in_streams>
+      <stream>
+          <info>
+            <mixing_ratio>0.1643</mixing_ratio>
+            <buf_size>5000</buf_size>
+          </info>
+          <commodities>
+            <item>
+            <commodity>E3_second_stored</commodity>
+            <pref>1</pref>
+          </item>
+          </commodities>
+      </stream>
+        <stream>
+          <info>
+            <mixing_ratio>0.8357</mixing_ratio>
+            <buf_size>25000</buf_size>
+          </info>
+          <commodities>
+            <item>
+            <commodity>J1_second_stored</commodity>
+            <pref>1</pref>
+          </item>
+          </commodities>
+        </stream>
+      </in_streams>
         
         <throughput>29565</throughput>
         <out_commod>PWR_MOX_new</out_commod>
