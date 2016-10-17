@@ -56,40 +56,40 @@
           <stream>
             <info>
               <mixing_ratio>0.350</mixing_ratio>
-              <buf_size>50000</buf_size>
+              <buf_size>9000</buf_size>
             </info>
             <commodities>
               <item>
                 <commodity>J1_second_pu_stored</commodity>
-                <pref>1</pref>
+                <pref>2</pref>
               </item>
               <item>
                 <commodity>J1_pu_initial</commodity>
-                <pref>2</pref>
+                <pref>1</pref>
               </item>
             </commodities>
           </stream>
           <stream>
             <info>
               <mixing_ratio>0.201</mixing_ratio>
-              <buf_size>25000</buf_size>
+              <buf_size>5500</buf_size>
             </info>
             <commodities>
               <item>
                 <commodity>E3_second_pu_stored</commodity>
-                <pref>1</pref>
+                <pref>2</pref>
               </item>
               <item>
                 <commodity>E3_pu_initial</commodity>
-                <pref>2</pref>
+                <pref>1</pref>
               </item>
             </commodities>
           </stream>
         </in_streams>
 
-        <throughput>88695</throughput>
+        <throughput>13000</throughput>
         <out_commod>pu_mixed</out_commod>
-        <out_buf_size>88695</out_buf_size>
+        <out_buf_size>13000</out_buf_size>
       </Mixer>
     </config>
   </prototype>
@@ -107,11 +107,11 @@
             <commodities>
               <item>
                 <commodity>J1_second_u_stored</commodity>
-                <pref>1</pref>
+                <pref>2</pref>
               </item>
               <item>
                 <commodity>J1_u_initial</commodity>
-                <pref>2</pref>
+                <pref>1</pref>
               </item>
             </commodities>
           </stream>
@@ -123,11 +123,11 @@
             <commodities>
               <item>
                 <commodity>E3_second_u_stored</commodity>
-                <pref>1</pref>
+                <pref>2</pref>
               </item>
               <item>
                 <commodity>E3_u_initial</commodity>
-                <pref>2</pref>
+                <pref>1</pref>
               </item>
             </commodities>
           </stream>
@@ -139,6 +139,8 @@
       </Mixer>
     </config>
   </prototype>
+
+
 
   <!-- *********************** -->
 
