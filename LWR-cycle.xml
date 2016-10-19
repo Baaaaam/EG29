@@ -176,6 +176,17 @@
   </prototype>
 
 
+  <prototype>
+    <name>MOX_source</name>
+    <config>
+      <Source>
+        <outcommod>PWR_MOX_spent</outcommod>
+        <outrecipe>PWR_MOX_spent</outrecipe>
+        <inventory_size>1e100</inventory_size>
+        <throughput>164.250</throughput>
+      </Source>
+    </config>
+  </prototype>
 
 
   <!--       PWR Cooling       -->
