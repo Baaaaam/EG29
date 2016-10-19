@@ -18,8 +18,8 @@
     <spec> <lib>cycamore</lib> <name>FuelFab</name> </spec>
     <spec> <lib>cycamore</lib> <name>Mixer</name> </spec>
     <spec> <lib>cycamore</lib> <name>Separations</name> </spec>
-    <spec><lib>cyclass</lib><name>Reactor</name><alias>cyclassReactor</alias></spec>
-    <spec><lib>cyclass</lib><name>FuelFab</name><alias>cyclassFuelFab</alias></spec>
+    <spec><lib>cybca</lib><name>Reactor</name><alias>cybcaReactor</alias></spec>
+    <spec><lib>cybca</lib><name>FuelFab</name><alias>cybcaFuelFab</alias></spec>
   </archetypes>
 
 
