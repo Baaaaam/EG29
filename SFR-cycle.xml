@@ -44,7 +44,7 @@
         </fiss_commods>
         
         <fiss_recipe>E1</fiss_recipe>
-        <fiss_size>4150</fiss_size>
+        <fiss_size>3310</fiss_size>
         
         <fill_commods>
           <val>E2_second_stored</val>
@@ -55,9 +55,9 @@
           <val>1.0</val>
         </fill_commod_prefs>
         
-        <fill_size>790</fill_size>
+        <fill_size>900</fill_size>
         
-        <throughput>4150</throughput>
+        <throughput>41500</throughput>
         <spectrum>fission_spectrum_ave</spectrum>
         <outcommod>FBR_driver_MOX_new</outcommod>
         
@@ -69,29 +69,41 @@
     <name>FBR_blanket_fabrication</name>
     <config>
       <Mixer>
-        
-        <in_commods>
-          <val>natl_u</val>
-          <val>E4_stored</val>
-        </in_commods>
-        
-        <mixing_ratios>
-          <val>1.56406978997421259e-01</val>
-          <val>8.43593021002578713e-01</val>
-        </mixing_ratios>
-        
-        <in_buf_sizes>
-          <val>3020</val>
-          <val>16050</val>
-        </in_buf_sizes>
-        
+        <in_streams>
+          <stream>
+            <info>
+              <mixing_ratio>1.56406978997421259e-01</mixing_ratio>
+              <buf_size>3020</buf_size>
+            </info>
+            <commodities>
+              <item>
+                <commodity>natl_u</commodity>
+                <pref>2</pref>
+              </item>
+            </commodities>
+          </stream>
+          <stream>
+            <info>
+              <mixing_ratio>8.43593021002578713e-01</mixing_ratio>
+              <buf_size>16050</buf_size>
+            </info>
+            <commodities>
+              <item>
+                <commodity>E4_stored</commodity>
+                <pref>2</pref>
+              </item>
+            </commodities>
+          </stream>
+        </in_streams>
+
         <throughput>19000</throughput>
         <out_commod>FBR_blanket_new</out_commod>
         <out_buf_size>19000</out_buf_size>
-        
       </Mixer>
     </config>
   </prototype>
+  
+  
   
   <!-- *********************** -->
   
