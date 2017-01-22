@@ -8,14 +8,11 @@
     <config>
       <DeployInst>
         <prototypes>
-          <val>Storage_E1_prime</val>
-          <val>Storage_E1_second</val>
+          <val>Storage_E1</val>
 
-          <val>Storage_E2_prime</val>
-          <val>Storage_E2_second</val>
+          <val>Storage_E2</val>
 
-          <val>Storage_E3_prime</val>
-          <val>Storage_E3_second</val>
+          <val>Storage_E3</val>
 
           <val>Storage_E4</val>
 
@@ -30,12 +27,9 @@
 
         <build_times>
           <val>1</val>
-          <val>1</val>
 
           <val>1</val>
-          <val>1</val>
 
-          <val>1</val>
           <val>1</val>
 
           <val>1</val>
@@ -51,12 +45,9 @@
 
         <n_build>
           <val>1</val>
-          <val>1</val>
 
           <val>1</val>
-          <val>1</val>
 
-          <val>1</val>
           <val>1</val>
 
           <val>1</val>

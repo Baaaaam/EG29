@@ -57,10 +57,10 @@
   </prototype>
 
   <prototype>
-    <name>J1_second_limited_source</name>
+    <name>J1_limited_source</name>
     <config>
       <Source>
-        <outcommod>J1_second_initial</outcommod>
+        <outcommod>J1_initial</outcommod>
         <outrecipe>J1</outrecipe>
 
         <inventory_size>00000</inventory_size>
@@ -70,10 +70,10 @@
   </prototype>
 
   <prototype>
-    <name>E1_second_limited_source</name>
+    <name>E1_limited_source</name>
     <config>
       <Source>
-        <outcommod>E1_second_initial</outcommod>
+        <outcommod>E1_initial</outcommod>
         <outrecipe>E1</outrecipe>
         <inventory_size>15000000</inventory_size>
         <throughput>1e100</throughput>
@@ -82,10 +82,10 @@
   </prototype>
 
   <prototype>
-    <name>E2_second_limited_source</name>
+    <name>E2_limited_source</name>
     <config>
       <Source>
-        <outcommod>E2_second_initial</outcommod>
+        <outcommod>E2_initial</outcommod>
         <outrecipe>E2</outrecipe>
 
         <inventory_size>3e5</inventory_size>
@@ -95,10 +95,10 @@
   </prototype>
 
   <prototype>
-    <name>E3_second_limited_source</name>
+    <name>E3_limited_source</name>
     <config>
       <Source>
-        <outcommod>E3_second_initial</outcommod>
+        <outcommod>E3_initial</outcommod>
         <outrecipe>E3</outrecipe>
 
         <inventory_size>250000</inventory_size>
@@ -140,13 +140,13 @@
       <DeployInst>
         <prototypes>
 
-          <val>J1_second_limited_source</val>
+          <val>J1_limited_source</val>
 
-          <val>E1_second_limited_source</val>
+          <val>E1_limited_source</val>
 
-          <val>E2_second_limited_source</val>
+          <val>E2_limited_source</val>
 
-          <val>E3_second_limited_source</val>
+          <val>E3_limited_source</val>
 
           <val>E4_limited_source</val>
 

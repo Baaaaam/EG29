@@ -9,8 +9,7 @@
       <DeployInst>
 
         <prototypes>
-          <val>Storage_J1_prime</val>
-          <val>Storage_J1_second</val>
+          <val>Storage_J1</val>
 
           <val>PWR_cooling</val>
           <val>PWR_storage</val>
@@ -18,14 +17,12 @@
 
         <build_times>
           <val>1</val>
-          <val>1</val>
 
           <val>1</val>
           <val>1</val>
         </build_times>
 
         <n_build>
-          <val>1</val>
           <val>1</val>
 
           <val>1</val>

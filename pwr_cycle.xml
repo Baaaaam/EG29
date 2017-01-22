@@ -166,22 +166,12 @@
 
       <streams>
         <item>
-          <commod>J1_second</commod>
+          <commod>J1</commod>
           <info>
             <buf_size>1e100</buf_size>
             <efficiencies>
-              <item> <comp>Pu</comp> <eff>8.83838383838383757e-01</eff> </item>
-              <item> <comp>U</comp> <eff>8.83838383838383757e-01</eff> </item>
-            </efficiencies>
-          </info>
-        </item>
-        <item>
-          <commod>J1_prime</commod>
-          <info>
-            <buf_size>1e100</buf_size>
-            <efficiencies>
-              <item> <comp>Pu</comp> <eff>1.03535353535353536e-01</eff> </item>
-              <item> <comp>U</comp> <eff>1.03535353535353536e-01</eff> </item>
+              <item> <comp>Pu</comp> <eff>0.987374</eff> </item>
+              <item> <comp>U</comp> <eff>0.987374</eff> </item>
             </efficiencies>
           </info>
         </item>
@@ -196,25 +186,11 @@
 <!--      PWR U/pu storage     -->
 
 <prototype>
-  <name>Storage_J1_prime</name>
+  <name>Storage_J1</name>
   <config>
     <Storage>
-      <in_commods><val>J1_prime</val></in_commods>
+      <in_commods><val>J1</val></in_commods>
       <out_commods><val>J1_stored</val></out_commods>
-      <residence_time>0</residence_time>
-    </Storage>
-  </config>
-</prototype>
-
-<prototype>
-  <name>Storage_J1_second</name>
-  <config>
-    <Storage>
-      <in_commods>
-        <val>J1_second_initial</val>
-        <val>J1_second</val>
-      </in_commods>
-      <out_commods> <val>J1_stored</val></out_commods>
       <residence_time>0</residence_time>
     </Storage>
   </config>

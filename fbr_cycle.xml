@@ -214,23 +214,12 @@
 
         <streams>
           <item>
-            <commod>E1_prime</commod>
+            <commod>E1</commod>
             <info>
               <buf_size>1e100</buf_size>
               <efficiencies>
-                <item> <comp>Pu</comp> <eff>1.18565e-01</eff> </item>
-                <item> <comp>U</comp>  <eff>1.18565e-01</eff> </item>
-              </efficiencies>
-            </info>
-          </item>
-
-          <item>
-            <commod>E1_second</commod>
-            <info>
-              <buf_size>1e100</buf_size>
-              <efficiencies>
-                <item> <comp>Pu</comp> <eff>8.6944e-01</eff> </item>
-                <item> <comp>U</comp>  <eff>8.6944e-01</eff> </item>
+                <item> <comp>Pu</comp> <eff>0.988005</eff> </item>
+                <item> <comp>U</comp>  <eff>0.988005</eff> </item>
               </efficiencies>
             </info>
           </item>
@@ -294,42 +283,22 @@
 
         <streams>
           <item>
-            <commod>E2_prime</commod>
+            <commod>E2</commod>
             <info>
               <buf_size>1e100</buf_size>
               <efficiencies>
-                <item> <comp>Pu</comp> <eff>4.66635066097856391e-02</eff> </item>
-                <item> <comp>U</comp>  <eff>9.30837238449424946e-03</eff> </item>
+                <item> <comp>Pu</comp> <eff>0.388898</eff> </item>
+                <item> <comp>U</comp>  <eff>0.0775750</eff> </item>
               </efficiencies>
             </info>
           </item>
           <item>
-            <commod>E2_second</commod>
+            <commod>E3</commod>
             <info>
               <buf_size>1e100</buf_size>
               <efficiencies>
-                <item> <comp>Pu</comp> <eff>3.42234160214883842e-01</eff> </item>
-                <item> <comp>U</comp>  <eff>6.82666435205277339e-02</eff> </item>
-              </efficiencies>
-            </info>
-          </item>
-          <item>
-            <commod>E3_prime</commod>
-            <info>
-              <buf_size>1e100</buf_size>
-              <efficiencies>
-                <item> <comp>Pu</comp> <eff>6.14367725285721797e-02</eff> </item>
-                <item> <comp>U</comp>  <eff>4.85973535188013138e-03</eff> </item>
-              </efficiencies>
-            </info>
-          </item>
-          <item>
-            <commod>E3_second</commod>
-            <info>
-              <buf_size>1e100</buf_size>
-              <efficiencies>
-                <item> <comp>Pu</comp> <eff>5.29309527571496297e-01</eff> </item>
-                <item> <comp>U</comp>  <eff>4.18709838031077544e-02</eff> </item>
+                <item> <comp>Pu</comp> <eff>0.590746</eff> </item>
+                <item> <comp>U</comp>  <eff>0.0467307</eff> </item>
               </efficiencies>
             </info>
           </item>
@@ -358,28 +327,12 @@
 
 
   <prototype>
-    <name>Storage_E1_prime</name>
+    <name>Storage_E1</name>
     <config>
       <Storage>
         <in_commods>
-          <val>E1_prime</val>
-          <val>E1_prime_initial</val>
-        </in_commods>
-        <out_commods> <val>E1_stored</val></out_commods>
-        <residence_time>0</residence_time>
-      </Storage>
-    </config>
-  </prototype>
-  <!-- *********************** -->
-
-  <!--      FBR blanket E3 storage     -->
-  <prototype>
-    <name>Storage_E1_second</name>
-    <config>
-      <Storage>
-        <in_commods>
-          <val>E1_second</val>
-          <val>E1_second_initial</val>
+          <val>E1</val>
+          <val>E1_initial</val>
         </in_commods>
         <out_commods> <val>E1_stored</val></out_commods>
         <residence_time>0</residence_time>
@@ -390,12 +343,12 @@
 
 
   <prototype>
-    <name>Storage_E2_prime</name>
+    <name>Storage_E2</name>
     <config>
       <Storage>
         <in_commods>
-          <val>E2_prime_initial</val>
-          <val>E2_prime</val>
+          <val>E2_initial</val>
+          <val>E2</val>
         </in_commods>
         <out_commods> <val>E2_stored</val></out_commods>
         <residence_time>0</residence_time>
@@ -403,49 +356,21 @@
     </config>
   </prototype>
 
-  <prototype>
-    <name>Storage_E2_second</name>
-    <config>
-      <Storage>
-        <in_commods>
-          <val>E2_second_initial</val>
-          <val>E2_second</val>
-        </in_commods>
-        <out_commods> <val>E2_stored</val></out_commods>
-        <residence_time>0</residence_time>
-      </Storage>
-    </config>
-  </prototype>
 
   <prototype>
-    <name>Storage_E3_prime</name>
+    <name>Storage_E3</name>
     <config>
       <Storage>
         <in_commods>
-          <val>E3_prime_initial</val>
-          <val>E3_prime</val>
-        </in_commods>
-        <out_commods> <val>E2_stored</val></out_commods>
-        <residence_time>0</residence_time>
-      </Storage>
-    </config>
-  </prototype>
-
-  <prototype>
-    <name>Storage_E3_second</name>
-    <config>
-      <Storage>
-        <in_commods>
-          <val>E3_second_initial</val>
-          <val>E3_second</val>
+          <val>E3_initial</val>
+          <val>E3</val>
         </in_commods>
         <out_commods> <val>E3_stored</val></out_commods>
         <residence_time>0</residence_time>
       </Storage>
     </config>
   </prototype>
-
-
+  
   <prototype>
     <name>Storage_E4</name>
     <config>
